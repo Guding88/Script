@@ -9,7 +9,6 @@
 hostname = explorer.tratao.com
 
 */
-
 var guding = JSON.parse($response.body);
 guding.data = [{
         "vipStatus": "paid",
