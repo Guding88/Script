@@ -9,7 +9,6 @@ NFC Scanner Tool for iPhone：https://apps.apple.com/app/id1249686798
 hostname = api.qonversion.io
 
 */
-
 var guding = JSON.parse($response.body);
 guding.data["permissions"] = [{
     "id": "permission_webhook",
