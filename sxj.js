@@ -3,7 +3,7 @@
 水心记：https://apps.apple.com/app/id1581076145
 
 [rewrite_local]
-^https?:\/\/api\.revenuecat\.com\/v1\/subscribers\/[^\/]+$ url script-response-body https://raw.githubusercontent.com/Guding88/Scritp/main/sxj.js
+^https?:\/\/api\.revenuecat\.com\/v1\/subscribers\/[^\/]+$ url script-response-body https://raw.githubusercontent.com/Guding88/Script/main/sxj.js
 
 [MITM]
 hostname = api.revenuecat.com
