@@ -9,7 +9,6 @@ PhotoRoom：https://apps.apple.com/app/id1455009060
 hostname = api.revenuecat.com
 
 */
-
 var guding = JSON.parse($response.body);
 guding.subscriber.entitlements = {
   "business": {
