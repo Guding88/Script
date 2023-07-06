@@ -3,6 +3,7 @@
 极简汇率
 
 */
+
 var guding = JSON.parse($response.body);
 guding.data = [{
         "vipStatus": "paid",
