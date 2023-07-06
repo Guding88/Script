@@ -3,7 +3,7 @@
 始末：https://apps.apple.com/app/id1670906512
 
 [rewrite_local]
-^https?:\/\/api\.revenuecat\.com\/v1\/subscribers\/[^\/]+$ url script-response-body https://raw.githubusercontent.com/Guding88/Scritp/main/shimo.js
+^https?:\/\/api\.revenuecat\.com\/v1\/subscribers\/[^\/]+$ url script-response-body https://raw.githubusercontent.com/Guding88/Script/main/shimo.js
 
 [MITM]
 hostname = api.revenuecat.com
