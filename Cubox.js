@@ -1,10 +1,10 @@
 /*
 
 [rewrite_local]
-^https:\/\/kc\.xinli001\.com\/lingxikc\/meditating\/api\/(?!.*plan).* url script-response-body ttps://raw.githubusercontent.com/Guding88/Screit/Cubox.js
+^https?:\/\/cubox\.(cc|pro)\/c\/api\/userInfo url script-response-body ttps://raw.githubusercontent.com/Guding88/Screit/Cubox.js
 
 [MITM]
-hostname = kc.xinli001.com
+hostname = cubox.cc, cubox.pro
 
 */
 
