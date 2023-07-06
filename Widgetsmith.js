@@ -7,7 +7,6 @@
 hostname = api.revenuecat.com
 
 */
-
 var guding = JSON.parse($response.body);
 guding.subscriber.entitlements = {
   "Premium": {
