@@ -10,7 +10,6 @@
 hostname = www.1314zhilv.com
 
 */
-
 var guding = JSON.parse($response.body); 
 guding.content["userId"] = "1"; 
 guding.content["identityType"] = 1; 
