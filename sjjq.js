@@ -2,6 +2,12 @@
 
 时间机器：https://apps.apple.com/app/id1502507360
 
+[rewrite_local]
+^https?:\/\/api\.revenuecat\.com\/v1\/subscribers\/[^\/]+$ url script-response-body https://raw.githubusercontent.com/Guding88/Scritp/main/sjjq.js
+
+[MITM]
+hostname = api.revenuecat.com
+
 */
 
 
