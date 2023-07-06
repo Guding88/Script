@@ -3,10 +3,10 @@
 极简汇率
 
 [rewrite_local]
-^https?:\/\/api\.revenuecat\.com\/v1\/subscribers\/[^\/]+$ url script-response-body https://raw.githubusercontent.com/Guding88/Scritp/main/jjhl.js
+^https?:\/\/explorer\.tratao\.com\/api\/client\/xtool\/vip url script-response-body https://raw.githubusercontent.com/Guding88/Scritp/main/jjhl.js
 
 [MITM]
-hostname = api.revenuecat.com
+hostname = explorer.tratao.com
 
 */
 
