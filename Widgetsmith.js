@@ -1,12 +1,22 @@
+/*
+
+[rewrite_local]
+^https?:\/\/api\.revenuecat\.com\/v1\/subscribers\/[^\/]+$ url script-response-body https://raw.githubusercontent.com/Guding88/Scritp/main/Widgetsmith.js
+
+[MITM]
+hostname = api.revenuecat.com
+
+*/
+
 var guding = JSON.parse($response.body);
 guding.subscriber.entitlements = {
-  "Premium": {//修改
+  "Premium": {
     "expires_date": "2333-02-23T00:02:33Z",
-    "product_identifier": "PremiumAnnualWidget",//修改，取platform_product_identifier
+    "product_identifier": "PremiumAnnualWidget",
   }
 };
 guding.subscriber.subscriptions = {
-  "PremiumAnnualWidget":{//修改，取platform_product_identifier
+  "PremiumAnnualWidget":{
     "expires_date":"2333-02-23T00:02:33Z",
   }
 };
