@@ -1,7 +1,7 @@
 /*
 
 [rewrite_local]
-^https?:\/\/app\.yiyan\.art\/yiyan url script-response-body https://raw.githubusercontent.com/Guding88/Scritp/main/yiyan.js
+^https?:\/\/app\.yiyan\.art\/yiyan url script-response-body https://raw.githubusercontent.com/Guding88/Script/main/yiyan.js
 
 [MITM]
 hostname = app.yiyan.art
