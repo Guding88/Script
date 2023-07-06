@@ -1,3 +1,9 @@
+/*
+
+飞跃VPN：https://apps.apple.com/app/id1590740244
+
+*/
+
 var guding = JSON.parse($response.body);
 guding.expiredAt = "148204937166000";
 $done({ body: JSON.stringify(guding) });
