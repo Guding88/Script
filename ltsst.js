@@ -2,6 +2,13 @@
 
 旅途随身听：https://apps.apple.com/app/id1622788638
 
+[rewrite_local]
+^https?:\/\/www\.1314zhilv\.com\/ltsstnew\/user\/getInfo url script-response-body https://raw.githubusercontent.com/Guding88/Scritp/main/ltsst.js
+
+
+[MITM]
+hostname = www.1314zhilv.com
+
 */
 
 var guding = JSON.parse($response.body); 
