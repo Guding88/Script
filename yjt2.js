@@ -3,7 +3,7 @@
 易截图2：https://apps.apple.com/app/id1633186528
 
 [rewrite_local]
-^https?:\/\/(jietu6|1jietu)\.com\/apiv2\/user url script-response-body https://raw.githubusercontent.com/Guding88/Scritp/main/yjt2.js
+^https?:\/\/(jietu6|1jietu)\.com\/apiv2\/user url script-response-body https://raw.githubusercontent.com/Guding88/Script/main/yjt2.js
 
 [MITM]
 hostname = jietu6.com, 1jietu.com
