@@ -14,7 +14,6 @@ Air系列解锁，具体生效范围请自行测试同一开发者的同系列�
 hostname = buy.itunes.apple.com
 
 */
-
 var guding = JSON.parse($response.body);
 guding = {
   "environment": "Production",
