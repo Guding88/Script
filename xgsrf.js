@@ -1,6 +1,6 @@
 /*
 
-小戈输入法：
+小戈输入法：https://apps.apple.com/app/id1643095681
 
 [rewrite_local]
 ^https?:\/\/api\.boyasec\.com\/ime\/rights\/list url script-response-body https://raw.githubusercontent.com/Guding88/Scritp/main/xgsrf.js
