@@ -1,6 +1,7 @@
 /*
 
 Authenticator：https://apps.apple.com/app/id1538761576
+Photo Vault：https://apps.apple.com/app/id1562839653
 
 [rewrite_local]
 ^https?:\/\/api\.revenuecat\.com\/v1\/subscribers\/[^\/]+$ url script-response-body https://raw.githubusercontent.com/Guding88/Script/main/Authenticator.js
