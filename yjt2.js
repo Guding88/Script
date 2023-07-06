@@ -9,7 +9,6 @@
 hostname = jietu6.com, 1jietu.com
 
 */
-
 var guding = JSON.parse($response.body);
 guding.info.group_id = "3";
 guding.info.vip = "1";
