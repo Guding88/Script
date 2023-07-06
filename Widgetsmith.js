@@ -1,7 +1,7 @@
 /*
 
 [rewrite_local]
-^https?:\/\/api\.revenuecat\.com\/v1\/subscribers\/[^\/]+$ url script-response-body https://raw.githubusercontent.com/Guding88/Scritp/main/Widgetsmith.js
+^https?:\/\/api\.revenuecat\.com\/v1\/subscribers\/[^\/]+$ url script-response-body https://raw.githubusercontent.com/Guding88/Script/main/Widgetsmith.js
 
 [MITM]
 hostname = api.revenuecat.com
