@@ -11,7 +11,7 @@ hostname = api.boyasec.com
 */
 
 var guding = JSON.parse($response.body);
-
+if ($request.method === 'GET' && $request.url === '/ime/rights/list') {
 guding.data = [
     {
       "name" : "应用安全锁",
@@ -73,6 +73,13 @@ guding.data = [
       "expiration" : 148204937166000,
       "code" : "FileVault"
     }
-  ];
+  ]
+} else if ($request.method === 'GET' && $request.url === '/ime/user/rights-plan/list') {
+  guding.data = [{
+      "name" : "个人版",
+      "endTime" : 148204937166000
+    }
+  ]
+} else {};
 
 $done({ body: JSON.stringify(guding) });
