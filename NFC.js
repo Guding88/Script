@@ -1,6 +1,6 @@
 /*
 
-NFC Scanner Tool for iPhone:https://apps.apple.com/app/id1249686798
+NFC Scanner Tool for iPhone：https://apps.apple.com/app/id1249686798
 
 */
 
