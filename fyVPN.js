@@ -9,7 +9,6 @@
 hostname = api.leapmobile.cloud
 
 */
-
 var guding = JSON.parse($response.body);
 guding.expiredAt = "148204937166000";
 $done({ body: JSON.stringify(guding) });
