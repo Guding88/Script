@@ -9,7 +9,6 @@
 hostname = api.boyasec.com
 
 */
-
 var guding = JSON.parse($response.body);
 if ($request.method === 'GET' && $request.url.indexOf('/ime/rights/list') !== -1) {
 guding.data = [
