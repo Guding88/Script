@@ -5,7 +5,7 @@ Air系列解锁，具体生效范围请自行测试同一开发者的同系列�
 已测试部分如下：
 计算器Air：https://apps.apple.com/app/id1173365557
 水Air：https://apps.apple.com/app/id1498029069
-习惯Air:https://apps.apple.com/app/id1608575722
+习惯Air：https://apps.apple.com/app/id1608575722
 
 [rewrite_local]
 ^https?:\/\/buy\.itunes\.apple\.com\/verifyReceipt$ url script-response-body https://raw.githubusercontent.com/Guding88/Script/main/Air.js
