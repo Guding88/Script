@@ -11,6 +11,15 @@ hostname = buy.itunes.apple.com
 
 */
 var guding = JSON.parse($response.body);
+var headers = {};
+for (var key in $request.headers) {
+    const reg = /^[a-z]+$/;
+    if (key === "User-Agent" && !reg.test(key)) {
+      var lowerkey = key.toLowerCase();
+      $request.headers[lowerkey] = $request.headers[key];
+      delete $request.headers[key];
+    }
+  }
 var UA = $request.headers['user-agent'];
 if (UA && UA.includes('bazaart')) {
   guding =  {
