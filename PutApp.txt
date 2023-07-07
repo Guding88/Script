@@ -1,0 +1,5 @@
+[rewrite_local]
+^https?:\/\/buy\.itunes\.apple\.com\/verifyReceipt url reject-dict
+
+[MITM]
+hostname = buy.itunes.apple.com
