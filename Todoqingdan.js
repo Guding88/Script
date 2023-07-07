@@ -1,12 +1,12 @@
 /*
 
-Todo清单:https://apps.apple.com/app/id1566997654
+Todo清单：https://apps.apple.com/app/id1566997654
 
 [rewrite_local]
 ^https?:\/\/www\.evestudio\.cn\/todoList\/getDetailUser url script-response-body https://raw.githubusercontent.com/Guding88/Script/main/Todoqingdan.js
 
 [MITM]
-hostname = buy.itunes.apple.com
+hostname = www.evestudio.cn
 
 */
 var guding = JSON.parse($response.body);
