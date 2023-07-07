@@ -3,7 +3,7 @@
 我的时间：https://apps.apple.com/app/id1481796842
 
 [rewrite_local]
-^https?:\/\/api\.revenuecat\.com\/v1\/subscribers\/[^\/]+$ url script-response-body https://raw.githubusercontent.com/Guding88/Script/main/wdsj.js
+^https?:\/\/api\.revenuecat\.com\/v1\/subscribers\/[^\/]+$|^https:\/\/api\.revenuecat\.com\/v1\/receipts$ url script-response-body https://raw.githubusercontent.com/Guding88/Script/main/wdsj.js
 
 [MITM]
 hostname = api.revenuecat.com
