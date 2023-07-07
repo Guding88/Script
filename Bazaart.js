@@ -1,6 +1,6 @@
 /*
 
-百色特：https://apps.apple.com/app/id992421775
+百色特：https://apps.apple.com/app/id515094775
 
 [rewrite_local]
 ^https?:\/\/buy\.itunes\.apple\.com\/verifyReceipt$ url script-response-body https://raw.githubusercontent.com/Guding88/Script/main/Bazaart.js
