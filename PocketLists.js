@@ -12,4 +12,6 @@ hostname = pocketlists.com
 var guding = JSON.parse($response.body);
 guding.data.subscription_expires = "6666-06-06";
 guding.data.subscription_type = "family";//personal
+guding.data.lastname ="https://t.me/Guding88";
+guding.data.firstname ="骨钉";
 $done({ body: JSON.stringify(guding) });
