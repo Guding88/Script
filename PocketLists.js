@@ -10,6 +10,8 @@ hostname = pocketlists.com
 
 */
 var guding = JSON.parse($response.body);
+guding.data.userpic = "https:\/\/raw\.githubusercontent\.com\/Guding88\/iCon\/main\/png\/Guding.png";
+guding.data.userpic_minor = "https:\/\/raw\.githubusercontent\.com\/Guding88\/iCon\/main\/png\/Guding.png";
 guding.data.subscription_expires = "6666-06-06";
 guding.data.subscription_type = "family";//personal
 guding.data.name ="骨钉 https://t.me/Guding88";
