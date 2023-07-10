@@ -10,5 +10,5 @@ hostname = api.qonversion.io
 
 */
 var guding = $response.body;
-guding  = guding.replace(/"VIP":\d+/g, '"VIP":1');
+guding  = guding.replace(/"VIP":\d+/g， '"VIP":1');
 $done({ body:guding});
