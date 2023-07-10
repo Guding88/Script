@@ -11,8 +11,8 @@ hostname = kc.xinli001.com
 
 */
 var guding = $response.body;
-guding  = guding.replace(/"isJoin":\w+/g, '"isJoin":true');
-guding = guding.replace(/"isJoin":\d+/g, '"isJoin":1');
-guding = guding.replace(/"expiredTime":".*?"/g, '"expiredTime":"6666-06-06 06:06:06"');
-guding = guding.replace(/"activityStatus":\d+/g, '"activityStatus":1');
+guding  = guding.replace(/"isJoin":\w+/g， '"isJoin":true');
+guding = guding.replace(/"isJoin":\d+/g， '"isJoin":1');
+guding = guding.replace(/"expiredTime":".*?"/g， '"expiredTime":"6666-06-06 06:06:06"');
+guding = guding.replace(/"activityStatus":\d+/g， '"activityStatus":1');
 $done({ body:guding});
