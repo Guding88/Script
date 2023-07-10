@@ -10,56 +10,56 @@ hostname = api.boyasec.com
 
 */
 var guding = JSON.parse($response.body);
-if ($request.method === 'GET' && $request.url.indexOf('/ime/rights/list') !== -1) {
+if ($request.method === 'GET' && $request.url。indexOf('/ime/rights/list') !== -1) {
 guding.data = [
     {
-      "name" : "应用安全锁",
-      "expiration" : 148204937166000,
+      "name" : "应用安全锁"，
+      "expiration" : 148204937166000，
       "code" : "SecurityLock"
-    },
+    }，
     {
-      "name" : "隐文风格",
-      "expiration" : 148204937166000,
+      "name" : "隐文风格"，
+      "expiration" : 148204937166000，
       "code" : "Cryptic"
-    },
+    }，
     {
-      "name" : "更换图标",
-      "expiration" : 148204937166000,
+      "name" : "更换图标"，
+      "expiration" : 148204937166000，
       "code" : "ChangeIcon"
-    },
+    }，
     {
-      "name" : "文件加密",
-      "expiration" : 148204937166000,
+      "name" : "文件加密"，
+      "expiration" : 148204937166000，
       "code" : "FileEncrypt"
-    },
+    }，
     {
-      "name" : "加密通话",
-      "expiration" : 148204937166000,
+      "name" : "加密通话"，
+      "expiration" : 148204937166000，
       "code" : "CallEncrypt"
-    },
+    }，
     {
-      "name" : "私密发送",
-      "expiration" : 148204937166000,
+      "name" : "私密发送"，
+      "expiration" : 148204937166000，
       "code" : "Private"
-    },
+    }，
     {
-      "name" : "全能慧聊",
-      "expiration" : 148204937166000,
+      "name" : "全能慧聊"，
+      "expiration" : 148204937166000，
       "code" : "ChatGPT"
-    },
+    }，
     {
-      "name" : "全时撤回",
-      "expiration" : 148204937166000,
+      "name" : "全时撤回"，
+      "expiration" : 148204937166000，
       "code" : "Retract"
-    },
+    }，
     {
-      "name" : "阅后即焚",
-      "expiration" : 148204937166000,
+      "name" : "阅后即焚"，
+      "expiration" : 148204937166000，
       "code" : "Snapchat"
-    },
+    }，
     {
-      "name" : "语音加密",
-      "expiration" : 148204937166000,
+      "name" : "语音加密"，
+      "expiration" : 148204937166000，
       "code" : "VoiceEncrypt"
     },
     {
