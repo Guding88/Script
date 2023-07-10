@@ -1,5 +1,6 @@
 /*
 
+开发者2Stable两款APP解锁
 Authenticator：https://apps.apple.com/app/id1538761576
 Photo Vault：https://apps.apple.com/app/id1562839653
 
