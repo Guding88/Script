@@ -8,13 +8,13 @@ hostname = api.revenuecat.com
 
 */
 var guding = JSON.parse($response.body);
-guding.subscriber。entitlements = {
+guding.subscriber.entitlements = {
   "Premium": {
     "expires_date": "2333-02-23T00:02:33Z"，
     "product_identifier": "PremiumAnnualWidget"，
   }
 };
-guding.subscriber。subscriptions = {
+guding.subscriber.subscriptions = {
   "PremiumAnnualWidget":{
     "expires_date":"2333-02-23T00:02:33Z"，
   }
