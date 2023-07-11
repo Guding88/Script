@@ -10,14 +10,14 @@ hostname = api.revenuecat.com
 
 */
 var guding = JSON.parse($response.body);
-guding.subscriber。entitlements = {
+guding.subscriber.entitlements = {
   "Pro": {
     "product_identifier": "ninja.fxc.mytime.pro.lifetime"，
     "purchase_date": "2023-02-23T02:33:33Z"
   }
 };
-guding.subscriber。original_purchase_date = "2023-02-23T03:33:33Z";
-guding.subscriber。subscriptions = {
+guding.subscriber.original_purchase_date = "2023-02-23T03:33:33Z";
+guding.subscriber.subscriptions = {
   "ninja.fxc.mytime.pro.lifetime": {
     "original_purchase_date": "2023-02-23T02:33:33Z"，
     "purchase_date": "2023-02-23T02:33:33Z"，
