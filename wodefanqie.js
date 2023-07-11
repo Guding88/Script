@@ -18,7 +18,6 @@ guding.subscriber.entitlements = {
   }
 };
 guding.subscriber.original_purchase_date = "2023-02-23T03:33:33Z";
-
 guding.subscriber.subscriptions = {
   "com.MINE.PomodoroTimer.plus.lifetime": {
     "expires_date": "6666-06-06T06:06:06Z",
