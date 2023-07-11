@@ -11,9 +11,9 @@ hostname = api.revenuecat.com
 */
 var guding = JSON.parse($response.body);
 guding.subscriber.entitlements = {
-  "ape.weekly.discount": {
+  "pro": {
     "expires_date": "6666-06-06T06:06:06Z",
-    "product_identifier": "2fa_0499_1y",
+    "product_identifier": "ape.weekly.discount",
     "purchase_date": "2023-02-23T02:33:33Z"
   }
 };
