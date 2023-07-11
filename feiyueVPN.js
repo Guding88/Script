@@ -3,7 +3,7 @@
 飞跃VPN：https://apps.apple.com/app/id1590740244
 
 [rewrite_local]
-^https?:\/\/api\.leapmobile\.cloud\/users url script-response-body https://raw.githubusercontent.com/Guding88/Script/main/fyVPN.js
+^https?:\/\/api\.leapmobile\.cloud\/users url script-response-body https://raw.githubusercontent.com/Guding88/Script/main/feiyueVPN.js
 
 [MITM]
 hostname = api.leapmobile.cloud
