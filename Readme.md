@@ -1,3 +1,4 @@
+http://profile-counter.glitch.me/Guding88_Rewrite/count.svg
 
 仓库内容仅限测试学习使用，请勿用于其他途径
 
