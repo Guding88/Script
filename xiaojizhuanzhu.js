@@ -1,6 +1,6 @@
 /*
 
-Side：https://apps.apple.com/app/id1627691759
+小鸡专注：https://apps.apple.com/app/id1627691759
 
 [rewrite_local]
 ^https?:\/\/buy\.itunes\.apple\.com\/verifyReceipt$ url script-response-body https://raw.githubusercontent.com/Guding88/Script/main/xiaojizhuanzhu.js
