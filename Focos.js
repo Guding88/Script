@@ -22,6 +22,7 @@ guding.me = {
       "is_at_least_16": "unknown",
       "last_acknowledged_version": "1.1.0"
     },
+    //"unique_id": "EE4EC171-A9FE-4F6D-9433-E6E2307B56E0",
     "active_bundle_subscriptions": [
       {
         "expiry": "6666-06-06T06:06:06+00:00",
@@ -30,6 +31,12 @@ guding.me = {
         ]
       }
     ],
+    "is_spooner": false,
+    "terms_of_service": {
+      "last_accepted_version": "1.8.0"
+    },
+    "available_consumable_credits": {
+    }
 	};
 $done({ body: JSON.stringify(guding) });
 
