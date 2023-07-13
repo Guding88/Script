@@ -3,7 +3,7 @@
 饭卡：https://apps.apple.com/app/id1635764950
 
 [rewrite_local]
-^https?:\/\/api\.revenuecat\.com\/v1\/(subscribers\/[^\/]+$|receipts$)  url script-response-body https://raw.githubusercontent.com/Guding88/Script/main/fanka.js
+^https?:\/\/api\.revenuecat\.com\/v1\/(subscribers\/[^\/]+$|receipts$) url script-response-body https://raw.githubusercontent.com/Guding88/Script/main/fanka.js
 
 [MITM]
 hostname = api.revenuecat.com
