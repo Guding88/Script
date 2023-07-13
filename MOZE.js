@@ -3,7 +3,7 @@
 MOZE：https://apps.apple.com/app/id1460011387
 
 [rewrite_local]
-^https?:\/\/api\.revenuecat\.com\/v1\/(subscribers\/[^\/]+$|receipts$)  url script-response-body https://raw.githubusercontent.com/Guding88/Script/main/MOZE.js
+^https?:\/\/api\.revenuecat\.com\/v1\/(subscribers\/[^\/]+$|receipts$) url script-response-body https://raw.githubusercontent.com/Guding88/Script/main/MOZE.js
 
 [MITM]
 hostname = api.revenuecat.com
