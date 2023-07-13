@@ -3,7 +3,7 @@
 极简日记：https://apps.apple.com/app/id1568936702
 
 [rewrite_local]
-^https?:\/\/api\.revenuecat\.com\/v1\/(subscribers\/[^\/]+$|receipts$)  url script-response-body https://raw.githubusercontent.com/Guding88/Script/main/jijianriji.js
+^https?:\/\/api\.revenuecat\.com\/v1\/(subscribers\/[^\/]+$|receipts$) url script-response-body https://raw.githubusercontent.com/Guding88/Script/main/jijianriji.js
 
 [MITM]
 hostname = api.revenuecat.com
