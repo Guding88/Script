@@ -3,7 +3,7 @@
 Sharp AI：https://apps.apple.com/app/id1622362309
 
 [rewrite_local]
-^https?:\/\/api\.revenuecat\.com\/v1\/(subscribers\/[^\/]+$|receipts$)  url script-response-body https://raw.githubusercontent.com/Guding88/Script/main/SharpAI.js
+^https?:\/\/api\.revenuecat\.com\/v1\/(subscribers\/[^\/]+$|receipts$) url script-response-body https://raw.githubusercontent.com/Guding88/Script/main/SharpAI.js
 
 [MITM]
 hostname = api.revenuecat.com
