@@ -2,9 +2,9 @@
 
 开发者Reflectly ApS成长包解锁，共8款APP
 Reflectly：https://apps.apple.com/app/id1241229134
-Health View：https://apps.apple.com/app/id1020452064
-Time Bloc：https://apps.apple.com/app/id1476033780
-Sleep Timer：https://apps.apple.com/app/id1057027109
+HealthView：https://apps.apple.com/app/id1020452064
+TimeBloc：https://apps.apple.com/app/id1476033780
+SleepTimer：https://apps.apple.com/app/id1057027109
 Tally：https://apps.apple.com/app/id1090990601
 Grateful：https://apps.apple.com/app/id1197512462
 Last：https://apps.apple.com/app/id1092307625
