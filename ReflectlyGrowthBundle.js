@@ -11,7 +11,7 @@ Last：https://apps.apple.com/app/id1092307625
 Done：https://apps.apple.com/app/id1103961876
 
 [rewrite_local]
-^https?:\/\/api\.revenuecat\.com\/v1\/(subscribers\/[^\/]+$|receipts$)  url script-response-body https://raw.githubusercontent.com/Guding88/Script/main/ReflectlyGrowthBundle.js
+^https?:\/\/api\.revenuecat\.com\/v1\/(subscribers\/[^\/]+$|receipts$) url script-response-body https://raw.githubusercontent.com/Guding88/Script/main/ReflectlyGrowthBundle.js
 
 [MITM]
 hostname = api.revenuecat.com
