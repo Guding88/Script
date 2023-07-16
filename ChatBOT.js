@@ -6,7 +6,7 @@ ChatBOT：https://apps.apple.com/app/id6448030649
 ^https?:\/\/greatios\.xitengtech\.cn\/api\/visitors\/sign-in url script-response-body https://raw.githubusercontent.com/Guding88/Script/main/ChatBOT.js
 
 [MITM]
-hostname = buy.itunes.apple.com
+hostname = reatios.xitengtech.cn
 
 */
 var guding = $response.body;
