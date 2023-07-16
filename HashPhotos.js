@@ -14,7 +14,7 @@ guding = {
   "environment": "Production",
   "pending_renewal_info": [
     {
-      "product_id": "com.kobaltlab.HashPhotos.iap.pro1month",
+      "product_id": "com.kobaltlab.HashPhotos.iap.allinone.free",
       "auto_renew_status": "1"
     }
   ],
@@ -29,7 +29,7 @@ guding = {
       "transaction_id": "540001260447637",
       "is_trial_period": "false",
       "original_transaction_id": "540001260447637",
-      "product_id": "com.kobaltlab.HashPhotos.iap.pro1month",
+      "product_id": "com.kobaltlab.HashPhotos.iap.allinone.free",
       "original_purchase_date_ms": "1688386974000",
       "expires_date_ms": "148204937166000"
     }
