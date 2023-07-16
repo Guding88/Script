@@ -14,6 +14,5 @@ var guding = $response.body;
 guding = guding.replace(/"isAudition":\d+/g, '"isAudition":1');
 guding = guding.replace(/"identityType":\d+/g, '"identityType":1');
 guding = guding.replace(/"isActivate":\d+/g, '"isActivate":1');
+guding = guding.replace(/"levDesc":"^[\u4e00-\u9fff]+$"/g, '"levDesc":"https://t.me/Guding88"');
 $done({ body:guding});
-
-
