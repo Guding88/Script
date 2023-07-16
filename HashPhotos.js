@@ -1,9 +1,9 @@
 /*
 
-HashPhoto：https://apps.apple.com/app/id685784609
+HashPhotos：https://apps.apple.com/app/id685784609
 
 [rewrite_local]
-^https?:\/\/buy\.itunes\.apple\.com\/verifyReceipt$ url script-response-body https://raw.githubusercontent.com/Guding88/Script/main/HashPhoto.js
+^https?:\/\/buy\.itunes\.apple\.com\/verifyReceipt$ url script-response-body https://raw.githubusercontent.com/Guding88/Script/main/HashPhotos.js
 
 [MITM]
 hostname = buy.itunes.apple.com
