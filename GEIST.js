@@ -4,7 +4,7 @@ GEIST：https://apps.apple.com/app/id897062509
 
 [rewrite_local]
 ^https?:\/\/api\.revenuecat\.com\/v1\/(subscribers\/[^\/]+$|receipts$) url script-response-body https://raw.githubusercontent.com/Guding88/Script/main/GEIST.js
-^https?:\/\/api\.revenuecat\.com\/v1\/(subscribers\/[^\/]+$|receipts$) url script-request https://raw.githubusercontent.com/Guding88/Script/main/GEIST.js
+^https?:\/\/api\.revenuecat\.com\/v1\/(subscribers\/[^\/]+$|receipts$) url script-request-header https://raw.githubusercontent.com/Guding88/Script/main/GEIST.js
 
 [MITM]
 hostname = api.revenuecat.com
