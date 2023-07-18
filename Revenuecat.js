@@ -75,7 +75,8 @@ if (typeof $response == "undefined") {
     'My%20Time':{ name: 'Pro', id: 'ninja.fxc.mytime.pro.lifetime'},
     'StarDiary':{ name: 'pro', id: 'com.gsdyx.StarFocus.nonConsumable.forever'},
     'StarFocus':{ name: 'pro', id: 'com.gsdyx.StarFocus.nonConsumable.forever'},
-    'iRead':{ name: 'vip', id: 'com.vip.forever_1'}
+    'iRead':{ name: 'vip', id: 'com.vip.forever_1'},
+    'shipian-ios':{ name: 'vipOffering', id: 'shipian_25_forever'}
   };
   const data = {
     "expires_date": "6666-06-06T06:06:06Z",
