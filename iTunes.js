@@ -113,11 +113,11 @@ if (UA && UA.includes('bazaart')) {
   guding6.latest_receipt_info[0].product_id = "com.highonemob.weather.base.w";
   guding6.pending_renewal_info[0].product_id = "com.highonemob.weather.base.w";
   guding8 = true;
-} else if (UA && UA.includes('‎ProKnockOut')) {
+} else if (UA && UA.includes('ProKnockOut')) {
   guding6.latest_receipt_info[0].product_id = "com.knockout.1monthplus.2weektrail";
   guding6.pending_renewal_info[0].product_id = "com.knockout.1monthplus.2weektrail";
   guding8 = true;
-} else if (UA && UA.includes('‎PutApp')) {
+} else if (UA && UA.includes('PutApp')) {
   guding6.latest_receipt_info[0].product_id = "https://t.me/Guding88";
   guding6.pending_renewal_info[0].product_id = "https://t.me/Guding88";
   guding8 = true;
