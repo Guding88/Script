@@ -27,8 +27,9 @@ QX可直接开启解析器使用，其他工具请配合[转写工具](https://t
 |11|Picsew|[点击下载](https://apps.apple.com/app/id1208145167)
 |12|安心天气|[点击下载](https://apps.apple.com/app/id1660522632)
 |13|ProKnockout|[点击下载](https://apps.apple.com/app/id944665061)
+|14|PutApp|[点击下载](https://apps.apple.com/app/id1456379965)
 
-
+* Air系列未完全整理，**必须先下载计算器Air并解锁**，然后再下载同一开发者的同系列产品，会自动同步解锁。
 </details>
 <details>
    <summary>:cat2:Revenuecat系列汇总</summary>    
@@ -81,8 +82,4 @@ QX可直接开启解析器使用，其他工具请配合[转写工具](https://t
 |43|星垂专注|[点击下载](https://apps.apple.com/app/id6446450915)
 |44|星垂日记|[点击下载](https://apps.apple.com/app/id1663588935)
 |45|已阅|[点击下载](https://apps.apple.com/app/id1589203887)
-|46||[点击下载]()
-|47||[点击下载]()
-|48||[点击下载]()
-|49||[点击下载]()
 
