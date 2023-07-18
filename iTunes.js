@@ -74,51 +74,51 @@ if (UA && UA.includes('bazaart')) {
   guding6.latest_receipt_info[0].product_id = "Patternator_Lock_Screen_Monthly";
   guding6.pending_renewal_info[0].product_id = "Patternator_Lock_Screen_Monthly";
   guding8 = true;
-}else if (UA && UA.includes('Revive')) {
+} else if (UA && UA.includes('Revive')) {
   guding6.latest_receipt_info[0].product_id = "revive.inapp.pro.lt_wotrial_42.99";
   guding6.pending_renewal_info[0].product_id = "revive.inapp.pro.lt_wotrial_42.99";
   guding8 = true;
-}else if (UA && UA.includes('Air')) {
+} else if (UA && UA.includes('Air')) {
   guding6.latest_receipt_info[0].product_id = "co.airapps.calculator.yearly";
   guding6.pending_renewal_info[0].product_id = "co.airapps.calculator.yearly";
   guding8 = true;
-}else if (UA && UA.includes('HashPhotos')) {
+} else if (UA && UA.includes('HashPhotos')) {
   guding6.latest_receipt_info[0].product_id = "com.kobaltlab.HashPhotos.iap.allinone.free";
   guding6.pending_renewal_info[0].product_id = "com.kobaltlab.HashPhotos.iap.allinone.free";
   guding8 = true;
-}else if (UA && UA.includes('ProxyFi')) {
+} else if (UA && UA.includes('ProxyFi')) {
   guding6.latest_receipt_info[0].product_id = "week.proxyfi.sub";
   guding6.pending_renewal_info[0].product_id = "week.proxyfi.sub";
   guding8 = true;
-}else if (UA && UA.includes('Side')) {
+} else if (UA && UA.includes('Side')) {
   guding6.latest_receipt_info[0].product_id = "com.johnil.side.year";
   guding6.pending_renewal_info[0].product_id = "com.johnil.side.year";
   guding8 = true;
-}else if (UA && UA.includes('MyMemoryDebris')) {
+} else if (UA && UA.includes('MyMemoryDebris')) {
   guding6.latest_receipt_info[0].product_id = "com.chenxi.shannian.superNian";
   guding6.pending_renewal_info[0].product_id = "com.chenxi.shannian.superNian";
   guding8 = true;
-}else if (UA && UA.includes('FileArtifact')) {
+} else if (UA && UA.includes('FileArtifact')) {
   guding6.latest_receipt_info[0].product_id = "com.shengzhou.fileartifact.year";
   guding6.pending_renewal_info[0].product_id = "com.shengzhou.fileartifact.year";
   guding8 = true;
-}else if (UA && UA.includes('ChickAlarmClock')) {
+} else if (UA && UA.includes('ChickAlarmClock')) {
   guding6.latest_receipt_info[0].product_id = "Pro_M01";
   guding6.pending_renewal_info[0].product_id = "Pro_M01";
   guding8 = true;
-}else if (UA && UA.includes('Picsew')) {
+} else if (UA && UA.includes('Picsew')) {
   guding6.latest_receipt_info[0].product_id = "com.sugarmo.ScrollClip.pro";
   guding6.pending_renewal_info[0].product_id = "com.sugarmo.ScrollClip.pro";
   guding8 = true;
-}else if (UA && UA.includes('TWWeatherMajor')) {
+} else if (UA && UA.includes('TWWeatherMajor')) {
   guding6.latest_receipt_info[0].product_id = "com.highonemob.weather.base.w";
   guding6.pending_renewal_info[0].product_id = "com.highonemob.weather.base.w";
   guding8 = true;
-}else if (UA && UA.includes('‎ProKnockOut')) {
+} else if (UA && UA.includes('‎ProKnockOut')) {
   guding6.latest_receipt_info[0].product_id = "com.knockout.1monthplus.2weektrail";
   guding6.pending_renewal_info[0].product_id = "com.knockout.1monthplus.2weektrail";
   guding8 = true;
-}else if (UA && UA.includes('‎PutApp')) {
+} else if (UA && UA.includes('‎PutApp')) {
   guding6.latest_receipt_info[0].product_id = "https://t.me/Guding88";
   guding6.pending_renewal_info[0].product_id = "https://t.me/Guding88";
   guding8 = true;
