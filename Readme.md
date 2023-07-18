@@ -26,6 +26,7 @@ QX可直接开启解析器使用，其他工具请配合[转写工具](https://t
 |10|小鸡专注|[点击下载](https://apps.apple.com/app/id1627691759)
 |11|Picsew|[点击下载](https://apps.apple.com/app/id1208145167)
 |12|安心天气|[点击下载](https://apps.apple.com/app/id1660522632)
+|13|ProKnockout|[点击下载](https://apps.apple.com/app/id944665061)
 
 
 </details>
