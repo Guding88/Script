@@ -1,10 +1,10 @@
 /*
 
 [rewrite_local]
-^https?:\/\/simphk\.com\/addressx5\/index.html url script-response-body https://raw.githubusercontent.com/Guding88/Script/main/test.js
+^https?:\/\/(simphk|xsserve)\.com\/addressx5\/index.html|^https?\/\/198.18.13.*\/addressx5\/index.html url script-response-body https://raw.githubusercontent.com/Guding88/Script/main/test.js
 
 [MITM]
-hostname = simphk.com
+hostname = simphk.com,xsserve.com,198.18.13.*
 
 */
 var guding = JSON.parse($response.body);
