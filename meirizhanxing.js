@@ -1,9 +1,9 @@
 /*
 
-每日占卜：https://apps.apple.com/app/id909048916
+每日占星：https://apps.apple.com/app/id909048916
 
 [rewrite_local]
-^https?:\/\/api\.revenuecat\.com\/v1\/(subscribers\/[^\/]+$|receipts$) url script-response-body https://raw.githubusercontent.com/Guding88/Script/main/meirizhanbu.js
+^https?:\/\/api\.revenuecat\.com\/v1\/(subscribers\/[^\/]+$|receipts$) url script-response-body https://raw.githubusercontent.com/Guding88/Script/main/meirizhanxing.js
 
 [MITM]
 hostname = api.revenuecat.com
