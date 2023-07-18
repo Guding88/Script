@@ -37,7 +37,7 @@ QX可直接开启解析器使用，其他工具请配合[转写工具](https://t
 |序号|APP名称|下载地址|
 |--|--|--|
 |0|脚本地址|[点我](https://raw.githubusercontent.com/Guding88/Script/main/Revenuecat.js)
-|1|APTV|[点击下载](https://apps.apple.com/app/id1630403500)
+|~~1~~|~~APTV~~|[点击下载](https://apps.apple.com/app/id1630403500)
 |2|Authenticator|[点击下载](https://apps.apple.com/app/id1538761576)
 |3|Photo Vault|[点击下载](https://apps.apple.com/app/id1562839653)
 |4|Clockology|[点击下载](https://apps.apple.com/app/id1456386228)
