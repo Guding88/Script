@@ -7,7 +7,7 @@
 
 QX可直接开启解析器使用，其他工具请配合[转写工具](https://t.me/Guding88/23)使用（懒得写了）。
 
-
+## 已解锁APP及下载地址如下
 <details>
    <summary>📱iTunes系列汇总</summary>    
    
