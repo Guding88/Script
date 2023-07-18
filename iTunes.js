@@ -1,18 +1,6 @@
 /*
 
-iTunes解锁合集，已包含APP如下：
- 1、百色特：https://apps.apple.com/app/id515094775
- 2、拍特内头：https://apps.apple.com/app/id992421775
- 3、Revive：https://apps.apple.com/app/id1616862692
- 4、Air系列（计算器Air：https://apps.apple.com/app/id1173365557 水Air：https://apps.apple.com/app/id1498029069 习惯Air：https://apps.apple.com/app/id1608575722 等同系列应用）
- 5、HashPhotos：https://apps.apple.com/app/id685784609
- 6、ProxyFi：https://apps.apple.com/app/id1671185533
- 7、Side：https://apps.apple.com/app/id1532395263
- 8、闪念：https://apps.apple.com/app/id1397149726
- 9、文晓生 - 小说阅读器：https://apps.apple.com/app/id1595241052
-10、小鸡专注：https://apps.apple.com/app/id1627691759
-11、Picsew：https://apps.apple.com/app/id1208145167
-12、安心天气：https://apps.apple.com/app/id1660522632
+iTunes解锁合集，已包含APP请见说明：https://github.com/Guding88/Script/blob/main/Readme.md
 
 [rewrite_local]
 ^https?:\/\/buy\.itunes\.apple\.com\/verifyReceipt$ url script-response-body https://raw.githubusercontent.com/Guding88/Script/main/iTunes.js
