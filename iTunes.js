@@ -37,7 +37,7 @@ var guding6 = {
     ],
     "application_version": "3206",
     "original_purchase_date_ms": "1669275302000",
-    "original_application_version": "3206",
+    "original_application_version": "3206"
   },
   "environment": "Production",
   "pending_renewal_info": [
@@ -64,7 +64,6 @@ var guding6 = {
   ]
 };
 var guding8 = false;
-
 
 if (UA && UA.includes('bazaart')) {
   guding6.latest_receipt_info[0].product_id = "Bazaart_Premium_Monthly_v9";
@@ -124,8 +123,7 @@ if (UA && UA.includes('bazaart')) {
   guding8 = true;
 }
 
-
-if(guding8){
+if (guding8) {
   guding = guding6;
 }
 $done({ body: JSON.stringify(guding) });
