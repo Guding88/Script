@@ -12,6 +12,7 @@ iTunes解锁合集，已包含APP如下：
  9、文晓生 - 小说阅读器：https://apps.apple.com/app/id1595241052
 10、小鸡专注：https://apps.apple.com/app/id1627691759
 11、Picsew：https://apps.apple.com/app/id1208145167
+12、安心天气：https://apps.apple.com/app/id1660522632
 
 [rewrite_local]
 ^https?:\/\/buy\.itunes\.apple\.com\/verifyReceipt$ url script-response-body https://raw.githubusercontent.com/Guding88/Script/main/iTunes.js
@@ -120,6 +121,10 @@ if (UA && UA.includes('bazaart')) {
 }else if (UA && UA.includes('Picsew')) {
   guding6.latest_receipt_info[0].product_id = "com.sugarmo.ScrollClip.pro";
   guding6.pending_renewal_info[0].product_id = "com.sugarmo.ScrollClip.pro";
+  guding8 = true;
+}else if (UA && UA.includes('TWWeatherMajor')) {
+  guding6.latest_receipt_info[0].product_id = "com.highonemob.weather.base.w";
+  guding6.pending_renewal_info[0].product_id = "com.highonemob.weather.base.w";
   guding8 = true;
 }
 
