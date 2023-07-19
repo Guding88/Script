@@ -6,7 +6,7 @@
 ^https?:\/\/integral2\.dasyibalang\.com/v2\/User url script-response-body https://raw.githubusercontent.com/Guding88/Script/main/zhijianshiguang.js
 
 [MITM]
-hostname = api.qonversion.io
+hostname = integral2.dasyibalang.com
 
 */
 var guding = $response.body;
