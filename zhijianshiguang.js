@@ -11,4 +11,4 @@ hostname = integral2.dasyibalang.com
 */
 var guding = $response.body;
 guding = guding.replace(/"VIP":\d+/g, '"VIP":1');
-$done({ body:guding});
+$done({ body: guding });
