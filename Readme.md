@@ -13,7 +13,7 @@ QX可直接开启解析器使用，其他工具请配合[转写工具](https://t
    
 |序号|APP名称|下载地址|
 |--|--|--|
-|0|脚本地址|[点我](https://raw.githubusercontent.com/Guding88/Script/main/iTunes.js)
+|0|合集脚本|[长摁复制](https://raw.githubusercontent.com/Guding88/Script/main/iTunes.js)
 |1|百色特|[点击下载](https://apps.apple.com/app/id515094775)
 |2|拍特内头|[点击下载](https://apps.apple.com/app/id992421775)
 |3|Revive|[点击下载](https://apps.apple.com/app/id1616862692)
@@ -36,7 +36,7 @@ QX可直接开启解析器使用，其他工具请配合[转写工具](https://t
    
 |序号|APP名称|下载地址|
 |--|--|--|
-|0|脚本地址|[点我](https://raw.githubusercontent.com/Guding88/Script/main/Revenuecat.js)
+|0|合集脚本|[长摁复制](https://raw.githubusercontent.com/Guding88/Script/main/Revenuecat.js)
 |~~1~~|~~APTV~~|[点击下载](https://apps.apple.com/app/id1630403500)
 |2|Authenticator|[点击下载](https://apps.apple.com/app/id1538761576)
 |3|Photo Vault|[点击下载](https://apps.apple.com/app/id1562839653)
