@@ -69,7 +69,7 @@ stats.fm= type=http-response,requires-body=1,pattern=^https?:\/\/api\.stats\.fm\
 一言= type=http-response,requires-body=1,pattern=^https?:\/\/app\.yiyan\.art\/yiyan,script-path=https://raw.githubusercontent.com/Guding88/Script/main/yiyan.js
 
 # 指尖时光
-指尖时光= type=http-response,requires-body=1,pattern=^https?:\/\/integral2\.dasyibalang\.com/v2\/User,script-path=https://raw.githubusercontent.com/Guding88/Script/main/zhijianshiguang.js
+指尖时光= type=http-response,requires-body=1,pattern=^https?:\/\/integral2\.dasyibalang\.com\/v2\/User,script-path=https://raw.githubusercontent.com/Guding88/Script/main/zhijianshiguang.js
 
 
 
