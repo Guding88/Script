@@ -7,9 +7,16 @@
 
 单APP脚本可在QX中开启解析器直接使用，其他工具请配合[转写工具](https://t.me/Guding88/23)使用（懒得写了）。
 
-### Surge模块（包含全部已解锁APP）：https://raw.githubusercontent.com/Guding88/Script/main/Guding_heji.sgmodule
+### 解锁脚本合集
+Surge模块：https://raw.githubusercontent.com/Guding88/Script/main/Guding_heji.sgmodule
 
-## 已解锁APP及下载地址如下
+
+
+
+
+
+### 已解锁APP及下载地址
+
 <details>
    <summary>📱iTunes系列汇总</summary>    
    
