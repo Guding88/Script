@@ -83,4 +83,5 @@ QX可直接开启解析器使用，其他工具请配合[转写工具](https://t
 |44|星垂日记|[点击下载](https://apps.apple.com/app/id1663588935)
 |45|已阅|[点击下载](https://apps.apple.com/app/id1589203887)
 |46|诗片|[点击下载](https://apps.apple.com/app/id1672208469)
+|47|习惯管家|[点击下载](https://apps.apple.com/app/id1253577148)
 
