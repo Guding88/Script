@@ -78,7 +78,7 @@ if (typeof $response == "undefined") {
     'iRead':{ name: 'vip', id: 'com.vip.forever_1'},
     'shipian-ios':{ name: 'vipOffering', id: 'shipian_25_forever'},
     'HabitMinder':{ name: 'habitminder_premium', id: 'habitminder.yearlysubscription'},
-    'Echo':{ name: 'PATRON', id: 'com.LEMO.LemoFm.plus.lifetime.l3'}
+    'Echo':{ name: 'PLUS', id: 'com.LEMO.LemoFm.plus.lifetime.l3'}
   };
   const data = {
     "expires_date": "6666-06-06T06:06:06Z",
