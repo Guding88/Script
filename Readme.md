@@ -5,7 +5,9 @@
 频道：https://t.me/Guding88 
 群组：https://t.me/GudingChat 
 
-QX可直接开启解析器使用，其他工具请配合[转写工具](https://t.me/Guding88/23)使用（懒得写了）。
+单APP脚本可在QX中开启解析器直接使用，其他工具请配合[转写工具](https://t.me/Guding88/23)使用（懒得写了）。
+
+### Surge模块（包含全部已解锁APP）：https://raw.githubusercontent.com/Guding88/Script/main/Guding_heji.sgmodule
 
 ## 已解锁APP及下载地址如下
 <details>
@@ -13,7 +15,6 @@ QX可直接开启解析器使用，其他工具请配合[转写工具](https://t
    
 |序号|APP名称|下载地址|
 |--|--|--|
-|0|合集脚本|[长摁复制](https://raw.githubusercontent.com/Guding88/Script/main/iTunes.js)
 |1|百色特|[点击下载](https://apps.apple.com/app/id515094775)
 |2|拍特内头|[点击下载](https://apps.apple.com/app/id992421775)
 |3|Revive|[点击下载](https://apps.apple.com/app/id1616862692)
@@ -28,6 +29,7 @@ QX可直接开启解析器使用，其他工具请配合[转写工具](https://t
 |12|安心天气|[点击下载](https://apps.apple.com/app/id1660522632)
 |13|ProKnockout|[点击下载](https://apps.apple.com/app/id944665061)
 |14|PutApp|[点击下载](https://apps.apple.com/app/id1456379965)
+|15|ProKnockout|[点击下载](https://apps.apple.com/app/id944665061)
 
 * Air系列未完全整理，**必须先下载计算器Air并解锁**，然后再下载同一开发者的同系列产品，会自动同步解锁。
 </details>
@@ -36,7 +38,6 @@ QX可直接开启解析器使用，其他工具请配合[转写工具](https://t
    
 |序号|APP名称|下载地址|
 |--|--|--|
-|0|合集脚本|[长摁复制](https://raw.githubusercontent.com/Guding88/Script/main/Revenuecat.js)
 |~~1~~|~~APTV~~|[点击下载](https://apps.apple.com/app/id1630403500)
 |2|Authenticator|[点击下载](https://apps.apple.com/app/id1538761576)
 |3|Photo Vault|[点击下载](https://apps.apple.com/app/id1562839653)
@@ -85,4 +86,31 @@ QX可直接开启解析器使用，其他工具请配合[转写工具](https://t
 |46|诗片|[点击下载](https://apps.apple.com/app/id1672208469)
 |47|习惯管家|[点击下载](https://apps.apple.com/app/id1253577148)
 |48|LEMO FM|[点击下载](https://apps.apple.com/app/id6444756219)
+
+</details>
+<details>
+   <summary>🎉其它APP列表</summary>    
+   
+|序号|APP名称|下载地址|
+|--|--|--|
+|1|CountThings|[点击下载](https://apps.apple.com/app/id1196810823)
+|2|Cubox|[点击下载](https://apps.apple.com/app/id1113361350)
+|3|NFC|[点击下载](https://apps.apple.com/app/id1249686798)
+|4|PocketLists|[点击下载](https://apps.apple.com/app/id1272049520)
+|5|Prisma|[点击下载](https://apps.apple.com/app/id1122649984)
+|6|Todo清单|[点击下载](https://apps.apple.com/app/id1566997654)
+|7|ToonMe|[点击下载](https://apps.apple.com/app/id1508120751)
+|8|博树|[点击下载](https://apps.apple.com/app/id379968583)
+|9|exping|[点击下载](https://apps.apple.com/app/id1581529305)
+|10|飞跃VPN|[点击下载](https://apps.apple.com/app/id1590740244)
+|11|极简汇率|[点击下载](https://apps.apple.com/app/id851033695)
+|12|旅途随身听|[点击下载](https://apps.apple.com/app/id1622788638)
+|13|每日艺术|[点击下载](https://apps.apple.com/app/id547982045)
+|14|冥想星球|[点击下载](https://apps.apple.com/app/id1472457967)
+|15|如期|[点击下载](https://apps.apple.com/app/id1579532060)
+|16|stats.fm|[点击下载](https://apps.apple.com/app/id1526912392)
+|17|小戈输入法|[点击下载](https://apps.apple.com/app/id1643095681)
+|18|易截图2|[点击下载](https://apps.apple.com/app/id1633186528)
+|19|一言|[点击下载](https://apps.apple.com/app/idid1010174792)
+|20|指尖时光|[点击下载](https://apps.apple.com/app/id1392166974)
 
