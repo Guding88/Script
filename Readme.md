@@ -89,7 +89,7 @@
 
 </details>
 <details>
-   <summary>🎉其它APP列表</summary>    
+   <summary>🎉其它APP汇总</summary>    
    
 |序号|APP名称|下载地址|
 |--|--|--|
