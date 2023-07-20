@@ -23,8 +23,8 @@ NFC= type=http-response,requires-body=1,pattern=^https?:\/\/api\.qonversion\.io\
 # PocketLists
 PocketLists= type=http-response,requires-body=1,pattern=^https?:\/\/pocketlists\.com\/api\/v1\/pocketlists.me.get,script-path=https://raw.githubusercontent.com/Guding88/Script/main/PocketLists.js
 
-# Prisma
-Prisma= type=http-response,requires-body=1,pattern=^https?:\/\/api\.neuralprisma\.com\/receipt\/ios\/status\/prisma,script-path=https://raw.githubusercontent.com/Guding88/Script/main/Prisma.js
+# Prisma&Lensa
+Prisma&Lensa= type=http-response,requires-body=1,pattern=^https?:\/\/(api|appapi)\.neuralprisma\.com\/receipt\/ios\/status\/(prisma|lensa),script-path=https://raw.githubusercontent.com/Guding88/Script/main/Prisma.js
 
 # Todo清单
 Todo清单= type=http-response,requires-body=1,pattern=^https?:\/\/www\.evestudio\.cn\/todoList\/getDetailUser,script-path=https://raw.githubusercontent.com/Guding88/Script/main/Todoqingdan.js
@@ -75,4 +75,4 @@ stats.fm= type=http-response,requires-body=1,pattern=^https?:\/\/api\.stats\.fm\
 
 [MITM]
 
-hostname = %APPEND% buy.itunes.apple.com, api.revenuecat.com, my.countingthings.com, cubox.cc, cubox.pro, api.qonversion.io, pocketlists.com, api.neuralprisma.com, www.evestudio.cn, purchases.ws.pho.to, api.busuu.com, api.expingworld.com, api.leapmobile.cloud, explorer.tratao.com, www.1314zhilv.com, api.getdailyart.com, kc.xinli001.com, www.freshhome.top, api.stats.fm, api.boyasec.com, jietu6.com, 1jietu.com, app.yiyan.art, integral2.dasyibalang.com
+hostname = %APPEND% buy.itunes.apple.com, api.revenuecat.com, my.countingthings.com, cubox.cc, cubox.pro, api.qonversion.io, pocketlists.com, *.neuralprisma.com, www.evestudio.cn, purchases.ws.pho.to, api.busuu.com, api.expingworld.com, api.leapmobile.cloud, explorer.tratao.com, www.1314zhilv.com, api.getdailyart.com, kc.xinli001.com, www.freshhome.top, api.stats.fm, api.boyasec.com, jietu6.com, 1jietu.com, app.yiyan.art, integral2.dasyibalang.com
