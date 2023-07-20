@@ -221,13 +221,13 @@ http:
 
 script-providers:
   "iTunes_8":
-    url: https://raw.githubusercontent.com/Guding88/Script/main/iTunes.js
+    url: https://raw.githubusercontent.com/Guding88/Script/main/APPheji_iTunes.js
     interval: 86400
   "Revenuecat_10":
-    url: https://raw.githubusercontent.com/Guding88/Script/main/Revenuecat.js
+    url: https://raw.githubusercontent.com/Guding88/Script/main/APPheji_Revenuecat.js
     interval: 86400
 #  "Revenuecat_10":
-#    url: https://raw.githubusercontent.com/Guding88/Script/main/Revenuecat.js
+#    url: https://raw.githubusercontent.com/Guding88/Script/main/APPheji_Revenuecat.js
 #    interval: 86400
   "CountThings_13":
     url: https://raw.githubusercontent.com/Guding88/Script/main/CountThings.js
