@@ -192,6 +192,14 @@ http:
       max-size: 3145728
       binary-mode: false
 
+    - match: ^https?:\/\/www\.zomoplan\.com\/zhaoMuPlan_user\/info
+      name: "朝暮计划"
+      type: response
+      timeout: 30
+      require-body: true
+      max-size: 3145728
+      binary-mode: false
+
   mitm:
     - "buy.itunes.apple.com"
     - "api.revenuecat.com"
@@ -218,6 +226,7 @@ http:
     - "1jietu.com"
     - "app.yiyan.art"
     - "integral2.dasyibalang.com"
+    - "www.zomoplan.com"
 
 script-providers:
   "iTunes_8":
@@ -288,4 +297,7 @@ script-providers:
     interval: 86400
   "zhijianshiguang_51":
     url: https://raw.githubusercontent.com/Guding88/Script/main/zhijianshiguang.js
+    interval: 86400
+  "朝暮计划":
+    url: https://raw.githubusercontent.com/Guding88/Script/main/zhaomujihua.js
     interval: 86400
