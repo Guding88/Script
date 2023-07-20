@@ -9,7 +9,7 @@ http:
   script:
 
     - match: ^https?:\/\/buy\.itunes\.apple\.com\/verifyReceipt$
-      name: "iTunes"
+      name: "iTunes_8"
       type: response
       timeout: 30
       require-body: true
@@ -17,7 +17,7 @@ http:
       binary-mode: false
 
     - match: ^https?:\/\/api\.revenuecat\.com\/v1\/(subscribers\/[^\/]+$|receipts$)
-      name: "Revenuecat"
+      name: "Revenuecat_10"
       type: response
       timeout: 30
       require-body: true
@@ -25,15 +25,14 @@ http:
       binary-mode: false
 
 #    - match: ^https?:\/\/api\.revenuecat\.com\/v1\/(subscribers\/[^\/]+$|receipts$)
-#      name: "Revenuecat"
+#      name: "Revenuecat_10"
 #      type: request
 #      timeout: 30
 #      require-body: false
 #      max-size: 0
 #      binary-mode: false
-
     - match: ^https?:\/\/my\.countingthings\.com\/api\/v2.0\/users\/GetUserAndSubscription
-      name: "CountThings"
+      name: "CountThings_13"
       type: response
       timeout: 30
       require-body: true
@@ -41,7 +40,7 @@ http:
       binary-mode: false
 
     - match: ^https?:\/\/cubox\.(cc|pro)\/c\/api\/userInfo
-      name: "Cubox"
+      name: "Cubox_15"
       type: response
       timeout: 30
       require-body: true
@@ -49,7 +48,7 @@ http:
       binary-mode: false
 
     - match: ^https?:\/\/api\.qonversion\.io\/v1\/user\/init
-      name: "NFC"
+      name: "NFC_17"
       type: response
       timeout: 30
       require-body: true
@@ -57,7 +56,7 @@ http:
       binary-mode: false
 
     - match: ^https?:\/\/pocketlists\.com\/api\/v1\/pocketlists.me.get
-      name: "PocketLists"
+      name: "PocketLists_19"
       type: response
       timeout: 30
       require-body: true
@@ -65,7 +64,7 @@ http:
       binary-mode: false
 
     - match: ^https?:\/\/(api|appapi)\.neuralprisma\.com\/receipt\/ios\/status\/(prisma|lensa)
-      name: "Prisma"
+      name: "Prisma_21"
       type: response
       timeout: 30
       require-body: true
@@ -73,7 +72,7 @@ http:
       binary-mode: false
 
     - match: ^https?:\/\/www\.evestudio\.cn\/todoList\/getDetailUser
-      name: "Todoqingdan"
+      name: "Todoqingdan_23"
       type: response
       timeout: 30
       require-body: true
@@ -81,7 +80,7 @@ http:
       binary-mode: false
 
     - match: ^https?:\/\/purchases\.ws\.pho\.to\/api\/v2\/apple\/verifyReceipt
-      name: "ToonMe"
+      name: "ToonMe_25"
       type: response
       timeout: 30
       require-body: true
@@ -89,7 +88,7 @@ http:
       binary-mode: false
 
     - match: ^https?:\/\/api\.busuu\.com\/users\/me
-      name: "boshu"
+      name: "boshu_27"
       type: response
       timeout: 30
       require-body: true
@@ -97,7 +96,7 @@ http:
       binary-mode: false
 
     - match: ^https?:\/\/api\.expingworld\.com\/users
-      name: "exping"
+      name: "exping_29"
       type: response
       timeout: 30
       require-body: true
@@ -105,7 +104,7 @@ http:
       binary-mode: false
 
     - match: ^https?:\/\/api\.leapmobile\.cloud\/users
-      name: "feiyueVPN"
+      name: "feiyueVPN_31"
       type: response
       timeout: 30
       require-body: true
@@ -113,7 +112,7 @@ http:
       binary-mode: false
 
     - match: ^https?:\/\/explorer\.tratao\.com\/api\/client\/xtool\/vip
-      name: "jijianhuilv"
+      name: "jijianhuilv_33"
       type: response
       timeout: 30
       require-body: true
@@ -121,7 +120,7 @@ http:
       binary-mode: false
 
     - match: ^https?:\/\/www\.1314zhilv\.com\/ltsstnew\/(user\/getInfo|guideScenic\/getScenicAllMarkerList)
-      name: "lvtusuishenting"
+      name: "lvtusuishenting_35"
       type: response
       timeout: 30
       require-body: true
@@ -129,7 +128,7 @@ http:
       binary-mode: false
 
     - match: ^https?:\/\/api\.getdailyart\.com\/api\/check-logged
-      name: "meiriyishu"
+      name: "meiriyishu_37"
       type: response
       timeout: 30
       require-body: true
@@ -137,7 +136,7 @@ http:
       binary-mode: false
 
     - match: ^https:\/\/kc\.xinli001\.com\/lingxikc\/(?!.*plan).*
-      name: "mingxiangxingqiu"
+      name: "mingxiangxingqiu_39"
       type: response
       timeout: 30
       require-body: true
@@ -145,7 +144,7 @@ http:
       binary-mode: false
 
     - match: ^https?:\/\/www\.freshhome\.top\/mngruqi\/api\/reg\/push
-      name: "ruqi"
+      name: "ruqi_41"
       type: response
       timeout: 30
       require-body: true
@@ -153,7 +152,7 @@ http:
       binary-mode: false
 
     - match: ^https?:\/\/api\.stats\.fm\/api\/v1\/me$
-      name: "statsfm"
+      name: "statsfm_43"
       type: response
       timeout: 30
       require-body: true
@@ -161,7 +160,7 @@ http:
       binary-mode: false
 
     - match: ^https?:\/\/api\.boyasec\.com\/ime
-      name: "xiaogeshurufa"
+      name: "xiaogeshurufa_45"
       type: response
       timeout: 30
       require-body: true
@@ -169,7 +168,7 @@ http:
       binary-mode: false
 
     - match: ^https?:\/\/(jietu6|1jietu)\.com\/apiv2\/user
-      name: "yijietu2"
+      name: "yijietu2_47"
       type: response
       timeout: 30
       require-body: true
@@ -177,7 +176,7 @@ http:
       binary-mode: false
 
     - match: ^https?:\/\/app\.yiyan\.art\/yiyan
-      name: "yiyan"
+      name: "yiyan_49"
       type: response
       timeout: 30
       require-body: true
@@ -185,7 +184,7 @@ http:
       binary-mode: false
 
     - match: ^https?:\/\/integral2\.dasyibalang\.com\/v2\/User
-      name: "zhijianshiguang"
+      name: "zhijianshiguang_51"
       type: response
       timeout: 30
       require-body: true
@@ -219,72 +218,72 @@ http:
     - "integral2.dasyibalang.com"
 
 script-providers:
-  "iTunes":
+  "iTunes_8":
     url: https://raw.githubusercontent.com/Guding88/Script/main/iTunes.js
     interval: 86400
-  "Revenuecat":
+  "Revenuecat_10":
     url: https://raw.githubusercontent.com/Guding88/Script/main/Revenuecat.js
     interval: 86400
-#  "Revenuecat":
+#  "Revenuecat_10":
 #    url: https://raw.githubusercontent.com/Guding88/Script/main/Revenuecat.js
 #    interval: 86400
-  "CountThings":
+  "CountThings_13":
     url: https://raw.githubusercontent.com/Guding88/Script/main/CountThings.js
     interval: 86400
-  "Cubox":
+  "Cubox_15":
     url: https://raw.githubusercontent.com/Guding88/Script/main/Cubox.js
     interval: 86400
-  "NFC":
+  "NFC_17":
     url: https://raw.githubusercontent.com/Guding88/Script/main/NFC.js
     interval: 86400
-  "PocketLists":
+  "PocketLists_19":
     url: https://raw.githubusercontent.com/Guding88/Script/main/PocketLists.js
     interval: 86400
-  "Prisma":
+  "Prisma_21":
     url: https://raw.githubusercontent.com/Guding88/Script/main/Prisma.js
     interval: 86400
-  "Todoqingdan":
+  "Todoqingdan_23":
     url: https://raw.githubusercontent.com/Guding88/Script/main/Todoqingdan.js
     interval: 86400
-  "ToonMe":
+  "ToonMe_25":
     url: https://raw.githubusercontent.com/Guding88/Script/main/ToonMe.js
     interval: 86400
-  "boshu":
+  "boshu_27":
     url: https://raw.githubusercontent.com/Guding88/Script/main/boshu.js
     interval: 86400
-  "exping":
+  "exping_29":
     url: https://raw.githubusercontent.com/Guding88/Script/main/exping.js
     interval: 86400
-  "feiyueVPN":
+  "feiyueVPN_31":
     url: https://raw.githubusercontent.com/Guding88/Script/main/feiyueVPN.js
     interval: 86400
-  "jijianhuilv":
+  "jijianhuilv_33":
     url: https://raw.githubusercontent.com/Guding88/Script/main/jijianhuilv.js
     interval: 86400
-  "lvtusuishenting":
+  "lvtusuishenting_35":
     url: https://raw.githubusercontent.com/Guding88/Script/main/lvtusuishenting.js
     interval: 86400
-  "meiriyishu":
+  "meiriyishu_37":
     url: https://raw.githubusercontent.com/Guding88/Script/main/meiriyishu.js
     interval: 86400
-  "mingxiangxingqiu":
+  "mingxiangxingqiu_39":
     url: https://raw.githubusercontent.com/Guding88/Script/main/mingxiangxingqiu.js
     interval: 86400
-  "ruqi":
+  "ruqi_41":
     url: https://raw.githubusercontent.com/Guding88/Script/main/ruqi.js
     interval: 86400
-  "statsfm":
+  "statsfm_43":
     url: https://raw.githubusercontent.com/Guding88/Script/main/statsfm.js
     interval: 86400
-  "xiaogeshurufa":
+  "xiaogeshurufa_45":
     url: https://raw.githubusercontent.com/Guding88/Script/main/xiaogeshurufa.js
     interval: 86400
-  "yijietu2":
+  "yijietu2_47":
     url: https://raw.githubusercontent.com/Guding88/Script/main/yijietu2.js
     interval: 86400
-  "yiyan":
+  "yiyan_49":
     url: https://raw.githubusercontent.com/Guding88/Script/main/yiyan.js
     interval: 86400
-  "zhijianshiguang":
+  "zhijianshiguang_51":
     url: https://raw.githubusercontent.com/Guding88/Script/main/zhijianshiguang.js
     interval: 86400
