@@ -127,7 +127,7 @@ if (UA && UA.includes('bazaart')) {
   guding8 = true;
 }
 
-if (guding8) {
+//if (guding8) {
   guding = guding6;
-}
+//}
 $done({ body: JSON.stringify(guding) });
