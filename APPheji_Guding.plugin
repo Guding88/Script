@@ -8,12 +8,12 @@
 [Script]
 
 # iTunes合集
-http-response ^https?:\/\/buy\.itunes\.apple\.com\/verifyReceipt$ script-path=https://raw.githubusercontent.com/Guding88/Script/main/iTunes.js, requires-body=true, tag=iTunes合集
+http-response ^https?:\/\/buy\.itunes\.apple\.com\/verifyReceipt$ script-path=https://raw.githubusercontent.com/Guding88/Script/main/APPheji_iTunes.js, requires-body=true, tag=iTunes合集
 
 # Revenuecat合集
-http-response ^https?:\/\/api\.revenuecat\.com\/v1\/(subscribers\/[^\/]+$|receipts$) script-path=https://raw.githubusercontent.com/Guding88/Script/main/Revenuecat.js, requires-body=true, tag=Revenuecat合集
+http-response ^https?:\/\/api\.revenuecat\.com\/v1\/(subscribers\/[^\/]+$|receipts$) script-path=https://raw.githubusercontent.com/Guding88/Script/main/APPheji_Revenuecat.js, requires-body=true, tag=Revenuecat合集
+#http-request ^https?:\/\/api\.revenuecat\.com\/v1\/(subscribers\/[^\/]+$|receipts$) script-path=https://raw.githubusercontent.com/Guding88/Script/main/APPheji_Revenuecat.js, tag=Revenuecat清缓存
 
-#http-request ^https?:\/\/api\.revenuecat\.com\/v1\/(subscribers\/[^\/]+$|receipts$) script-path=https://raw.githubusercontent.com/Guding88/Script/main/Revenuecat.js, tag=Revenuecat清缓存
 # CountThings from Photos
 http-response ^https?:\/\/my\.countingthings\.com\/api\/v2.0\/users\/GetUserAndSubscription script-path=https://raw.githubusercontent.com/Guding88/Script/main/CountThings.js, requires-body=true, tag=CountThings
 
