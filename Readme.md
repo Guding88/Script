@@ -126,3 +126,4 @@ Shadowrocket模块：https://raw.githubusercontent.com/Guding88/Script/main/APPh
 |19|一言|[点击下载](https://apps.apple.com/app/idid1010174792)
 |20|指尖时光|[点击下载](https://apps.apple.com/app/id1392166974)
 |21| Lensa AI|[点击下载](https://apps.apple.com/app/id1436732536)
+|22| 朝暮计划|[点击下载](https://apps.apple.com/app/zhaomujihua)
