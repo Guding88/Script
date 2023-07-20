@@ -8,11 +8,14 @@
 单APP脚本可在QX中开启解析器直接使用，其他工具请配合[转写工具](https://t.me/Guding88/23)使用（懒得写了）。
 
 ### 解锁脚本合集
-Surge模块：https://raw.githubusercontent.com/Guding88/Script/main/Guding_heji.sgmodule
 
+Surge模块：https://raw.githubusercontent.com/Guding88/Script/main/APPheji_Guding.sgmodule
 
+Loon插件：https://raw.githubusercontent.com/Guding88/Script/main/APPheji_Guding.plugin
 
+Stash复写：https://raw.githubusercontent.com/Guding88/Script/main/APPheji_Guding.stoverride
 
+Shadowrocket模块：https://raw.githubusercontent.com/Guding88/Script/main/APPheji_Guding.sgmodule
 
 
 ### 已解锁APP及下载地址
