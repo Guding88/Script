@@ -37,6 +37,7 @@ Surge模块：https://raw.githubusercontent.com/Guding88/Script/main/Guding_heji
 |13|ProKnockout|[点击下载](https://apps.apple.com/app/id944665061)
 |14|PutApp|[点击下载](https://apps.apple.com/app/id1456379965)
 |15|ProKnockout|[点击下载](https://apps.apple.com/app/id944665061)
+|16|VideoDay|[点击下载](https://apps.apple.com/app/id1483410865)
 
 * Air系列未完全整理，**必须先下载计算器Air并解锁**，然后再下载同一开发者的同系列产品，会自动同步解锁。
 </details>
