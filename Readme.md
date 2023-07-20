@@ -93,6 +93,7 @@ Surge模块：https://raw.githubusercontent.com/Guding88/Script/main/Guding_heji
 |46|诗片|[点击下载](https://apps.apple.com/app/id1672208469)
 |47|习惯管家|[点击下载](https://apps.apple.com/app/id1253577148)
 |48|LEMO FM|[点击下载](https://apps.apple.com/app/id6444756219)
+|49|Dark Noise|[点击下载](https://apps.apple.com/app/id1465439395)
 
 </details>
 <details>
@@ -120,4 +121,4 @@ Surge模块：https://raw.githubusercontent.com/Guding88/Script/main/Guding_heji
 |18|易截图2|[点击下载](https://apps.apple.com/app/id1633186528)
 |19|一言|[点击下载](https://apps.apple.com/app/idid1010174792)
 |20|指尖时光|[点击下载](https://apps.apple.com/app/id1392166974)
-
+|21| Lensa AI|[点击下载](https://apps.apple.com/app/id1436732536)
