@@ -9,6 +9,9 @@
 hostname = integral2.dasyibalang.com
 
 */
-var guding = $response.body;
-guding = guding.replace(/"VIP":\d+/g, '"VIP":1');
-$done({ body: guding });
+var guding = JSON.parse($response.body);
+guding.data.Photo = "https:\/\/raw\.githubusercontent\.com\/Guding88\/iCon\/main\/png\/Guding\.png";
+guding.data.VIP = 1;
+guding.data.NickName = "骨钉 https://t.me/Guding88";
+$done({ body: JSON.stringify(guding) });
+
