@@ -1,0 +1,78 @@
+#!name=APP解锁合集-骨钉
+#!desc=https://github.com/Guding88/Script/blob/main/Readme.md
+#!author = Guding
+#!homepage=https://t.me/Guding88
+#!icon=https://raw.githubusercontent.com/Guding88/iCon/main/png/Guding.png
+
+[Script]
+
+# iTunes合集
+http-response ^https?:\/\/buy\.itunes\.apple\.com\/verifyReceipt$ script-path=https://raw.githubusercontent.com/Guding88/Script/main/iTunes.js, requires-body=true, tag=iTunes合集
+
+# Revenuecat合集
+http-response ^https?:\/\/api\.revenuecat\.com\/v1\/(subscribers\/[^\/]+$|receipts$) script-path=https://raw.githubusercontent.com/Guding88/Script/main/Revenuecat.js, requires-body=true, tag=Revenuecat合集
+
+#http-request ^https?:\/\/api\.revenuecat\.com\/v1\/(subscribers\/[^\/]+$|receipts$) script-path=https://raw.githubusercontent.com/Guding88/Script/main/Revenuecat.js, tag=Revenuecat清缓存
+# CountThings from Photos
+http-response ^https?:\/\/my\.countingthings\.com\/api\/v2.0\/users\/GetUserAndSubscription script-path=https://raw.githubusercontent.com/Guding88/Script/main/CountThings.js, requires-body=true, tag=CountThings
+
+# Cubox
+http-response ^https?:\/\/cubox\.(cc|pro)\/c\/api\/userInfo script-path=https://raw.githubusercontent.com/Guding88/Script/main/Cubox.js, requires-body=true, tag=Cubox
+
+# NFC Scanner Tool for iPhone
+http-response ^https?:\/\/api\.qonversion\.io\/v1\/user\/init script-path=https://raw.githubusercontent.com/Guding88/Script/main/NFC.js, requires-body=true, tag=NFC
+
+# PocketLists
+http-response ^https?:\/\/pocketlists\.com\/api\/v1\/pocketlists.me.get script-path=https://raw.githubusercontent.com/Guding88/Script/main/PocketLists.js, requires-body=true, tag=PocketLists
+
+# Prisma&Lensa
+http-response ^https?:\/\/(api|appapi)\.neuralprisma\.com\/receipt\/ios\/status\/(prisma|lensa) script-path=https://raw.githubusercontent.com/Guding88/Script/main/Prisma.js, requires-body=true, tag=Prisma&Lensa
+
+# Todo清单
+http-response ^https?:\/\/www\.evestudio\.cn\/todoList\/getDetailUser script-path=https://raw.githubusercontent.com/Guding88/Script/main/Todoqingdan.js, requires-body=true, tag=Todo清单
+
+# ToonMe
+http-response ^https?:\/\/purchases\.ws\.pho\.to\/api\/v2\/apple\/verifyReceipt script-path=https://raw.githubusercontent.com/Guding88/Script/main/ToonMe.js, requires-body=true, tag=ToonMe
+
+# 博树
+http-response ^https?:\/\/api\.busuu\.com\/users\/me script-path=https://raw.githubusercontent.com/Guding88/Script/main/boshu.js, requires-body=true, tag=博树
+
+# exping
+http-response ^https?:\/\/api\.expingworld\.com\/users script-path=https://raw.githubusercontent.com/Guding88/Script/main/exping.js, requires-body=true, tag=exping
+
+# 飞跃VPN
+http-response ^https?:\/\/api\.leapmobile\.cloud\/users script-path=https://raw.githubusercontent.com/Guding88/Script/main/feiyueVPN.js, requires-body=true, tag=飞跃VPN
+
+# 极简汇率
+http-response ^https?:\/\/explorer\.tratao\.com\/api\/client\/xtool\/vip script-path=https://raw.githubusercontent.com/Guding88/Script/main/jijianhuilv.js, requires-body=true, tag=极简汇率
+
+# 旅途随身听
+http-response ^https?:\/\/www\.1314zhilv\.com\/ltsstnew\/(user\/getInfo|guideScenic\/getScenicAllMarkerList) script-path=https://raw.githubusercontent.com/Guding88/Script/main/lvtusuishenting.js, requires-body=true, tag=旅途随身听
+
+# 每日艺术
+http-response ^https?:\/\/api\.getdailyart\.com\/api\/check-logged script-path=https://raw.githubusercontent.com/Guding88/Script/main/meiriyishu.js, requires-body=true, tag=每日艺术
+
+# 冥想星球
+http-response ^https:\/\/kc\.xinli001\.com\/lingxikc\/(?!.*plan).* script-path=https://raw.githubusercontent.com/Guding88/Script/main/mingxiangxingqiu.js, requires-body=true, tag=冥想星球
+
+# 如期
+http-response ^https?:\/\/www\.freshhome\.top\/mngruqi\/api\/reg\/push script-path=https://raw.githubusercontent.com/Guding88/Script/main/ruqi.js, requires-body=true, tag=如期
+
+# stats.fm
+http-response ^https?:\/\/api\.stats\.fm\/api\/v1\/me$ script-path=https://raw.githubusercontent.com/Guding88/Script/main/statsfm.js, requires-body=true, tag=stats.fm
+
+#小戈输入法
+http-response ^https?:\/\/api\.boyasec\.com\/ime script-path=https://raw.githubusercontent.com/Guding88/Script/main/xiaogeshurufa.js, requires-body=true, tag=小戈输入法
+
+# 易截图2
+http-response ^https?:\/\/(jietu6|1jietu)\.com\/apiv2\/user script-path=https://raw.githubusercontent.com/Guding88/Script/main/yijietu2.js, requires-body=true, tag=易截图2
+
+# 一言
+http-response ^https?:\/\/app\.yiyan\.art\/yiyan script-path=https://raw.githubusercontent.com/Guding88/Script/main/yiyan.js, requires-body=true, tag=一言
+
+# 指尖时光
+http-response ^https?:\/\/integral2\.dasyibalang\.com\/v2\/User script-path=https://raw.githubusercontent.com/Guding88/Script/main/zhijianshiguang.js, requires-body=true, tag=指尖时光
+
+[MITM]
+
+hostname = buy.itunes.apple.com,api.revenuecat.com,my.countingthings.com,cubox.cc,cubox.pro,api.qonversion.io,pocketlists.com,*.neuralprisma.com,www.evestudio.cn,purchases.ws.pho.to,api.busuu.com,api.expingworld.com,api.leapmobile.cloud,explorer.tratao.com,www.1314zhilv.com,api.getdailyart.com,kc.xinli001.com,www.freshhome.top,api.stats.fm,api.boyasec.com,jietu6.com,1jietu.com,app.yiyan.art,integral2.dasyibalang.com
