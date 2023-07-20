@@ -5,71 +5,71 @@
 [Script]
 
 # iTunes合集
-iTunes合集= type=http-response,requires-body=1,pattern=^https?:\/\/buy\.itunes\.apple\.com\/verifyReceipt$,script-path=https://raw.githubusercontent.com/Guding88/Script/main/iTunes.js
+iTunes合集= type=http-response,requires-body=1,max-size=0,pattern=^https?:\/\/buy\.itunes\.apple\.com\/verifyReceipt$,script-path=https://raw.githubusercontent.com/Guding88/Script/main/iTunes.js
 
 # Revenuecat合集
-Revenuecat合集= type=http-response,requires-body=1,pattern=^https?:\/\/api\.revenuecat\.com\/v1\/(subscribers\/[^\/]+$|receipts$),script-path=https://raw.githubusercontent.com/Guding88/Script/main/Revenuecat.js
+Revenuecat合集= type=http-response,requires-body=1,max-size=0,pattern=^https?:\/\/api\.revenuecat\.com\/v1\/(subscribers\/[^\/]+$|receipts$),script-path=https://raw.githubusercontent.com/Guding88/Script/main/Revenuecat.js
 # Revenuecat清缓存= type=http-request,requires-body=0,pattern=^https?:\/\/api\.revenuecat\.com\/v1\/(subscribers\/[^\/]+$|receipts$),script-path=https://raw.githubusercontent.com/Guding88/Script/main/Revenuecat.js
 
 # CountThings from Photos
-CountThings= type=http-response,requires-body=1,pattern=^https?:\/\/my\.countingthings\.com\/api\/v2.0\/users\/GetUserAndSubscription,script-path=https://raw.githubusercontent.com/Guding88/Script/main/CountThings.js
+CountThings= type=http-response,requires-body=1,max-size=0,pattern=^https?:\/\/my\.countingthings\.com\/api\/v2.0\/users\/GetUserAndSubscription,script-path=https://raw.githubusercontent.com/Guding88/Script/main/CountThings.js
 
 # Cubox
-Cubox= type=http-response,requires-body=1,pattern=^https?:\/\/cubox\.(cc|pro)\/c\/api\/userInfo,script-path=https://raw.githubusercontent.com/Guding88/Script/main/Cubox.js
+Cubox= type=http-response,requires-body=1,max-size=0,pattern=^https?:\/\/cubox\.(cc|pro)\/c\/api\/userInfo,script-path=https://raw.githubusercontent.com/Guding88/Script/main/Cubox.js
 
 # NFC Scanner Tool for iPhone
-NFC= type=http-response,requires-body=1,pattern=^https?:\/\/api\.qonversion\.io\/v1\/user\/init,script-path=https://raw.githubusercontent.com/Guding88/Script/main/NFC.js
+NFC= type=http-response,requires-body=1,max-size=0,pattern=^https?:\/\/api\.qonversion\.io\/v1\/user\/init,script-path=https://raw.githubusercontent.com/Guding88/Script/main/NFC.js
 
 # PocketLists
-PocketLists= type=http-response,requires-body=1,pattern=^https?:\/\/pocketlists\.com\/api\/v1\/pocketlists.me.get,script-path=https://raw.githubusercontent.com/Guding88/Script/main/PocketLists.js
+PocketLists= type=http-response,requires-body=1,max-size=0,pattern=^https?:\/\/pocketlists\.com\/api\/v1\/pocketlists.me.get,script-path=https://raw.githubusercontent.com/Guding88/Script/main/PocketLists.js
 
 # Prisma&Lensa
-Prisma&Lensa= type=http-response,requires-body=1,pattern=^https?:\/\/(api|appapi)\.neuralprisma\.com\/receipt\/ios\/status\/(prisma|lensa),script-path=https://raw.githubusercontent.com/Guding88/Script/main/Prisma.js
+Prisma&Lensa= type=http-response,requires-body=1,max-size=0,pattern=^https?:\/\/(api|appapi)\.neuralprisma\.com\/receipt\/ios\/status\/(prisma|lensa),script-path=https://raw.githubusercontent.com/Guding88/Script/main/Prisma.js
 
 # Todo清单
-Todo清单= type=http-response,requires-body=1,pattern=^https?:\/\/www\.evestudio\.cn\/todoList\/getDetailUser,script-path=https://raw.githubusercontent.com/Guding88/Script/main/Todoqingdan.js
+Todo清单= type=http-response,requires-body=1,max-size=0,pattern=^https?:\/\/www\.evestudio\.cn\/todoList\/getDetailUser,script-path=https://raw.githubusercontent.com/Guding88/Script/main/Todoqingdan.js
 
 # ToonMe
-ToonMe= type=http-response,requires-body=1,pattern=^https?:\/\/purchases\.ws\.pho\.to\/api\/v2\/apple\/verifyReceipt,script-path=https://raw.githubusercontent.com/Guding88/Script/main/ToonMe.js
+ToonMe= type=http-response,requires-body=1,max-size=0,pattern=^https?:\/\/purchases\.ws\.pho\.to\/api\/v2\/apple\/verifyReceipt,script-path=https://raw.githubusercontent.com/Guding88/Script/main/ToonMe.js
 
 # 博树
-博树= type=http-response,requires-body=1,pattern=^https?:\/\/api\.busuu\.com\/users\/me,script-path=https://raw.githubusercontent.com/Guding88/Script/main/boshu.js
+博树= type=http-response,requires-body=1,max-size=0,pattern=^https?:\/\/api\.busuu\.com\/users\/me,script-path=https://raw.githubusercontent.com/Guding88/Script/main/boshu.js
 
 # exping
-exping= type=http-response,requires-body=1,pattern=^https?:\/\/api\.expingworld\.com\/users,script-path=https://raw.githubusercontent.com/Guding88/Script/main/exping.js
+exping= type=http-response,requires-body=1,max-size=0,pattern=^https?:\/\/api\.expingworld\.com\/users,script-path=https://raw.githubusercontent.com/Guding88/Script/main/exping.js
 
 # 飞跃VPN
-飞跃VPN= type=http-response,requires-body=1,pattern=^https?:\/\/api\.leapmobile\.cloud\/users,script-path=https://raw.githubusercontent.com/Guding88/Script/main/feiyueVPN.js
+飞跃VPN= type=http-response,requires-body=1,max-size=0,pattern=^https?:\/\/api\.leapmobile\.cloud\/users,script-path=https://raw.githubusercontent.com/Guding88/Script/main/feiyueVPN.js
 
 # 极简汇率
-极简汇率= type=http-response,requires-body=1,pattern=^https?:\/\/explorer\.tratao\.com\/api\/client\/xtool\/vip,script-path=https://raw.githubusercontent.com/Guding88/Script/main/jijianhuilv.js
+极简汇率= type=http-response,requires-body=1,max-size=0,pattern=^https?:\/\/explorer\.tratao\.com\/api\/client\/xtool\/vip,script-path=https://raw.githubusercontent.com/Guding88/Script/main/jijianhuilv.js
 
 # 旅途随身听
-旅途随身听= type=http-response,requires-body=1,pattern=^https?:\/\/www\.1314zhilv\.com\/ltsstnew\/(user\/getInfo|guideScenic\/getScenicAllMarkerList),script-path=https://raw.githubusercontent.com/Guding88/Script/main/lvtusuishenting.js
+旅途随身听= type=http-response,requires-body=1,max-size=0,pattern=^https?:\/\/www\.1314zhilv\.com\/ltsstnew\/(user\/getInfo|guideScenic\/getScenicAllMarkerList),script-path=https://raw.githubusercontent.com/Guding88/Script/main/lvtusuishenting.js
 
 # 每日艺术
-每日艺术= type=http-response,requires-body=1,pattern=^https?:\/\/api\.getdailyart\.com\/api\/check-logged,script-path=https://raw.githubusercontent.com/Guding88/Script/main/meiriyishu.js
+每日艺术= type=http-response,requires-body=1,max-size=0,pattern=^https?:\/\/api\.getdailyart\.com\/api\/check-logged,script-path=https://raw.githubusercontent.com/Guding88/Script/main/meiriyishu.js
 
 # 冥想星球
-冥想星球= type=http-response,requires-body=1,pattern=^https:\/\/kc\.xinli001\.com\/lingxikc\/(?!.*plan).*,script-path=https://raw.githubusercontent.com/Guding88/Script/main/mingxiangxingqiu.js
+冥想星球= type=http-response,requires-body=1,max-size=0,pattern=^https:\/\/kc\.xinli001\.com\/lingxikc\/(?!.*plan).*,script-path=https://raw.githubusercontent.com/Guding88/Script/main/mingxiangxingqiu.js
 
 # 如期
-如期= type=http-response,requires-body=1,pattern=^https?:\/\/www\.freshhome\.top\/mngruqi\/api\/reg\/push,script-path=https://raw.githubusercontent.com/Guding88/Script/main/ruqi.js
+如期= type=http-response,requires-body=1,max-size=0,pattern=^https?:\/\/www\.freshhome\.top\/mngruqi\/api\/reg\/push,script-path=https://raw.githubusercontent.com/Guding88/Script/main/ruqi.js
 
 # stats.fm
-stats.fm= type=http-response,requires-body=1,pattern=^https?:\/\/api\.stats\.fm\/api\/v1\/me$,script-path=https://raw.githubusercontent.com/Guding88/Script/main/statsfm.js
+stats.fm= type=http-response,requires-body=1,max-size=0,pattern=^https?:\/\/api\.stats\.fm\/api\/v1\/me$,script-path=https://raw.githubusercontent.com/Guding88/Script/main/statsfm.js
 
 #小戈输入法
-小戈输入法= type=http-response,requires-body=1,pattern=^https?:\/\/api\.boyasec\.com\/ime,script-path=https://raw.githubusercontent.com/Guding88/Script/main/xiaogeshurufa.js
+小戈输入法= type=http-response,requires-body=1,max-size=0,pattern=^https?:\/\/api\.boyasec\.com\/ime,script-path=https://raw.githubusercontent.com/Guding88/Script/main/xiaogeshurufa.js
 
 # 易截图2
-易截图2= type=http-response,requires-body=1,pattern=^https?:\/\/(jietu6|1jietu)\.com\/apiv2\/user,script-path=https://raw.githubusercontent.com/Guding88/Script/main/yijietu2.js
+易截图2= type=http-response,requires-body=1,max-size=0,pattern=^https?:\/\/(jietu6|1jietu)\.com\/apiv2\/user,script-path=https://raw.githubusercontent.com/Guding88/Script/main/yijietu2.js
 
 # 一言
-一言= type=http-response,requires-body=1,pattern=^https?:\/\/app\.yiyan\.art\/yiyan,script-path=https://raw.githubusercontent.com/Guding88/Script/main/yiyan.js
+一言= type=http-response,requires-body=1,max-size=0,pattern=^https?:\/\/app\.yiyan\.art\/yiyan,script-path=https://raw.githubusercontent.com/Guding88/Script/main/yiyan.js
 
 # 指尖时光
-指尖时光= type=http-response,requires-body=1,pattern=^https?:\/\/integral2\.dasyibalang\.com\/v2\/User,script-path=https://raw.githubusercontent.com/Guding88/Script/main/zhijianshiguang.js
+指尖时光= type=http-response,requires-body=1,max-size=0,pattern=^https?:\/\/integral2\.dasyibalang\.com\/v2\/User,script-path=https://raw.githubusercontent.com/Guding88/Script/main/zhijianshiguang.js
 
 
 
