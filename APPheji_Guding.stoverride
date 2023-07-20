@@ -1,7 +1,7 @@
-name: "APP脚本合集-骨钉"
+name: "APP合集-骨钉"
 desc: "脚本解锁合集，已解锁APP列表请见说明"
 #!openUrl=https://github.com/Guding88/Script/blob/main/Readme.md
-#!author = @Guding
+#!author = Guding
 #!homepage=https://t.me/Guding88
 #!icon=https://raw.githubusercontent.com/Guding88/iCon/main/png/Guding.png
 http:
@@ -9,7 +9,7 @@ http:
   script:
 
     - match: ^https?:\/\/buy\.itunes\.apple\.com\/verifyReceipt$
-      name: "iTunes合集"
+      name: "iTunes"
       type: response
       timeout: 30
       require-body: true
@@ -17,7 +17,7 @@ http:
       binary-mode: false
 
     - match: ^https?:\/\/api\.revenuecat\.com\/v1\/(subscribers\/[^\/]+$|receipts$)
-      name: "Revenuecat合集"
+      name: "Revenuecat"
       type: response
       timeout: 30
       require-body: true
@@ -25,14 +25,15 @@ http:
       binary-mode: false
 
 #    - match: ^https?:\/\/api\.revenuecat\.com\/v1\/(subscribers\/[^\/]+$|receipts$)
-#      name: "Revenuecat合集"
+#      name: "Revenuecat"
 #      type: request
 #      timeout: 30
 #      require-body: false
 #      max-size: 0
 #      binary-mode: false
+
     - match: ^https?:\/\/my\.countingthings\.com\/api\/v2.0\/users\/GetUserAndSubscription
-      name: "CountThings_10"
+      name: "CountThings"
       type: response
       timeout: 30
       require-body: true
@@ -64,7 +65,7 @@ http:
       binary-mode: false
 
     - match: ^https?:\/\/(api|appapi)\.neuralprisma\.com\/receipt\/ios\/status\/(prisma|lensa)
-      name: "Prisma&Lensa"
+      name: "Prisma"
       type: response
       timeout: 30
       require-body: true
@@ -72,7 +73,7 @@ http:
       binary-mode: false
 
     - match: ^https?:\/\/www\.evestudio\.cn\/todoList\/getDetailUser
-      name: "Todo清单"
+      name: "Todoqingdan"
       type: response
       timeout: 30
       require-body: true
@@ -88,7 +89,7 @@ http:
       binary-mode: false
 
     - match: ^https?:\/\/api\.busuu\.com\/users\/me
-      name: "博树"
+      name: "boshu"
       type: response
       timeout: 30
       require-body: true
@@ -104,7 +105,7 @@ http:
       binary-mode: false
 
     - match: ^https?:\/\/api\.leapmobile\.cloud\/users
-      name: "飞跃VPN"
+      name: "feiyueVPN"
       type: response
       timeout: 30
       require-body: true
@@ -112,7 +113,7 @@ http:
       binary-mode: false
 
     - match: ^https?:\/\/explorer\.tratao\.com\/api\/client\/xtool\/vip
-      name: "极简汇率"
+      name: "jijianhuilv"
       type: response
       timeout: 30
       require-body: true
@@ -120,7 +121,7 @@ http:
       binary-mode: false
 
     - match: ^https?:\/\/www\.1314zhilv\.com\/ltsstnew\/(user\/getInfo|guideScenic\/getScenicAllMarkerList)
-      name: "旅途随身听"
+      name: "lvtusuishenting"
       type: response
       timeout: 30
       require-body: true
@@ -128,7 +129,7 @@ http:
       binary-mode: false
 
     - match: ^https?:\/\/api\.getdailyart\.com\/api\/check-logged
-      name: "每日艺术"
+      name: "meiriyishu"
       type: response
       timeout: 30
       require-body: true
@@ -136,7 +137,7 @@ http:
       binary-mode: false
 
     - match: ^https:\/\/kc\.xinli001\.com\/lingxikc\/(?!.*plan).*
-      name: "冥想星球"
+      name: "mingxiangxingqiu"
       type: response
       timeout: 30
       require-body: true
@@ -144,7 +145,7 @@ http:
       binary-mode: false
 
     - match: ^https?:\/\/www\.freshhome\.top\/mngruqi\/api\/reg\/push
-      name: "如期"
+      name: "ruqi"
       type: response
       timeout: 30
       require-body: true
@@ -152,14 +153,15 @@ http:
       binary-mode: false
 
     - match: ^https?:\/\/api\.stats\.fm\/api\/v1\/me$
-      name: "stats.fm"
+      name: "statsfm"
       type: response
       timeout: 30
       require-body: true
-      max-size: 3145728binary-mode: false
+      max-size: 3145728
+      binary-mode: false
 
     - match: ^https?:\/\/api\.boyasec\.com\/ime
-      name: "小戈输入法"
+      name: "xiaogeshurufa"
       type: response
       timeout: 30
       require-body: true
@@ -167,7 +169,7 @@ http:
       binary-mode: false
 
     - match: ^https?:\/\/(jietu6|1jietu)\.com\/apiv2\/user
-      name: "易截图2"
+      name: "yijietu2"
       type: response
       timeout: 30
       require-body: true
@@ -175,7 +177,7 @@ http:
       binary-mode: false
 
     - match: ^https?:\/\/app\.yiyan\.art\/yiyan
-      name: "一言"
+      name: "yiyan"
       type: response
       timeout: 30
       require-body: true
@@ -183,7 +185,7 @@ http:
       binary-mode: false
 
     - match: ^https?:\/\/integral2\.dasyibalang\.com\/v2\/User
-      name: "指尖时光"
+      name: "zhijianshiguang"
       type: response
       timeout: 30
       require-body: true
@@ -217,13 +219,13 @@ http:
     - "integral2.dasyibalang.com"
 
 script-providers:
-  "iTunes合集":
+  "iTunes":
     url: https://raw.githubusercontent.com/Guding88/Script/main/iTunes.js
     interval: 86400
-  "Revenuecat合集":
+  "Revenuecat":
     url: https://raw.githubusercontent.com/Guding88/Script/main/Revenuecat.js
     interval: 86400
-#  "Revenuecat合集":
+#  "Revenuecat":
 #    url: https://raw.githubusercontent.com/Guding88/Script/main/Revenuecat.js
 #    interval: 86400
   "CountThings":
@@ -238,51 +240,51 @@ script-providers:
   "PocketLists":
     url: https://raw.githubusercontent.com/Guding88/Script/main/PocketLists.js
     interval: 86400
-  "Prisma&Lensa":
+  "Prisma":
     url: https://raw.githubusercontent.com/Guding88/Script/main/Prisma.js
     interval: 86400
-  "Todo清单":
+  "Todoqingdan":
     url: https://raw.githubusercontent.com/Guding88/Script/main/Todoqingdan.js
     interval: 86400
   "ToonMe":
     url: https://raw.githubusercontent.com/Guding88/Script/main/ToonMe.js
     interval: 86400
-  "博树":
+  "boshu":
     url: https://raw.githubusercontent.com/Guding88/Script/main/boshu.js
     interval: 86400
   "exping":
     url: https://raw.githubusercontent.com/Guding88/Script/main/exping.js
     interval: 86400
-  "飞跃VPN":
+  "feiyueVPN":
     url: https://raw.githubusercontent.com/Guding88/Script/main/feiyueVPN.js
     interval: 86400
-  "极简汇率":
+  "jijianhuilv":
     url: https://raw.githubusercontent.com/Guding88/Script/main/jijianhuilv.js
     interval: 86400
-  "旅途随身听":
+  "lvtusuishenting":
     url: https://raw.githubusercontent.com/Guding88/Script/main/lvtusuishenting.js
     interval: 86400
-  "每日艺术":
+  "meiriyishu":
     url: https://raw.githubusercontent.com/Guding88/Script/main/meiriyishu.js
     interval: 86400
-  "冥想星球":
+  "mingxiangxingqiu":
     url: https://raw.githubusercontent.com/Guding88/Script/main/mingxiangxingqiu.js
     interval: 86400
-  "如期":
+  "ruqi":
     url: https://raw.githubusercontent.com/Guding88/Script/main/ruqi.js
     interval: 86400
-  "stats.fm":
+  "statsfm":
     url: https://raw.githubusercontent.com/Guding88/Script/main/statsfm.js
     interval: 86400
-  "小戈输入法":
+  "xiaogeshurufa":
     url: https://raw.githubusercontent.com/Guding88/Script/main/xiaogeshurufa.js
     interval: 86400
-  "易截图2":
+  "yijietu2":
     url: https://raw.githubusercontent.com/Guding88/Script/main/yijietu2.js
     interval: 86400
-  "一言":
+  "yiyan":
     url: https://raw.githubusercontent.com/Guding88/Script/main/yiyan.js
     interval: 86400
-  "指尖时光":
+  "zhijianshiguang":
     url: https://raw.githubusercontent.com/Guding88/Script/main/zhijianshiguang.js
     interval: 86400
