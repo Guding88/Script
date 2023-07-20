@@ -74,6 +74,9 @@ http-response ^https?:\/\/app\.yiyan\.art\/yiyan script-path=https://raw.githubu
 # 指尖时光
 http-response ^https?:\/\/integral2\.dasyibalang\.com\/v2\/User script-path=https://raw.githubusercontent.com/Guding88/Script/main/zhijianshiguang.js, requires-body=true, tag=指尖时光
 
+#朝暮计划
+http-response ^https?:\/\/www\.zomoplan\.com\/zhaoMuPlan_user\/info script-path=https://raw.githubusercontent.com/Guding88/Script/main/zhaomujihua.js, requires-body=true, tag=朝暮计划
+
 [MITM]
 
-hostname = buy.itunes.apple.com,api.revenuecat.com,my.countingthings.com,cubox.cc,cubox.pro,api.qonversion.io,pocketlists.com,api.neuralprisma.com,appapi.neuralprisma.com,www.evestudio.cn,purchases.ws.pho.to,api.busuu.com,api.expingworld.com,api.leapmobile.cloud,explorer.tratao.com,www.1314zhilv.com,api.getdailyart.com,kc.xinli001.com,www.freshhome.top,api.stats.fm,api.boyasec.com,jietu6.com,1jietu.com,app.yiyan.art,integral2.dasyibalang.com
+hostname = buy.itunes.apple.com,api.revenuecat.com,my.countingthings.com,cubox.cc,cubox.pro,api.qonversion.io,pocketlists.com,api.neuralprisma.com,appapi.neuralprisma.com,www.evestudio.cn,purchases.ws.pho.to,api.busuu.com,api.expingworld.com,api.leapmobile.cloud,explorer.tratao.com,www.1314zhilv.com,api.getdailyart.com,kc.xinli001.com,www.freshhome.top,api.stats.fm,api.boyasec.com,jietu6.com,1jietu.com,app.yiyan.art,integral2.dasyibalang.com,www.zomoplan.com
