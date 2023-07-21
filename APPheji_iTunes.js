@@ -125,6 +125,22 @@ if (UA && UA.includes('bazaart')) {
   guding6.latest_receipt_info[0].product_id = "me.imgbase.videoday.profeaturesYearly";
   guding6.pending_renewal_info[0].product_id = "me.imgbase.videoday.profeaturesYearly";
   guding8 = true;
+}else if (UA && UA.includes('CHAT%20AI')) {
+  guding6.latest_receipt_info[0].product_id = "https://t.me/Guding88";
+  guding6.pending_renewal_info[0].product_id = "https://t.me/Guding88";
+  guding8 = true;
+}else if (UA && UA.includes('CCD_Camera')) {
+  guding6.latest_receipt_info[0].product_id = "https://t.me/Guding88";
+  guding6.pending_renewal_info[0].product_id = "https://t.me/Guding88";
+  guding8 = true;
+}else if (UA && UA.includes('ScreenRecord')) {
+  guding6.latest_receipt_info[0].product_id = "https://t.me/Guding88";
+  guding6.pending_renewal_info[0].product_id = "https://t.me/Guding88";
+  guding8 = true;
+}else if (UA && UA.includes('Koloro')) {
+  guding6.latest_receipt_info[0].product_id = "https://t.me/Guding88";
+  guding6.pending_renewal_info[0].product_id = "https://t.me/Guding88";
+  guding8 = true;
 }
 
 //if (guding8) {
