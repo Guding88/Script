@@ -102,6 +102,7 @@ Shadowrocket模块：https://raw.githubusercontent.com/Guding88/Script/main/APPh
 |48|LEMO FM|[点击下载](https://apps.apple.com/app/id6444756219)
 |49|Dark Noise|[点击下载](https://apps.apple.com/app/id1465439395)
 |50|VideoToPhoto|[点击下载](https://apps.apple.com/app/id1544125793)
+|51|‎Chat AI|[点击下载](https://apps.apple.com/app/id1661016696)
 
 </details>
 <details>
