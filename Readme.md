@@ -39,6 +39,11 @@ Shadowrocket模块：https://raw.githubusercontent.com/Guding88/Script/main/APPh
 |14|PutApp|[点击下载](https://apps.apple.com/app/id1456379965)
 |15|ProKnockout|[点击下载](https://apps.apple.com/app/id944665061)
 |16|VideoDay|[点击下载](https://apps.apple.com/app/id1483410865)
+|17|‎Chat AI|[点击下载](https://apps.apple.com/app/id1660877567)
+|18|‎ProCCD|[点击下载](https://apps.apple.com/app/id1616113199)
+|19|‎Video Editor|[点击下载](https://apps.apple.com/app/id1403688344)
+|20|Koloro|[点击下载](https://apps.apple.com/app/id1345159029)
+
 
 * Air系列未完全整理，**必须先下载计算器Air并解锁**，然后再下载同一开发者的同系列产品，会自动同步解锁。
 </details>
@@ -125,4 +130,5 @@ Shadowrocket模块：https://raw.githubusercontent.com/Guding88/Script/main/APPh
 |19|一言|[点击下载](https://apps.apple.com/app/idid1010174792)
 |20|指尖时光|[点击下载](https://apps.apple.com/app/id1392166974)
 |21| Lensa AI|[点击下载](https://apps.apple.com/app/id1436732536)
-|22| 朝暮计划|[点击下载](https://apps.apple.com/app/zhaomujihua)
+|22| 朝暮计划|[点击下载](https://apps.apple.com/app/id1535727202)
+|23| 有谱么|[点击下载](https://apps.apple.com/app/id973743727)
