@@ -80,7 +80,8 @@ if (typeof $response == "undefined") {
     'HabitMinder':{ name: 'habitminder_premium', id: 'habitminder.yearlysubscription'},
     'Echo':{ name: 'PLUS', id: 'com.LEMO.LemoFm.plus.lifetime.l3'},
     'Dark%20Noise':{ name: 'pro', id: 'dn_4999_lifetime'},
-    'VideoToPhoto':{ name: 'Premium', id: 'VideoToPhoto_premium'}
+    'VideoToPhoto':{ name: 'Premium', id: 'VideoToPhoto_premium'},
+    'ChatGPTApp':{ name: 'Basic', id: 'com.palligroup.gpt3.yearly'}
   };
   const data = {
     "expires_date": "6666-06-06T06:06:06Z",
