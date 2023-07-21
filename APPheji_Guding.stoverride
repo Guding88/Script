@@ -200,6 +200,14 @@ http:
       max-size: 3145728
       binary-mode: false
 
+    - match: ^https:\/\/yopu\.co\/api\/user\/info
+      name: "有谱么"
+      type: response
+      timeout: 30
+      require-body: true
+      max-size: 3145728
+      binary-mode: false
+
   mitm:
     - "buy.itunes.apple.com"
     - "api.revenuecat.com"
@@ -227,6 +235,7 @@ http:
     - "app.yiyan.art"
     - "integral2.dasyibalang.com"
     - "www.zomoplan.com"
+    - "yopu.co"
 
 script-providers:
   "iTunes合集":
@@ -300,4 +309,7 @@ script-providers:
     interval: 86400
   "朝暮计划":
     url: https://raw.githubusercontent.com/Guding88/Script/main/zhaomujihua.js
+    interval: 86400
+  "有谱么":
+    url: https://raw.githubusercontent.com/Guding88/Script/main/youpume.js
     interval: 86400
