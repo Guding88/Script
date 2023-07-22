@@ -9,24 +9,23 @@ AllMyBatteries - 电池管家：https://apps.apple.com/app/id1621263412
 hostname = buy.itunes.apple.com
 
 */
-var guding = JSON.parse($response.body);
-guding = {
+var guding = {
   "receipt": {
     "receipt_type": "Production",
-    "bundle_id": "com.sugarmo.ScrollClip",
+    "bundle_id": "https://t.me/Guding88",
     "in_app": [
       {
         "quantity": "1",
-        "purchase_date_ms": "1669275526000",
-        "transaction_id": "300001282466542",
-        "original_transaction_id": "300001282466542",
-        "product_id": "com.sugarmo.ScrollClip.pro",
+        "purchase_date_ms": "1688386973000",
+        "transaction_id": "300006666666666",
+        "original_transaction_id": "300006666666666",
+        "product_id": "https://t.me/Guding88",
         "in_app_ownership_type": "PURCHASED",
-        "original_purchase_date_ms": "1669275526000"
+        "original_purchase_date_ms": "1688386973000"
       }
     ],
     "application_version": "3206",
-    "original_purchase_date_ms": "1669275302000",
+    "original_purchase_date_ms": "1688386973000",
     "original_application_version": "3206",
   },
   "environment": "Production",
@@ -52,5 +51,5 @@ guding = {
       "expires_date_ms": "148204937166000"
     }
   ]
-}
+};
 $done({ body: JSON.stringify(guding) });
