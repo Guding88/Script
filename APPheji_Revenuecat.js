@@ -81,7 +81,8 @@ if (typeof $response == "undefined") {
     'Echo':{ name: 'PLUS', id: 'com.LEMO.LemoFm.plus.lifetime.l3'},
     'Dark%20Noise':{ name: 'pro', id: 'dn_4999_lifetime'},
     'VideoToPhoto':{ name: 'Premium', id: 'VideoToPhoto_premium'},
-    'ChatGPTApp':{ name: 'Basic', id: 'com.palligroup.gpt3.yearly'}
+    'ChatGPTApp':{ name: 'Basic', id: 'com.palligroup.gpt3.yearly'},
+    'PDF%20Viewer':{ name: 'sub.pro', id: 'com.pspdfkit.viewer.sub.pro.yearly'}
   };
   const data = {
     "expires_date": "6666-06-06T06:06:06Z",
