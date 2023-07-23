@@ -216,6 +216,16 @@ http:
       max-size: 3145728
       binary-mode: false
 
+    - match: ^https?:\/\/server\.zbisq\.com\/fimo-user\/user
+      name: "FIMO"
+      type: response
+      timeout: 30
+      require-body: true
+      max-size: 3145728
+      binary-mode: false
+
+
+
   mitm:
     - "buy.itunes.apple.com"
     - "api.revenuecat.com"
@@ -245,6 +255,8 @@ http:
     - "www.zomoplan.com"
     - "yopu.co"
     - "diary-id.sumi.io"
+    - "server.zbisq.com"
+
 
 script-providers:
   "iTunes合集":
@@ -325,3 +337,8 @@ script-providers:
   "格志日记":
     url: https://raw.githubusercontent.com/Guding88/Script/main/gezhiriji.js
     interval: 86400
+  "FIMO":
+    url: https://raw.githubusercontent.com/Guding88/Script/main/FIMO.js
+    interval: 86400
+
+
