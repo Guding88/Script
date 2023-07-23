@@ -77,7 +77,11 @@ stats.fm= type=http-response,requires-body=1,max-size=0,pattern=^https?:\/\/api\
 # 有谱么 @Baby
 有谱么= type=http-response,requires-body=1,max-size=0,pattern=^https:\/\/yopu\.co\/api\/user\/info,script-path=https://raw.githubusercontent.com/Guding88/Script/main/youpume.js
 
+# 格志日记
+格志日记= type=http-response,requires-body=1,max-size=0,pattern=^https?:\/\/diary-id\.sumi\.io\/api\/profile,script-path=https://raw.githubusercontent.com/Guding88/Script/main/gezhiriji.js
+
+
 
 [MITM]
 
-hostname = %APPEND% buy.itunes.apple.com, api.revenuecat.com, my.countingthings.com, cubox.cc, cubox.pro, api.qonversion.io, pocketlists.com, api.neuralprisma.com,appapi.neuralprisma.com, www.evestudio.cn, purchases.ws.pho.to, api.busuu.com, api.expingworld.com, api.leapmobile.cloud, explorer.tratao.com, www.1314zhilv.com, api.getdailyart.com, kc.xinli001.com, www.freshhome.top, api.stats.fm, api.boyasec.com, jietu6.com, 1jietu.com, app.yiyan.art, integral2.dasyibalang.com,www.zomoplan.com,yopu.co
+hostname = %APPEND% buy.itunes.apple.com, api.revenuecat.com, my.countingthings.com, cubox.cc, cubox.pro, api.qonversion.io, pocketlists.com, api.neuralprisma.com,appapi.neuralprisma.com, www.evestudio.cn, purchases.ws.pho.to, api.busuu.com, api.expingworld.com, api.leapmobile.cloud, explorer.tratao.com, www.1314zhilv.com, api.getdailyart.com, kc.xinli001.com, www.freshhome.top, api.stats.fm, api.boyasec.com, jietu6.com, 1jietu.com, app.yiyan.art, integral2.dasyibalang.com,www.zomoplan.com,yopu.co,diary-id.sumi.io
