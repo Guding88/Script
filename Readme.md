@@ -136,4 +136,8 @@ Shadowrocket模块：https://raw.githubusercontent.com/Guding88/Script/main/APPh
 |22|朝暮计划|[点击下载](https://apps.apple.com/app/id1535727202)
 |23|有谱么|[点击下载](https://apps.apple.com/app/id973743727)
 |24|格志日记|[点击下载](https://apps.apple.com/app/id1392523148)
+|25|FIMO|[点击下载](https://apps.apple.com/app/id1454219307)
+
+
+
 
