@@ -43,6 +43,8 @@ Shadowrocket模块：https://raw.githubusercontent.com/Guding88/Script/main/APPh
 |18|‎ProCCD|[点击下载](https://apps.apple.com/app/id1616113199)
 |19|‎Video Editor|[点击下载](https://apps.apple.com/app/id1403688344)
 |20|Koloro|[点击下载](https://apps.apple.com/app/id1345159029)
+|21|PDF Viewer|[点击下载](https://apps.apple.com/app/id1120099014)
+|22|AllMyBatteries|[点击下载](https://apps.apple.com/app/id1621263412)
 
 
 * Air系列未完全整理，**必须先下载计算器Air并解锁**，然后再下载同一开发者的同系列产品，会自动同步解锁。
@@ -130,6 +132,8 @@ Shadowrocket模块：https://raw.githubusercontent.com/Guding88/Script/main/APPh
 |18|易截图2|[点击下载](https://apps.apple.com/app/id1633186528)
 |19|一言|[点击下载](https://apps.apple.com/app/idid1010174792)
 |20|指尖时光|[点击下载](https://apps.apple.com/app/id1392166974)
-|21| Lensa AI|[点击下载](https://apps.apple.com/app/id1436732536)
-|22| 朝暮计划|[点击下载](https://apps.apple.com/app/id1535727202)
-|23| 有谱么|[点击下载](https://apps.apple.com/app/id973743727)
+|21|Lensa AI|[点击下载](https://apps.apple.com/app/id1436732536)
+|22|朝暮计划|[点击下载](https://apps.apple.com/app/id1535727202)
+|23|有谱么|[点击下载](https://apps.apple.com/app/id973743727)
+|24|格志日记|[点击下载](https://apps.apple.com/app/id1392523148)
+
