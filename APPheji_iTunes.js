@@ -21,94 +21,28 @@ for (var key in $request.headers) {
 var UA = $request.headers['user-agent'];
 var guding = JSON.parse($response.body);
 var uaProductMapping = {
-  'ScreenRecord': {
-    product_id: 'https://t.me/Guding88',
-    bundle_id: ''
-  },
-  'bazaart': {
-    product_id: 'Bazaart_Premium_Monthly_v9',
-    bundle_id: ''
-  },
-  '%E6%8B%8D%E7%89%B9%E5%86%85%E5%A4%B4': {
-    product_id: 'Patternator_Lock_Screen_Monthly',
-    bundle_id: ''
-  },
-  'Revive': {
-    product_id: 'revive.inapp.pro.lt_wotrial_42.99',
-    bundle_id: ''
-  },
-  'Picsew': {
-    product_id: 'com.sugarmo.ScrollClip.pro',
-    bundle_id: 'com.sugarmo.ScrollClip'
-  },
-  'Air': {
-    product_id: 'co.airapps.calculator.yearly',
-    bundle_id: ''
-  },
-  'HashPhotos': {
-    product_id: 'com.kobaltlab.HashPhotos.iap.allinone.free',
-    bundle_id: ''
-  },
-  'ProxyFi': {
-    product_id: 'week.proxyfi.sub',
-    bundle_id: ''
-  },
-  'Side': {
-    product_id: 'com.johnil.side.year',
-    bundle_id: ''
-  },
-  'MyMemoryDebris': {
-    product_id: 'com.chenxi.shannian.superNian',
-    bundle_id: ''
-  },
-  'FileArtifact': {
-    product_id: 'com.shengzhou.fileartifact.year',
-    bundle_id: ''
-  },
-  'ChickAlarmClock': {
-    product_id: 'Pro_M01',
-    bundle_id: ''
-  },
-  'TWWeatherMajor': {
-    product_id: 'com.highonemob.weather.base.w',
-    bundle_id: ''
-  },
-  'ProKnockOut': {
-    product_id: 'com.knockout.1monthplus.2weektrail',
-    bundle_id: ''
-  },
-  'PutApp': {
-    product_id: 'https://t.me/Guding88',
-    bundle_id: ''
-  },
-  'VideoDay': {
-    product_id: 'https://t.me/Guding88',
-    bundle_id: ''
-  },
-  'CCD_Camera': {
-    product_id: 'https://t.me/Guding88',
-    bundle_id: ''
-  },
-  'CHAT%20AI': {
-    product_id: 'https://t.me/Guding88',
-    bundle_id: ''
-  },
-  'Koloro': {
-    product_id: 'https://t.me/Guding88',
-    bundle_id: ''
-  },
-  'AllMyBatteries': {
-    product_id: 'https://t.me/Guding88',
-    bundle_id: ''
-  },
-  'ReLens': {
-    product_id: 'com.risingcabbage.pro.camera.yearlysubscription',
-    bundle_id: ''
-  },
-  'Fashion%20Design%20Sketches': {
-    product_id: 'com.pocketartstudio.fashiondesign.twomonths',
-    bundle_id: ''
-  },
+  'ScreenRecord': {product_id: 'https://t.me/Guding88',bundle_id: 'https://t.me/Guding88'},
+  'bazaart': {product_id: 'Bazaart_Premium_Monthly_v9',},
+  '%E6%8B%8D%E7%89%B9%E5%86%85%E5%A4%B4': {product_id: 'Patternator_Lock_Screen_Monthly',},
+  'Revive': {product_id: 'revive.inapp.pro.lt_wotrial_42.99',},
+  'Picsew': {product_id: 'com.sugarmo.ScrollClip.pro',bundle_id: 'com.sugarmo.ScrollClip'},
+  'Air': {product_id: 'co.airapps.calculator.yearly',},
+  'HashPhotos': {product_id: 'com.kobaltlab.HashPhotos.iap.allinone.free',},
+  'ProxyFi': {product_id: 'week.proxyfi.sub',},
+  'Side': {product_id: 'com.johnil.side.year',},
+  'MyMemoryDebris': {product_id: 'com.chenxi.shannian.superNian',},
+  'FileArtifact': {product_id: 'com.shengzhou.fileartifact.year',},
+  'ChickAlarmClock': {product_id: 'Pro_M01',},
+  'TWWeatherMajor': {product_id: 'com.highonemob.weather.base.w',},
+  'ProKnockOut': {product_id: 'com.knockout.1monthplus.2weektrail',},
+  'PutApp': {product_id: 'https://t.me/Guding88',},
+  'VideoDay': {product_id: 'https://t.me/Guding88',},
+  'CCD_Camera': {product_id: 'https://t.me/Guding88',},
+  'CHAT%20AI': {product_id: 'https://t.me/Guding88',},
+  'Koloro': {product_id: 'https://t.me/Guding88',},
+  'AllMyBatteries': {product_id: 'https://t.me/Guding88',},
+  'ReLens': {product_id: 'com.risingcabbage.pro.camera.yearlysubscription',},
+  'Fashion%20Design%20Sketches': {product_id: 'com.pocketartstudio.fashiondesign.twomonths',},
 
 
 
@@ -162,7 +96,6 @@ for (var uaKey in uaProductMapping) {
     var productInfo = uaProductMapping[uaKey];
     var product_id = productInfo.product_id;
     var bundle_id = productInfo.bundle_id;
-
     for (var i = 0; i < guding6.latest_receipt_info.length; i++) {
       guding6.latest_receipt_info[i].product_id = product_id;
     }
@@ -172,9 +105,7 @@ for (var uaKey in uaProductMapping) {
     for (var i = 0; i < guding6.receipt.in_app.length; i++) {
       guding6.receipt.in_app[i].product_id = product_id;
     }
-
     guding6.receipt.bundle_id = bundle_id;
-
     guding8 = true;
     break;
   }
