@@ -45,6 +45,7 @@ Shadowrocket模块：https://raw.githubusercontent.com/Guding88/Script/main/APPh
 |20|Koloro|[点击下载](https://apps.apple.com/app/id1345159029)
 |21|PDF Viewer|[点击下载](https://apps.apple.com/app/id1120099014)
 |22|AllMyBatteries|[点击下载](https://apps.apple.com/app/id1621263412)
+|23|ReLens|[点击下载](https://apps.apple.com/app/id1638027598)
 
 
 * Air系列未完全整理，**必须先下载计算器Air并解锁**，然后再下载同一开发者的同系列产品，会自动同步解锁。
@@ -137,6 +138,7 @@ Shadowrocket模块：https://raw.githubusercontent.com/Guding88/Script/main/APPh
 |23|有谱么|[点击下载](https://apps.apple.com/app/id973743727)
 |24|格志日记|[点击下载](https://apps.apple.com/app/id1392523148)
 |25|FIMO|[点击下载](https://apps.apple.com/app/id1454219307)
+|26|Focos|[点击下载](https://apps.apple.com/app/id1274938524)
 
 
 
