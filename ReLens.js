@@ -1,9 +1,9 @@
 /*
 
-Relens：https://apps.apple.com/app/id1638027598
+ReLens：https://apps.apple.com/app/id1638027598
 
 [rewrite_local]
-^https?:\/\/buy\.itunes\.apple\.com\/verifyReceipt$ url script-response-body https://raw.githubusercontent.com/Guding88/Script/main/Relens.js
+^https?:\/\/buy\.itunes\.apple\.com\/verifyReceipt$ url script-response-body https://raw.githubusercontent.com/Guding88/Script/main/ReLens.js
 
 [MITM]
 hostname = buy.itunes.apple.com
