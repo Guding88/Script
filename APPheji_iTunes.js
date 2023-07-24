@@ -20,142 +20,166 @@ for (var key in $request.headers) {
 }
 var UA = $request.headers['user-agent'];
 var guding = JSON.parse($response.body);
-var guding6 = {
-  "receipt": {
-    "receipt_type": "Production",
-    "bundle_id": "com.sugarmo.ScrollClip",
-    "in_app": [
-      {
-        "quantity": "1",
-        "purchase_date_ms": "1669275526000",
-        "transaction_id": "300001282466542",
-        "original_transaction_id": "300001282466542",
-        "product_id": "com.sugarmo.ScrollClip.pro",
-        "in_app_ownership_type": "PURCHASED",
-        "original_purchase_date_ms": "1669275526000"
-      }
-    ],
-    "application_version": "3206",
-    "original_purchase_date_ms": "1669275302000",
-    "original_application_version": "3206"
+var uaProductMapping = {
+  'ScreenRecord': {
+    product_id: 'https://t.me/Guding88',
+    bundle_id: ''
   },
-  "environment": "Production",
-  "pending_renewal_info": [
-    {
-      "product_id": "",
-      "auto_renew_status": "1"
-    }
-  ],
-  "status": 0,
-  "latest_receipt_info": [
-    {
-      "quantity": "1",
-      "purchase_date_ms": "1688386973000",
-      "expires_date": "6666-06-06 06:06:06 Etc\/GMT",
-      "expires_date_pst": "6666-06-06 06:06:06 America\/Los_Angeles",
-      "is_in_intro_offer_period": "false",
-      "transaction_id": "540001260447637",
-      "is_trial_period": "false",
-      "original_transaction_id": "540001260447637",
-      "product_id": "",
-      "original_purchase_date_ms": "1688386974000",
-      "expires_date_ms": "148204937166000"
-    }
-  ]
+  'bazaart': {
+    product_id: 'Bazaart_Premium_Monthly_v9',
+    bundle_id: ''
+  },
+  '%E6%8B%8D%E7%89%B9%E5%86%85%E5%A4%B4': {
+    product_id: 'Patternator_Lock_Screen_Monthly',
+    bundle_id: ''
+  },
+  'Revive': {
+    product_id: 'revive.inapp.pro.lt_wotrial_42.99',
+    bundle_id: ''
+  },
+  'Picsew': {
+    product_id: 'com.sugarmo.ScrollClip.pro',
+    bundle_id: 'com.sugarmo.ScrollClip'
+  },
+  'Air': {
+    product_id: 'co.airapps.calculator.yearly',
+    bundle_id: ''
+  },
+  'HashPhotos': {
+    product_id: 'com.kobaltlab.HashPhotos.iap.allinone.free',
+    bundle_id: ''
+  },
+  'ProxyFi': {
+    product_id: 'week.proxyfi.sub',
+    bundle_id: ''
+  },
+  'Side': {
+    product_id: 'com.johnil.side.year',
+    bundle_id: ''
+  },
+  'MyMemoryDebris': {
+    product_id: 'com.chenxi.shannian.superNian',
+    bundle_id: ''
+  },
+  'FileArtifact': {
+    product_id: 'com.shengzhou.fileartifact.year',
+    bundle_id: ''
+  },
+  'ChickAlarmClock': {
+    product_id: 'Pro_M01',
+    bundle_id: ''
+  },
+  'TWWeatherMajor': {
+    product_id: 'com.highonemob.weather.base.w',
+    bundle_id: ''
+  },
+  'ProKnockOut': {
+    product_id: 'com.knockout.1monthplus.2weektrail',
+    bundle_id: ''
+  },
+  'PutApp': {
+    product_id: 'https://t.me/Guding88',
+    bundle_id: ''
+  },
+  'VideoDay': {
+    product_id: 'https://t.me/Guding88',
+    bundle_id: ''
+  },
+  'CCD_Camera': {
+    product_id: 'https://t.me/Guding88',
+    bundle_id: ''
+  },
+  'CHAT%20AI': {
+    product_id: 'https://t.me/Guding88',
+    bundle_id: ''
+  },
+  'Koloro': {
+    product_id: 'https://t.me/Guding88',
+    bundle_id: ''
+  },
+  'AllMyBatteries': {
+    product_id: 'https://t.me/Guding88',
+    bundle_id: ''
+  },
+  'ReLens': {
+    product_id: 'com.risingcabbage.pro.camera.yearlysubscription',
+    bundle_id: ''
+  },
+  'Fashion%20Design%20Sketches': {
+    product_id: 'com.pocketartstudio.fashiondesign.twomonths',
+    bundle_id: ''
+  },
+
+
+
+};
+var guding6 = { 
+    "receipt": { 
+      "receipt_type": "Production", 
+      "bundle_id": "https://t.me/Guding88", 
+      "in_app": [ 
+        { 
+          "quantity": "1", 
+          "purchase_date_ms": "666666666666666", 
+          "transaction_id": "666666666666666", 
+          "original_transaction_id": "666666666666666", 
+          "product_id": "https://t.me/Guding88", 
+          "in_app_ownership_type": "PURCHASED", 
+          "original_purchase_date_ms": "666666666666666" 
+        } 
+      ], 
+      "application_version": "3206", 
+      "original_purchase_date_ms": "666666666666666", 
+      "original_application_version": "3206" 
+    }, 
+    "environment": "Production", 
+    "pending_renewal_info": [ 
+      { 
+        "product_id": "https://t.me/Guding88", 
+        "auto_renew_status": "1" 
+      } 
+    ], 
+    "status": 0, 
+    "latest_receipt_info": [ 
+      { 
+        "quantity": "1", 
+        "purchase_date_ms": "666666666666666", 
+        "expires_date": "6666-06-06 06:06:06 Etc\/GMT", 
+        "expires_date_pst": "6666-06-06 06:06:06 America\/Los_Angeles", 
+        "is_in_intro_offer_period": "false", 
+        "transaction_id": "666666666666666", 
+        "is_trial_period": "false", 
+        "original_transaction_id": "666666666666666", 
+        "product_id": "https://t.me/Guding88", 
+        "original_purchase_date_ms": "666666666666666", 
+        "expires_date_ms": "148204937166000" 
+      } 
+    ] 
 };
 var guding8 = false;
+for (var uaKey in uaProductMapping) {
+  if (UA && UA.includes(uaKey)) {
+    var productInfo = uaProductMapping[uaKey];
+    var product_id = productInfo.product_id;
+    var bundle_id = productInfo.bundle_id;
 
-if (UA && UA.includes('bazaart')) {
-  guding6.latest_receipt_info[0].product_id = "Bazaart_Premium_Monthly_v9";
-  guding6.pending_renewal_info[0].product_id = "Bazaart_Premium_Monthly_v9";
-  guding8 = true;
-} else if (UA && UA.includes('%E6%8B%8D%E7%89%B9%E5%86%85%E5%A4%B4')) {
-  guding6.latest_receipt_info[0].product_id = "Patternator_Lock_Screen_Monthly";
-  guding6.pending_renewal_info[0].product_id = "Patternator_Lock_Screen_Monthly";
-  guding8 = true;
-} else if (UA && UA.includes('Revive')) {
-  guding6.latest_receipt_info[0].product_id = "revive.inapp.pro.lt_wotrial_42.99";
-  guding6.pending_renewal_info[0].product_id = "revive.inapp.pro.lt_wotrial_42.99";
-  guding8 = true;
-} else if (UA && UA.includes('Air')) {
-  guding6.latest_receipt_info[0].product_id = "co.airapps.calculator.yearly";
-  guding6.pending_renewal_info[0].product_id = "co.airapps.calculator.yearly";
-  guding8 = true;
-} else if (UA && UA.includes('HashPhotos')) {
-  guding6.latest_receipt_info[0].product_id = "com.kobaltlab.HashPhotos.iap.allinone.free";
-  guding6.pending_renewal_info[0].product_id = "com.kobaltlab.HashPhotos.iap.allinone.free";
-  guding8 = true;
-} else if (UA && UA.includes('ProxyFi')) {
-  guding6.latest_receipt_info[0].product_id = "week.proxyfi.sub";
-  guding6.pending_renewal_info[0].product_id = "week.proxyfi.sub";
-  guding8 = true;
-} else if (UA && UA.includes('Side')) {
-  guding6.latest_receipt_info[0].product_id = "com.johnil.side.year";
-  guding6.pending_renewal_info[0].product_id = "com.johnil.side.year";
-  guding8 = true;
-} else if (UA && UA.includes('MyMemoryDebris')) {
-  guding6.latest_receipt_info[0].product_id = "com.chenxi.shannian.superNian";
-  guding6.pending_renewal_info[0].product_id = "com.chenxi.shannian.superNian";
-  guding8 = true;
-} else if (UA && UA.includes('FileArtifact')) {
-  guding6.latest_receipt_info[0].product_id = "com.shengzhou.fileartifact.year";
-  guding6.pending_renewal_info[0].product_id = "com.shengzhou.fileartifact.year";
-  guding8 = true;
-} else if (UA && UA.includes('ChickAlarmClock')) {
-  guding6.latest_receipt_info[0].product_id = "Pro_M01";
-  guding6.pending_renewal_info[0].product_id = "Pro_M01";
-  guding8 = true;
-} else if (UA && UA.includes('Picsew')) {
-  guding6.latest_receipt_info[0].product_id = "com.sugarmo.ScrollClip.pro";
-  guding6.pending_renewal_info[0].product_id = "com.sugarmo.ScrollClip.pro";
-  guding8 = true;
-} else if (UA && UA.includes('TWWeatherMajor')) {
-  guding6.latest_receipt_info[0].product_id = "com.highonemob.weather.base.w";
-  guding6.pending_renewal_info[0].product_id = "com.highonemob.weather.base.w";
-  guding8 = true;
-} else if (UA && UA.includes('ProKnockOut')) {
-  guding6.latest_receipt_info[0].product_id = "com.knockout.1monthplus.2weektrail";
-  guding6.pending_renewal_info[0].product_id = "com.knockout.1monthplus.2weektrail";
-  guding8 = true;
-} else if (UA && UA.includes('PutApp')) {
-  guding6.latest_receipt_info[0].product_id = "https://t.me/Guding88";
-  guding6.pending_renewal_info[0].product_id = "https://t.me/Guding88";
-  guding8 = true;
-}else if (UA && UA.includes('VideoDay')) {
-  guding6.latest_receipt_info[0].product_id = "me.imgbase.videoday.profeaturesYearly";
-  guding6.pending_renewal_info[0].product_id = "me.imgbase.videoday.profeaturesYearly";
-  guding8 = true;
-}else if (UA && UA.includes('CHAT%20AI')) {
-  guding6.latest_receipt_info[0].product_id = "https://t.me/Guding88";
-  guding6.pending_renewal_info[0].product_id = "https://t.me/Guding88";
-  guding8 = true;
-}else if (UA && UA.includes('CCD_Camera')) {
-  guding6.latest_receipt_info[0].product_id = "https://t.me/Guding88";
-  guding6.pending_renewal_info[0].product_id = "https://t.me/Guding88";
-  guding8 = true;
-}else if (UA && UA.includes('ScreenRecord')) {
-  guding6.latest_receipt_info[0].product_id = "https://t.me/Guding88";
-  guding6.pending_renewal_info[0].product_id = "https://t.me/Guding88";
-  guding8 = true;
-}else if (UA && UA.includes('Koloro')) {
-  guding6.latest_receipt_info[0].product_id = "https://t.me/Guding88";
-  guding6.pending_renewal_info[0].product_id = "https://t.me/Guding88";
-  guding8 = true;
-}else if (UA && UA.includes('AllMyBatteries')) {
-  guding6.latest_receipt_info[0].product_id = "https://t.me/Guding88";
-  guding6.pending_renewal_info[0].product_id = "https://t.me/Guding88";
-  guding8 = true;
-}else if (UA && UA.includes('ReLens')) {
-  guding6.latest_receipt_info[0].product_id = "com.risingcabbage.pro.camera.yearlysubscription";
-  guding6.pending_renewal_info[0].product_id = "com.risingcabbage.pro.camera.yearlysubscription";
-  guding8 = true;
-}else if (UA && UA.includes('Fashion%20Design%20Sketches')) {
-  guding6.latest_receipt_info[0].product_id = "com.pocketartstudio.fashiondesign.twomonths";
-  guding6.pending_renewal_info[0].product_id = "com.pocketartstudio.fashiondesign.twomonths";
-  guding8 = true;
+    for (var i = 0; i < guding6.latest_receipt_info.length; i++) {
+      guding6.latest_receipt_info[i].product_id = product_id;
+    }
+    for (var i = 0; i < guding6.pending_renewal_info.length; i++) {
+      guding6.pending_renewal_info[i].product_id = product_id;
+    }
+    for (var i = 0; i < guding6.receipt.in_app.length; i++) {
+      guding6.receipt.in_app[i].product_id = product_id;
+    }
+
+    guding6.receipt.bundle_id = bundle_id;
+
+    guding8 = true;
+    break;
+  }
 }
-
 //if (guding8) {
-  guding = guding6;
+guding = guding6;
 //}
 $done({ body: JSON.stringify(guding) });
