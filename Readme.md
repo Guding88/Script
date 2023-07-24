@@ -46,6 +46,8 @@ Shadowrocket模块：https://raw.githubusercontent.com/Guding88/Script/main/APPh
 |21|PDF Viewer|[点击下载](https://apps.apple.com/app/id1120099014)
 |22|AllMyBatteries|[点击下载](https://apps.apple.com/app/id1621263412)
 |23|ReLens|[点击下载](https://apps.apple.com/app/id1638027598)
+|24|高级服装设计|[点击下载](https://apps.apple.com/app/id1413710253)
+
 
 
 * Air系列未完全整理，**必须先下载计算器Air并解锁**，然后再下载同一开发者的同系列产品，会自动同步解锁。
