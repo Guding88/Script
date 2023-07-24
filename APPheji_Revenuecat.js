@@ -83,7 +83,8 @@ if (typeof $response == "undefined") {
     'VideoToPhoto':{ name: 'Premium', id: 'VideoToPhoto_premium'},
     'ChatGPTApp':{ name: 'Basic', id: 'com.palligroup.gpt3.yearly'},
     'PDF%20Viewer':{ name: 'sub.pro', id: 'com.pspdfkit.viewer.sub.pro.yearly'},
-    'PhotoSync':{ name: 'premium', id: 'com.touchbyte.PhotoSync.ProLifetime'}
+    'PhotoSync':{ name: 'premium', id: 'com.touchbyte.PhotoSync.ProLifetime'},
+    'Worrydolls':{ name: 'magicmode', id: 'magicmode'},
     
   };
   const data = {
