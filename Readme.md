@@ -47,6 +47,7 @@ Shadowrocket模块：https://raw.githubusercontent.com/Guding88/Script/main/APPh
 |22|AllMyBatteries|[点击下载](https://apps.apple.com/app/id1621263412)
 |23|ReLens|[点击下载](https://apps.apple.com/app/id1638027598)
 |24|高级服装设计|[点击下载](https://apps.apple.com/app/id1413710253)
+|25|Stylish Text|[点击下载](https://apps.apple.com/app/id1372415493)
 
 
 
@@ -108,6 +109,8 @@ Shadowrocket模块：https://raw.githubusercontent.com/Guding88/Script/main/APPh
 |49|Dark Noise|[点击下载](https://apps.apple.com/app/id1465439395)
 |50|VideoToPhoto|[点击下载](https://apps.apple.com/app/id1544125793)
 |51|‎Chat AI|[点击下载](https://apps.apple.com/app/id1661016696)
+|52|‎Photo Sync|[点击下载](https://apps.apple.com/app/id415850124)
+|53|‎解忧娃娃|[点击下载](https://apps.apple.com/app/id1475104794)
 
 </details>
 <details>
