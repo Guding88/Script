@@ -3,7 +3,8 @@
 亲爱的冰箱：https://apps.apple.com/app/id1555630532
 
 [rewrite_local]
-^https:\/\/bingxiang\.51wnl-cq\.com\/api\/(v2\/GetUserMember|v2\/users\/checktoken|Unlocking) url script-response-body https://raw.githubusercontent.com/Guding88/Script/main/qinaidebingxiang.js
+^https:\/\/bingxiang\.51wnl-cq\.com\/api\/(v2\/GetUserMember|v2\/users\/checktoken) url script-response-body https://raw.githubusercontent.com/Guding88/Script/main/qinaidebingxiang.js
+^https:\/\/bingxiang\.51wnl-cq\.com\/api\/Unlocking url script-request-body https://raw.githubusercontent.com/Guding88/Script/main/qinaidebingxiang.js
 
 [MITM]
 hostname = bingxiang.51wnl-cq.com
