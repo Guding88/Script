@@ -43,6 +43,7 @@ var uaProductMapping = {
   'AllMyBatteries': {product_id: 'https://t.me/Guding88',},
   'ReLens': {product_id: 'com.risingcabbage.pro.camera.yearlysubscription',},
   'Fashion%20Design%20Sketches': {product_id: 'com.pocketartstudio.fashiondesign.twomonths',},
+  'StylishText': {product_id: 'com.app.StylishText.sub.monthly',},//试用后生效
 
 
 
