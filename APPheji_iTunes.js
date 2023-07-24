@@ -149,6 +149,10 @@ if (UA && UA.includes('bazaart')) {
   guding6.latest_receipt_info[0].product_id = "com.risingcabbage.pro.camera.yearlysubscription";
   guding6.pending_renewal_info[0].product_id = "com.risingcabbage.pro.camera.yearlysubscription";
   guding8 = true;
+}else if (UA && UA.includes('Fashion%20Design%20Sketches')) {
+  guding6.latest_receipt_info[0].product_id = "com.pocketartstudio.fashiondesign.twomonths";
+  guding6.pending_renewal_info[0].product_id = "com.pocketartstudio.fashiondesign.twomonths";
+  guding8 = true;
 }
 
 //if (guding8) {
