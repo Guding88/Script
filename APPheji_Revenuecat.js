@@ -83,6 +83,8 @@ if (typeof $response == "undefined") {
     'VideoToPhoto':{ name: 'Premium', id: 'VideoToPhoto_premium'},
     'ChatGPTApp':{ name: 'Basic', id: 'com.palligroup.gpt3.yearly'},
     'PDF%20Viewer':{ name: 'sub.pro', id: 'com.pspdfkit.viewer.sub.pro.yearly'}
+    'PhotoSync':{ name: 'premium', id: 'com.touchbyte.PhotoSync.ProLifetime'}
+    
   };
   const data = {
     "expires_date": "6666-06-06T06:06:06Z",
