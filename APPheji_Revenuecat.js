@@ -82,7 +82,7 @@ if (typeof $response == "undefined") {
     'Dark%20Noise':{ name: 'pro', id: 'dn_4999_lifetime'},
     'VideoToPhoto':{ name: 'Premium', id: 'VideoToPhoto_premium'},
     'ChatGPTApp':{ name: 'Basic', id: 'com.palligroup.gpt3.yearly'},
-    'PDF%20Viewer':{ name: 'sub.pro', id: 'com.pspdfkit.viewer.sub.pro.yearly'}
+    'PDF%20Viewer':{ name: 'sub.pro', id: 'com.pspdfkit.viewer.sub.pro.yearly'},
     'PhotoSync':{ name: 'premium', id: 'com.touchbyte.PhotoSync.ProLifetime'}
     
   };
