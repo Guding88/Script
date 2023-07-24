@@ -62,9 +62,9 @@ var guding6 = {
           "original_purchase_date_ms": "666666666666666" 
         } 
       ], 
-      "application_version": "3206", 
+      "application_version": "6", 
       "original_purchase_date_ms": "666666666666666", 
-      "original_application_version": "3206" 
+      "original_application_version": "6" 
     }, 
     "environment": "Production", 
     "pending_renewal_info": [ 
