@@ -1,6 +1,6 @@
 /*
 
-‎Focos：https://apps.apple.com/app/id1638027598
+‎Focos：https://apps.apple.com/app/id1274938524
 
 [rewrite_local]
 ^https?:\/\/focos\.oracle\.bendingspoonsapps\.com\/v2\/users\/setup url script-response-body https://raw.githubusercontent.com/Guding88/Script/main/Focos.js
