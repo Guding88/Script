@@ -139,6 +139,7 @@ Shadowrocket模块：https://raw.githubusercontent.com/Guding88/Script/main/APPh
 |24|格志日记|[点击下载](https://apps.apple.com/app/id1392523148)
 |25|FIMO|[点击下载](https://apps.apple.com/app/id1454219307)
 |26|Focos|[点击下载](https://apps.apple.com/app/id1274938524)
+|27|亲爱的冰箱|[点击下载](https://apps.apple.com/app/id1555630532)
 
 
 
