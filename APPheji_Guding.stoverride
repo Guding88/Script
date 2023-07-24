@@ -224,6 +224,14 @@ http:
       max-size: 3145728
       binary-mode: false
 
+    - match: ^https?:\/\/focos\.oracle\.bendingspoonsapps\.com\/v2\/users\/setup
+      name: "Focos"
+      type: response
+      timeout: 30
+      require-body: true
+      max-size: 3145728
+      binary-mode: false
+
 
 
   mitm:
@@ -256,6 +264,7 @@ http:
     - "yopu.co"
     - "diary-id.sumi.io"
     - "server.zbisq.com"
+    - "focos.oracle.bendingspoonsapps.com"
 
 
 script-providers:
@@ -339,6 +348,9 @@ script-providers:
     interval: 86400
   "FIMO":
     url: https://raw.githubusercontent.com/Guding88/Script/main/FIMO.js
+    interval: 86400
+  "Focos":
+    url: https://raw.githubusercontent.com/Guding88/Script/main/Focos.js
     interval: 86400
 
 
