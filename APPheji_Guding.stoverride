@@ -232,6 +232,22 @@ http:
       max-size: 3145728
       binary-mode: false
 
+    - match: ^https:\/\/bingxiang\.51wnl-cq\.com\/api\/(v2\/GetUserMember|v2\/users\/checktoken)
+      name: "亲爱的冰箱"
+      type: response
+      timeout: 30
+      require-body: true
+      max-size: 3145728
+      binary-mode: false
+
+    - match: ^https:\/\/bingxiang\.51wnl-cq\.com\/api\/Unlocking
+      name: "亲爱的冰箱"
+      type: request
+      timeout: 30
+      require-body: true
+      max-size: 3145728
+      binary-mode: false
+
 
 
   mitm:
@@ -265,6 +281,7 @@ http:
     - "diary-id.sumi.io"
     - "server.zbisq.com"
     - "focos.oracle.bendingspoonsapps.com"
+    - "bingxiang.51wnl-cq.com"
 
 
 script-providers:
@@ -351,6 +368,12 @@ script-providers:
     interval: 86400
   "Focos":
     url: https://raw.githubusercontent.com/Guding88/Script/main/Focos.js
+    interval: 86400
+  "亲爱的冰箱":
+    url: https://raw.githubusercontent.com/Guding88/Script/main/qinaidebingxiang.js
+    interval: 86400
+  "亲爱的冰箱":
+    url: https://raw.githubusercontent.com/Guding88/Script/main/qinaidebingxiang.js
     interval: 86400
 
 
