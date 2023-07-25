@@ -111,6 +111,7 @@ Shadowrocket模块：https://raw.githubusercontent.com/Guding88/Script/main/APPh
 |51|‎Chat AI|[点击下载](https://apps.apple.com/app/id1661016696)
 |52|‎Photo Sync|[点击下载](https://apps.apple.com/app/id415850124)
 |53|‎解忧娃娃|[点击下载](https://apps.apple.com/app/id1475104794)
+|54|‎奇妙组件|[点击下载](https://apps.apple.com/app/id1466785009)
 
 </details>
 <details>
@@ -145,6 +146,7 @@ Shadowrocket模块：https://raw.githubusercontent.com/Guding88/Script/main/APPh
 |25|FIMO|[点击下载](https://apps.apple.com/app/id1454219307)
 |26|Focos|[点击下载](https://apps.apple.com/app/id1274938524)
 |27|亲爱的冰箱|[点击下载](https://apps.apple.com/app/id1555630532)
+|28|给未来写封信|[点击下载](https://apps.apple.com/app/id1330852849)
 
 
 
