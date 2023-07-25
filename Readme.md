@@ -148,6 +148,8 @@ Shadowrocket模块：https://raw.githubusercontent.com/Guding88/Script/main/APPh
 |27|亲爱的冰箱|[点击下载](https://apps.apple.com/app/id1555630532)
 |28|给未来写封信|[点击下载](https://apps.apple.com/app/id1330852849)
 |29|77进度|[点击下载](https://apps.apple.com/app/id1660947434)
+|30|77时钟|[点击下载](https://apps.apple.com/app/id1627747584)
+|31|77电脑助手|[点击下载](https://apps.apple.com/app/id1620485227)
 
 
 
