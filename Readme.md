@@ -151,6 +151,7 @@ Shadowrocket模块：https://raw.githubusercontent.com/Guding88/Script/main/APPh
 |30|77时钟|[点击下载](https://apps.apple.com/app/id1627747584)
 |31|77电脑助手|[点击下载](https://apps.apple.com/app/id1620485227)
 |32|简讯|[点击下载](https://apps.apple.com/app/id1160249028)
+|33|画世界|[点击下载](https://apps.apple.com/app/id1450111327)
 
 
 
