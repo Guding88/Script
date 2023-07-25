@@ -13,6 +13,6 @@ var guding = JSON.parse($response.body);
 guding.data.memberVip.expire_time = 148204937166;
 guding.data.memberVip.level = 1;
 guding.data.nickname = "骨钉";
-guding.data.code_id = "https://t.me/Guding88";
+guding.data.code_id = "https:\/\/t\.me\/Guding88";
 guding.data.headimgurl = "https:\/\/raw\.githubusercontent\.com\/Guding88\/iCon\/main\/png\/Guding\.png";
 $done({ body: JSON.stringify(guding) });
