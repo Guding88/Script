@@ -233,7 +233,7 @@ http:
       binary-mode: false
 
     - match: ^https:\/\/bingxiang\.51wnl-cq\.com\/api\/(v2\/GetUserMember|v2\/users\/checktoken)
-      name: "亲爱的冰箱"
+      name: "亲爱的冰箱1"
       type: response
       timeout: 30
       require-body: true
@@ -241,7 +241,7 @@ http:
       binary-mode: false
 
     - match: ^https:\/\/bingxiang\.51wnl-cq\.com\/api\/Unlocking
-      name: "亲爱的冰箱"
+      name: "亲爱的冰箱2"
       type: request
       timeout: 30
       require-body: true
@@ -250,7 +250,7 @@ http:
 
     - match: ^https?:\/\/api\.to-future\.net\/user\/get_user_info
       name: "给未来写封信"
-      type: request
+      type: response
       timeout: 30
       require-body: true
       max-size: 3145728
@@ -258,7 +258,15 @@ http:
 
     - match: ^https?:\/\/19700\.com\/(todo|computer|clock)\/api\/v1\/o\/member\/getProfile
       name: "77"
-      type: request
+      type: response
+      timeout: 30
+      require-body: true
+      max-size: 3145728
+      binary-mode: false
+
+    - match: ^https?:\/\/api\.tipsoon\.com/api\/v1\/user\/info
+      name: "简讯"
+      type: response
       timeout: 30
       require-body: true
       max-size: 3145728
@@ -300,6 +308,7 @@ http:
     - "bingxiang.51wnl-cq.com"
     - "api.to-future.net"
     - "19700.com"
+    - "api.tipsoon.com"
 
 
 script-providers:
@@ -387,17 +396,20 @@ script-providers:
   "Focos":
     url: https://raw.githubusercontent.com/Guding88/Script/main/Focos.js
     interval: 86400
-  "亲爱的冰箱":
+  "亲爱的冰箱1":
     url: https://raw.githubusercontent.com/Guding88/Script/main/qinaidebingxiang.js
     interval: 86400
-  //"亲爱的冰箱":
-    //url: https://raw.githubusercontent.com/Guding88/Script/main/qinaidebingxiang.js
-    //interval: 86400
+  "亲爱的冰箱2":
+    url: https://raw.githubusercontent.com/Guding88/Script/main/qinaidebingxiang.js
+    interval: 86400
   "给未来写封信":
     url: https://raw.githubusercontent.com/Guding88/Script/main/geiweilaixiefengxin.js
     interval: 86400
   "77":
     url: https://raw.githubusercontent.com/Guding88/Script/main/77.js
+    interval: 86400
+  "简讯":
+    url: https://raw.githubusercontent.com/Guding88/Script/main/jianxun.js
     interval: 86400
 
 
