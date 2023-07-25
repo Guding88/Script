@@ -256,8 +256,8 @@ http:
       max-size: 3145728
       binary-mode: false
 
-    - match: ^https?:\/\/19700\.com\/todo\/api\/v1\/o\/member\/getProfile
-      name: "77进度"
+    - match: ^https?:\/\/19700\.com\/(todo|computer|clock)\/api\/v1\/o\/member\/getProfile
+      name: "77"
       type: request
       timeout: 30
       require-body: true
@@ -396,8 +396,8 @@ script-providers:
   "给未来写封信":
     url: https://raw.githubusercontent.com/Guding88/Script/main/geiweilaixiefengxin.js
     interval: 86400
-  "77进度":
-    url: https://raw.githubusercontent.com/Guding88/Script/main/77jindu.js
+  "77":
+    url: https://raw.githubusercontent.com/Guding88/Script/main/77.js
     interval: 86400
 
 
