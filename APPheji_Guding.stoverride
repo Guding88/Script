@@ -272,7 +272,7 @@ http:
       max-size: 3145728
       binary-mode: false
 
-    - match: ^https?:\/\/app\.huashijie\.art\/api\/user\/getPerson
+    - match: ^https?:\/\/app\.huashijie\.art\/api\/(user\/getPerson|level\/info)
       name: "画世界"
       type: response
       timeout: 30
