@@ -93,8 +93,8 @@ Focos= type=http-response,requires-body=1,max-size=0,pattern=^https?:\/\/focos\.
 # 给未来写封信
 给未来写封信= type=http-response,requires-body=1,max-size=0,pattern=^https?:\/\/api\.to-future\.net\/user\/get_user_info,script-path=https://raw.githubusercontent.com/Guding88/Script/main/geiweilaixiefengxin.js
 
-# 77进度
-77进度= type=http-response,requires-body=1,max-size=0,pattern=^https?:\/\/19700\.com\/todo\/api\/v1\/o\/member\/getProfile,script-path=https://raw.githubusercontent.com/Guding88/Script/main/77jindu.js
+# 77
+77= type=http-response,requires-body=1,max-size=0,pattern=^https?:\/\/19700\.com\/(todo|computer|clock)\/api\/v1\/o\/member\/getProfile,script-path=https://raw.githubusercontent.com/Guding88/Script/main/77.js
 
 
 
