@@ -256,6 +256,14 @@ http:
       max-size: 3145728
       binary-mode: false
 
+    - match: ^https?:\/\/19700\.com\/todo\/api\/v1\/o\/member\/getProfile
+      name: "77进度"
+      type: request
+      timeout: 30
+      require-body: true
+      max-size: 3145728
+      binary-mode: false
+
 
 
   mitm:
@@ -291,6 +299,7 @@ http:
     - "focos.oracle.bendingspoonsapps.com"
     - "bingxiang.51wnl-cq.com"
     - "api.to-future.net"
+    - "19700.com"
 
 
 script-providers:
@@ -386,6 +395,9 @@ script-providers:
     interval: 86400
   "给未来写封信":
     url: https://raw.githubusercontent.com/Guding88/Script/main/geiweilaixiefengxin.js
+    interval: 86400
+  "77进度":
+    url: https://raw.githubusercontent.com/Guding88/Script/main/77jindu.js
     interval: 86400
 
 
