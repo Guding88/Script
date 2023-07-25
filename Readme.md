@@ -147,6 +147,7 @@ Shadowrocket模块：https://raw.githubusercontent.com/Guding88/Script/main/APPh
 |26|Focos|[点击下载](https://apps.apple.com/app/id1274938524)
 |27|亲爱的冰箱|[点击下载](https://apps.apple.com/app/id1555630532)
 |28|给未来写封信|[点击下载](https://apps.apple.com/app/id1330852849)
+|29|77进度|[点击下载](https://apps.apple.com/app/id1660947434)
 
 
 
