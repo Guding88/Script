@@ -272,6 +272,14 @@ http:
       max-size: 3145728
       binary-mode: false
 
+    - match: ^https?:\/\/app\.huashijie\.art\/api\/user\/getPerson
+      name: "画世界"
+      type: response
+      timeout: 30
+      require-body: true
+      max-size: 3145728
+      binary-mode: false
+
 
 
   mitm:
@@ -309,6 +317,7 @@ http:
     - "api.to-future.net"
     - "19700.com"
     - "api.tipsoon.com"
+    - "app.huashijie.art"
 
 
 script-providers:
@@ -410,6 +419,9 @@ script-providers:
     interval: 86400
   "简讯":
     url: https://raw.githubusercontent.com/Guding88/Script/main/jianxun.js
+    interval: 86400
+  "画世界":
+    url: https://raw.githubusercontent.com/Guding88/Script/main/huashijie.js
     interval: 86400
 
 
