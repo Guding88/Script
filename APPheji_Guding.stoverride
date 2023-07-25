@@ -264,7 +264,7 @@ http:
       max-size: 3145728
       binary-mode: false
 
-    - match: ^https?:\/\/api\.tipsoon\.com/api\/v1\/user\/info
+    - match: ^https?:\/\/api\.tipsoon\.com/api\/v1\/(user\/info|login\/account)
       name: "简讯"
       type: response
       timeout: 30
