@@ -85,6 +85,10 @@ if (typeof $response == "undefined") {
     'PDF%20Viewer':{ name: 'sub.pro', id: 'com.pspdfkit.viewer.sub.pro.yearly'},
     'PhotoSync':{ name: 'premium', id: 'com.touchbyte.PhotoSync.ProLifetime'},
     'Worrydolls':{ name: 'magicmode', id: 'magicmode'},
+    'OneWidget':{ name: 'allaccess', id: 'com.onewidget.vip'},
+
+
+    
     
   };
   const data = {
