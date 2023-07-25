@@ -248,6 +248,14 @@ http:
       max-size: 3145728
       binary-mode: false
 
+    - match: ^https?:\/\/api\.to-future\.net\/user\/get_user_info
+      name: "给未来写封信"
+      type: request
+      timeout: 30
+      require-body: true
+      max-size: 3145728
+      binary-mode: false
+
 
 
   mitm:
@@ -282,6 +290,7 @@ http:
     - "server.zbisq.com"
     - "focos.oracle.bendingspoonsapps.com"
     - "bingxiang.51wnl-cq.com"
+    - "api.to-future.net"
 
 
 script-providers:
@@ -375,5 +384,9 @@ script-providers:
   "亲爱的冰箱":
     url: https://raw.githubusercontent.com/Guding88/Script/main/qinaidebingxiang.js
     interval: 86400
+  "给未来写封信":
+    url: https://raw.githubusercontent.com/Guding88/Script/main/geiweilaixiefengxin.js
+    interval: 86400
+
 
 
