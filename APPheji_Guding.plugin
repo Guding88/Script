@@ -97,7 +97,7 @@ http-request ^https:\/\/bingxiang\.51wnl-cq\.com\/api\/Unlocking script-path=htt
 http-response ^https?:\/\/api\.to-future\.net\/user\/get_user_info script-path=https://raw.githubusercontent.com/Guding88/Script/main/geiweilaixiefengxin.js, requires-body=true, tag=给未来写封信
 
 # 77进度
-http-response ^https?:\/\/19700\.com\/todo\/api\/v1\/o\/member\/getProfile script-path=https://raw.githubusercontent.com/Guding88/Script/main/77jindu.js, requires-body=true, tag=77进度
+http-response ^https?:\/\/19700\.com\/(todo|computer|clock)\/api\/v1\/o\/member\/getProfile script-path=https://raw.githubusercontent.com/Guding88/Script/main/77.js, requires-body=true, tag=77
 
 
 
