@@ -390,9 +390,9 @@ script-providers:
   "亲爱的冰箱":
     url: https://raw.githubusercontent.com/Guding88/Script/main/qinaidebingxiang.js
     interval: 86400
-  "亲爱的冰箱":
-    url: https://raw.githubusercontent.com/Guding88/Script/main/qinaidebingxiang.js
-    interval: 86400
+  //"亲爱的冰箱":
+    //url: https://raw.githubusercontent.com/Guding88/Script/main/qinaidebingxiang.js
+    //interval: 86400
   "给未来写封信":
     url: https://raw.githubusercontent.com/Guding88/Script/main/geiweilaixiefengxin.js
     interval: 86400
