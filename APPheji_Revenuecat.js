@@ -86,6 +86,8 @@ if (typeof $response == "undefined") {
     'PhotoSync':{ name: 'premium', id: 'com.touchbyte.PhotoSync.ProLifetime'},
     'Worrydolls':{ name: 'magicmode', id: 'magicmode'},
     'OneWidget':{ name: 'allaccess', id: 'com.onewidget.vip'},
+    'CardPhoto':{ name: 'allaccess', id: 'CardPhoto_Pro'},
+    'WhiteCloud':{ name: 'allaccess', id: 'wc_pro_1y'},
 
 
     
