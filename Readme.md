@@ -156,6 +156,9 @@ Shadowrocket模块：https://raw.githubusercontent.com/Guding88/Script/main/APPh
 |31|77电脑助手|[点击下载](https://apps.apple.com/app/id1620485227)
 |32|简讯|[点击下载](https://apps.apple.com/app/id1160249028)
 |33|画世界|[点击下载](https://apps.apple.com/app/id1450111327)
+|34|Drum Pad Machine|[点击下载](https://apps.apple.com/app/id1057968965)
+|35|Pixel Art|[点击下载](https://apps.apple.com/app/id1274972321)
+|36|Groovepad|[点击下载](https://apps.apple.com/app/id1454398991)
 
 
 
