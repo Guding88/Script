@@ -103,7 +103,7 @@ Focos= type=http-response,requires-body=1,max-size=0,pattern=^https?:\/\/focos\.
 画世界= type=http-response,requires-body=1,max-size=0,pattern=^https?:\/\/app\.huashijie\.art\/api\/(user\/getPerson|level\/info),script-path=https://raw.githubusercontent.com/Guding88/Script/main/huashijie.js
 
 # Easybrain
-# Easybrain= type=http-response,requires-body=1,max-size=0,pattern=^https?:\/\/storevalidator\.easybrain\.com\/api\/v1\/receipt_verify,script-path=https://raw.githubusercontent.com/Guding88/Script/main/Easybrain.js
+Easybrain= type=http-response,requires-body=1,max-size=0,pattern=^https?:\/\/storevalidator\.easybrain\.com\/api\/v1\/receipt_verify,script-path=https://raw.githubusercontent.com/Guding88/Script/main/Easybrain.js
 
 
 
