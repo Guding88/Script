@@ -48,6 +48,7 @@ Shadowrocket模块：https://raw.githubusercontent.com/Guding88/Script/main/APPh
 |23|ReLens|[点击下载](https://apps.apple.com/app/id1638027598)
 |24|高级服装设计|[点击下载](https://apps.apple.com/app/id1413710253)
 |25|Stylish Text|[点击下载](https://apps.apple.com/app/id1372415493)
+|26|快捷指令库|[点击下载](https://apps.apple.com/app/id1540915106)
 
 
 
