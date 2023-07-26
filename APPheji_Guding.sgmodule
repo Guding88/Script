@@ -102,12 +102,15 @@ Focos= type=http-response,requires-body=1,max-size=0,pattern=^https?:\/\/focos\.
 # 画世界
 画世界= type=http-response,requires-body=1,max-size=0,pattern=^https?:\/\/app\.huashijie\.art\/api\/(user\/getPerson|level\/info),script-path=https://raw.githubusercontent.com/Guding88/Script/main/huashijie.js
 
+# Easybrain
+# Easybrain= type=http-response,requires-body=1,max-size=0,pattern=^https?:\/\/storevalidator\.easybrain\.com\/api\/v1\/receipt_verify,script-path=https://raw.githubusercontent.com/Guding88/Script/main/Easybrain.js
+
 
 
 
 [MITM]
 
-hostname = %APPEND% buy.itunes.apple.com, api.revenuecat.com, my.countingthings.com, cubox.cc, cubox.pro, api.qonversion.io, pocketlists.com, api.neuralprisma.com,appapi.neuralprisma.com, www.evestudio.cn, purchases.ws.pho.to, api.busuu.com, api.expingworld.com, api.leapmobile.cloud, explorer.tratao.com, www.1314zhilv.com, api.getdailyart.com, kc.xinli001.com, www.freshhome.top, api.stats.fm, api.boyasec.com, jietu6.com, 1jietu.com, app.yiyan.art, integral2.dasyibalang.com,www.zomoplan.com,yopu.co,diary-id.sumi.io, server.zbisq.com, focos.oracle.bendingspoonsapps.com, bingxiang.51wnl-cq.com, api.to-future.net, 19700.com, api.tipsoon.com, app.huashijie.art
+hostname = %APPEND% buy.itunes.apple.com, api.revenuecat.com, my.countingthings.com, cubox.cc, cubox.pro, api.qonversion.io, pocketlists.com, api.neuralprisma.com,appapi.neuralprisma.com, www.evestudio.cn, purchases.ws.pho.to, api.busuu.com, api.expingworld.com, api.leapmobile.cloud, explorer.tratao.com, www.1314zhilv.com, api.getdailyart.com, kc.xinli001.com, www.freshhome.top, api.stats.fm, api.boyasec.com, jietu6.com, 1jietu.com, app.yiyan.art, integral2.dasyibalang.com,www.zomoplan.com,yopu.co,diary-id.sumi.io, server.zbisq.com, focos.oracle.bendingspoonsapps.com, bingxiang.51wnl-cq.com, api.to-future.net, 19700.com, api.tipsoon.com, app.huashijie.art, storevalidator.easybrain.com
 
 
 
