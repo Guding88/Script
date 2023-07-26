@@ -44,6 +44,7 @@ var uaProductMapping = {
   'ReLens': {product_id: 'com.risingcabbage.pro.camera.yearlysubscription',},
   'Fashion%20Design%20Sketches': {product_id: 'com.pocketartstudio.fashiondesign.twomonths',},
   'StylishText': {product_id: 'com.app.StylishText.sub.monthly',},//试用后生效
+  '%E5%BF%AB%E6%8D%B7%E6%8C%87%E4%BB%A4%E5%BA%93%E5%85%85%E7%94%B5%E5%8A%A8%E7%94%BB%E5%B0%8F%E7%BB%84%E4%BB%B6': {product_id: 'com.othermaster.yearlyvip',},
 
 
 
