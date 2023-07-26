@@ -88,6 +88,7 @@ if (typeof $response == "undefined") {
     'OneWidget':{ name: 'allaccess', id: 'com.onewidget.vip'},
     'CardPhoto':{ name: 'allaccess', id: 'CardPhoto_Pro'},
     'WhiteCloud':{ name: 'allaccess', id: 'wc_pro_1y'},
+    'MoneyThings':{ name: 'Premium', id: 'com.lishaohui.cashflow.lifetime'},
 
 
     
