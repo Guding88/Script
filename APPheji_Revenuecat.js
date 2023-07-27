@@ -90,6 +90,9 @@ if (typeof $response == "undefined") {
     'WhiteCloud':{ name: 'allaccess', id: 'wc_pro_1y'},
     'MoneyThings':{ name: 'Premium', id: 'com.lishaohui.cashflow.lifetime'},
     'VSCO':{ name: 'pro', id: 'vscopro_global_5999_annual_AutoFreeTrial'},
+    'Tagmiibo':{ name: 'pro', id: 'nfc_pro_lifetime'},
+    'AmiiBoss':{ name: 'pro', id: 'amiiboss_pro'},
+    'Miiloot':{ name: 'pro', id: 'miiloot_pro'},
 
 
     
