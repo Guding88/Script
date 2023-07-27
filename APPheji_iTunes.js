@@ -47,6 +47,7 @@ var uaProductMapping = {
   '%E5%BF%AB%E6%8D%B7%E6%8C%87%E4%BB%A4%E5%BA%93%E5%85%85%E7%94%B5%E5%8A%A8%E7%94%BB%E5%B0%8F%E7%BB%84%E4%BB%B6': {product_id: 'com.othermaster.yearlyvip',},
   'IslandWappScreen': {product_id: 'islandweek1342',},
   'VPN': {product_id: 'com.yearMember',},
+  'oldroll': {product_id: 'com.zijayrate.analogcam.vipforever10',},
 
 
 
