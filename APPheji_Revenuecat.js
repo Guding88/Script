@@ -93,6 +93,7 @@ if (typeof $response == "undefined") {
     'Tagmiibo':{ name: 'pro', id: 'nfc_pro_lifetime'},
     'AmiiBoss':{ name: 'pro', id: 'amiiboss_pro'},
     'Miiloot':{ name: 'pro', id: 'miiloot_pro'},
+    'Stress':{ name: 'StressWatch Pro', id: 'stress_membership_yearly'},
 
 
     
