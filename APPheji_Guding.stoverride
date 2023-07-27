@@ -288,6 +288,14 @@ http:
       max-size: 3145728
       binary-mode: false
 
+    - match: ^https?:\/\/box\.timeblocks\.com\/api\/inbox
+      name: "时间积木"
+      type: response
+      timeout: 30
+      require-body: true
+      max-size: 3145728
+      binary-mode: false
+
 
 
   mitm:
@@ -327,6 +335,7 @@ http:
     - "api.tipsoon.com"
     - "app.huashijie.art"
     - "storevalidator.easybrain.co"
+    - "box.timeblocks.com"
 
 
 script-providers:
@@ -434,6 +443,9 @@ script-providers:
     interval: 86400
   "Easybrain":
     url: https://raw.githubusercontent.com/Guding88/Script/main/Easybrain.js
+    interval: 86400
+  "时间积木":
+    url: https://raw.githubusercontent.com/Guding88/Script/main/shijianjimu.js
     interval: 86400
 
 
