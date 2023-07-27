@@ -116,6 +116,7 @@ Shadowrocket模块：https://raw.githubusercontent.com/Guding88/Script/main/APPh
 |54|‎奇妙组件|[点击下载](https://apps.apple.com/app/id1466785009)
 |55|‎卡片馆|[点击下载](https://apps.apple.com/app/id1441120440)
 |56|‎白云天气|[点击下载](https://apps.apple.com/app/id1575901953)
+|57|‎VSCO|[点击下载](https://apps.apple.com/app/id588013838)
 
 </details>
 <details>
