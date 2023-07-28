@@ -124,6 +124,7 @@ Shadowrocket模块：https://raw.githubusercontent.com/Guding88/Script/main/APPh
 |61|‎‎StressWatch|[点击下载](https://apps.apple.com/app/id6444737095)
 |62|‎‎Anybox|[点击下载](https://apps.apple.com/app/id1593408455)
 |63|‎‎‎Seamless|[点击下载](https://apps.apple.com/app/id1537718448)
+|64|‎‎‎西江诗词|[点击下载](https://apps.apple.com/app/id1084924739)
 
 </details>
 <details>
