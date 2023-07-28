@@ -94,6 +94,8 @@ if (typeof $response == "undefined") {
     'AmiiBoss':{ name: 'pro', id: 'amiiboss_pro'},
     'Miiloot':{ name: 'pro', id: 'miiloot_pro'},
     'Stress':{ name: 'StressWatch Pro', id: 'stress_membership_yearly'},
+    'Anybox':{ name: 'pro', id: 'cc.anybox.Anybox.annual'},
+    'Seamless':{ name: 'Seamless.Pro', id: 'net.shinystone.Seamless.Pro'},
 
 
     
