@@ -127,6 +127,7 @@ Shadowrocket模块：https://raw.githubusercontent.com/Guding88/Script/main/APPh
 |64|‎‎‎西江诗词|[点击下载](https://apps.apple.com/app/id1084924739)
 |65|‎‎‎‎ImageX|[点击下载](https://apps.apple.com/app/id1668530080)
 |66|‎‎‎‎‎Percento|[点击下载](https://apps.apple.com/app/id1494319934)
+|67|‎‎‎‎‎Percento|[点击下载](https://apps.apple.com/app/id1612021829)
 
 </details>
 <details>
