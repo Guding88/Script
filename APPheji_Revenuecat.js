@@ -97,6 +97,7 @@ if (typeof $response == "undefined") {
     'Anybox':{ name: 'pro', id: 'cc.anybox.Anybox.annual'},
     'Seamless':{ name: 'Seamless.Pro', id: 'net.shinystone.Seamless.Pro'},
     'DayPoem':{ name: 'Pro Access', id: 'com.uzero.poem.month1'},
+    'ImageX':{ name: 'imagex.pro.ios', id: 'imagex.pro.ios.lifetime'},
 
 
     
