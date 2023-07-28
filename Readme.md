@@ -122,6 +122,8 @@ Shadowrocket模块：https://raw.githubusercontent.com/Guding88/Script/main/APPh
 |59|‎‎Amiibo Rewards|[点击下载](https://apps.apple.com/app/id1602924918)
 |60|‎‎AmiiBoss|[点击下载](https://apps.apple.com/app/id1579972834)
 |61|‎‎StressWatch|[点击下载](https://apps.apple.com/app/id6444737095)
+|62|‎‎Anybox|[点击下载](https://apps.apple.com/app/id1593408455)
+|63|‎‎‎Seamless|[点击下载](https://apps.apple.com/app/id1537718448)
 
 </details>
 <details>
