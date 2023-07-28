@@ -99,6 +99,7 @@ if (typeof $response == "undefined") {
     'DayPoem':{ name: 'Pro Access', id: 'com.uzero.poem.month1'},
     'ImageX':{ name: 'imagex.pro.ios', id: 'imagex.pro.ios.lifetime'},
     'Percento':{ name: 'premium', id: 'app.percento.premium.9.monthly'},
+    'GoodThing':{ name: 'pro', id: 'goodhappens_basic_forever'},
 
 
     
