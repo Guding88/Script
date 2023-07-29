@@ -469,7 +469,7 @@ script-providers:
     url: https://raw.githubusercontent.com/Guding88/Script/main/Fomz.js
     interval: 86400
   "收起来":
-    url: https://raw.githubusercontent.com/Guding88/Script/main/收起来.js
+    url: https://raw.githubusercontent.com/Guding88/Script/main/shouqilai.js
     interval: 86400
 
 
