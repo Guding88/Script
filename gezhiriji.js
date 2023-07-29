@@ -9,7 +9,8 @@
 hostname = diary-id.sumi.io
 
 */
-"data": {
+var guding = JSON.parse($response.body);
+guding.data = {
     "avatar": "https:\/\/raw\.githubusercontent\.com\/Guding88\/iCon\/main\/png\/Guding\.png",
     "inserted_at": "2023-07-21T16:10:42.933157",
     "email_is_valid": true,
