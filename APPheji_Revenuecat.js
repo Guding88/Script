@@ -101,6 +101,7 @@ if (typeof $response == "undefined") {
     'Percento':{ name: 'premium', id: 'app.percento.premium.9.monthly'},
     'GoodThing':{ name: 'pro', id: 'goodhappens_basic_forever'},
     'MallocVPN':{ name: 'IOS_PRO', id: 'ios_vpn_monthly'},
+    'Usage':{ name: 'pro', id: 'com.olegst.usage.pro'},
 
 
     
