@@ -177,6 +177,7 @@ Shadowrocket模块：https://raw.githubusercontent.com/Guding88/Script/main/APPh
 |36|Groovepad|[点击下载](https://apps.apple.com/app/id1454398991)
 |37|时间积木|[点击下载](https://apps.apple.com/app/id821381018)
 |38|Fomz|[点击下载](https://apps.apple.com/app/id1615744942)
+|39|收起来|[点击下载](https://apps.apple.com/app/id1669206548)
 
 
 
