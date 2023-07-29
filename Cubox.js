@@ -1,5 +1,7 @@
 /*
 
+Cubox：https://apps.apple.com/app/id1113361350
+
 [rewrite_local]
 ^https?:\/\/cubox\.(cc|pro)\/c\/api\/userInfo url script-response-body https://raw.githubusercontent.com/Guding88/Script/main/Cubox.js
 
