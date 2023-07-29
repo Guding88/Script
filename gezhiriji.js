@@ -23,6 +23,5 @@ guding.data = {
     "db_version": 1,
     "active_device_ids": [
     ]
-  }
-}
+  };
 $done({ body: JSON.stringify(guding) });
