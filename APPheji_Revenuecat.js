@@ -100,6 +100,7 @@ if (typeof $response == "undefined") {
     'ImageX':{ name: 'imagex.pro.ios', id: 'imagex.pro.ios.lifetime'},
     'Percento':{ name: 'premium', id: 'app.percento.premium.9.monthly'},
     'GoodThing':{ name: 'pro', id: 'goodhappens_basic_forever'},
+    'MallocVPN':{ name: 'IOS_PRO', id: 'ios_vpn_monthly'},
 
 
     
