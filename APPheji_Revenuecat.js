@@ -96,7 +96,7 @@ if (typeof $response == "undefined") {
     'Stress':{ name: 'StressWatch Pro', id: 'stress_membership_yearly'},
     'Anybox':{ name: 'pro', id: 'cc.anybox.Anybox.annual'},
     'Seamless':{ name: 'Seamless.Pro', id: 'net.shinystone.Seamless.Pro'},
-    'DayPoem':{ name: 'Pro Access', id: 'com.uzero.poem.month1'},
+    'DayPoem':{ name: 'Pro Lifetime', id: 'com.uzero.poem.life1.free'},
     'ImageX':{ name: 'imagex.pro.ios', id: 'imagex.pro.ios.lifetime'},
     'Percento':{ name: 'premium', id: 'app.percento.premium.9.monthly'},
     'GoodThing':{ name: 'pro', id: 'goodhappens_basic_forever'},
