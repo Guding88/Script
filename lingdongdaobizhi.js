@@ -24,6 +24,7 @@ var guding = {
           "original_purchase_date_ms": "666666666666666" 
         } 
       ], 
+      "request_date": "2022-02-02 06:06:06 Etc\/GMT",
       "application_version": "6", 
       "original_purchase_date_ms": "666666666666666", 
       "original_application_version": "6" 
