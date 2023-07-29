@@ -48,6 +48,7 @@ var uaProductMapping = {
   'IslandWappScreen': {product_id: 'islandweek1342',},
   'VPN': {product_id: 'com.yearMember',},
   'oldroll': {product_id: 'com.zijayrate.analogcam.vipforever10',},
+  'Subscriptions': {product_id: 'com.touchbits.subscriptions.iap.pro.yearly',},
 
 
 
