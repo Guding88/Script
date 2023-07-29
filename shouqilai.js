@@ -9,3 +9,10 @@
 hostname = api.shouqilai.cn
 
 */
+var guding = JSON.parse($response.body);
+guding.data.avatarUrl = "https:\/\/raw\.githubusercontent\.com\/Guding88\/iCon\/main\/png\/Guding\.png";
+guding.data.vip = true;
+guding.data.foreverVip = true;
+guding.data.nickName = "骨钉";
+guding.data.code = "https:\/\/t\.me\/Guding88";
+$done({ body: JSON.stringify(guding) });
