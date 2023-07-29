@@ -304,6 +304,14 @@ http:
       max-size: 3145728
       binary-mode: false
 
+    - match: ^https?:\/\/api\.shouqilai\.cn\/m\/receive\/account\/getAccountByToken
+      name: "收起来"
+      type: response
+      timeout: 30
+      require-body: true
+      max-size: 3145728
+      binary-mode: false
+
 
 
   mitm:
@@ -345,6 +353,7 @@ http:
     - "storevalidator.easybrain.co"
     - "box.timeblocks.com"
     - "fz68resapi.imendon.com"
+    - "api.shouqilai.cn"
 
 
 script-providers:
@@ -458,6 +467,9 @@ script-providers:
     interval: 86400
   "Fomz":
     url: https://raw.githubusercontent.com/Guding88/Script/main/Fomz.js
+    interval: 86400
+  "收起来":
+    url: https://raw.githubusercontent.com/Guding88/Script/main/收起来.js
     interval: 86400
 
 
