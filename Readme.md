@@ -132,6 +132,7 @@ Shadowrocket模块：https://raw.githubusercontent.com/Guding88/Script/main/APPh
 |68|‎‎‎‎‎Malloc VPN|[点击下载](https://apps.apple.com/app/id1632814003)
 |69|‎‎‎‎‎Usage|[点击下载](https://apps.apple.com/app/id970353453)
 |70|‎‎‎‎‎揭幕|[点击下载](https://apps.apple.com/app/id1585168957)
+|71|‎‎‎‎‎小决定|[点击下载](https://apps.apple.com/app/id1338769645)
 
 
 
