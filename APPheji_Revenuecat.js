@@ -103,6 +103,7 @@ if (typeof $response == "undefined") {
     'MallocVPN':{ name: 'IOS_PRO', id: 'ios_vpn_monthly'},
     'Usage':{ name: 'pro', id: 'com.olegst.usage.pro'},
     'inaugurate':{ name: 'pro', id: 'iagr_pro_1m'},
+    'Decision':{ name: 'com.nixwang.decision.entitlements.pro', id: 'com.nixwang.decision.pro'},
 
 
     
