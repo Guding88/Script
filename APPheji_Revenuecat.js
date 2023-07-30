@@ -102,6 +102,7 @@ if (typeof $response == "undefined") {
     'GoodThing':{ name: 'pro', id: 'goodhappens_basic_forever'},
     'MallocVPN':{ name: 'IOS_PRO', id: 'ios_vpn_monthly'},
     'Usage':{ name: 'pro', id: 'com.olegst.usage.pro'},
+    'inaugurate':{ name: 'pro', id: 'iagr_pro_1m'},
 
 
     
