@@ -133,6 +133,17 @@ Shadowrocket模块：https://raw.githubusercontent.com/Guding88/Script/main/APPh
 |69|‎‎‎‎‎Usage|[点击下载](https://apps.apple.com/app/id970353453)
 |70|‎‎‎‎‎揭幕|[点击下载](https://apps.apple.com/app/id1585168957)
 |71|‎‎‎‎‎小决定|[点击下载](https://apps.apple.com/app/id1338769645)
+|72|‎‎‎‎‎元气计时|[点击下载](https://apps.apple.com/app/id1462723508)
+|73|‎‎‎‎‎植物宝|[点击下载](https://apps.apple.com/app/id1566070492)
+|74|‎‎‎‎‎HRZN|[点击下载](https://apps.apple.com/app/id1398160182)
+|75|‎‎‎‎‎喵组件|[点击下载](https://apps.apple.com/app/id1563244756)
+|76|‎‎‎‎‎MyPianist|[点击下载](https://apps.apple.com/app/id1460393665)
+|77|‎‎‎‎‎Thenics|[点击下载](https://apps.apple.com/app/id1509531048)
+|78|‎‎‎‎‎Currency|[点击下载](https://apps.apple.com/app/id284220417)
+|79|‎‎‎‎‎Math Makers|[点击下载](https://apps.apple.com/app/id1558532437)
+|80|‎‎‎‎‎Happy Days|[点击下载](https://apps.apple.com/app/id1564858029)
+|81|‎‎‎‎‎Thiro|[点击下载](https://apps.apple.com/app/id1555982483)
+|82|‎‎‎‎‎‎FTChatAI|[点击下载](https://apps.apple.com/app/id6446242414)
 
 
 
