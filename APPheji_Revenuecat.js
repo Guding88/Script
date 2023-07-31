@@ -114,6 +114,7 @@ if (typeof $response == "undefined") {
     'Math%20Makers':{ name: 'Subscriber', id: 'com.ululab.numbers.subscription_one_year_03'},
     'Happy%3ADays':{ name: 'pro', id: 'happy_999_lifetime'},
     'Thiro':{ name: 'pro', id: 'atelerix_pro_lifetime'},
+    'FTChatAI':{ name: 'pro', id: 'ft_ai_1799_1y'},
 
 
     
