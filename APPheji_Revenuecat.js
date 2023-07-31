@@ -104,6 +104,16 @@ if (typeof $response == "undefined") {
     'Usage':{ name: 'pro', id: 'com.olegst.usage.pro'},
     'inaugurate':{ name: 'pro', id: 'iagr_pro_1m'},
     'Decision':{ name: 'com.nixwang.decision.entitlements.pro', id: 'com.nixwang.decision.pro'},
+    '%E5%85%83%E6%B0%94%E8%AE%A1%E6%97%B6':{ name: 'plus', id: 'powertimer.plus'},
+    'Plant%20Journal':{ name: 'pro', id: 'pro_3999_lifetime'},
+    'HRZN':{ name: 'plus', id: 'plus_999_lifetime'},
+    '%E5%96%B5%E7%BB%84%E4%BB%B6':{ name: 'MiaoWidgetPro', id: 'MiaoWidgetProYear'},
+    'MyPianist':{ name: 'pro', id: 'com.collaparte.mypianist.pro.yearly'},
+    'Thenics':{ name: 'pro', id: 'pro_yearly_subscription_ios'},
+    'Currency':{ name: 'plus', id: 'com.jeffreygrossman.currencyapp.iap.plus'},
+    'Math%20Makers':{ name: 'Subscriber', id: 'com.ululab.numbers.subscription_one_year_03'},
+    'Happy%3ADays':{ name: 'pro', id: 'happy_999_lifetime'},
+    'Thiro':{ name: 'pro', id: 'atelerix_pro_lifetime'},
 
 
     
