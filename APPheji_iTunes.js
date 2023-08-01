@@ -52,6 +52,7 @@ var uaProductMapping = {
   'intolive': {product_id: 'me.imgbase.intolive.proSubYearly',bundle_id: 'https://t.me/Guding88'},
   'PocketPics': {product_id: 'pocketpics_monthly_withtrial_0901',bundle_id: 'https://t.me/Guding88'},
   'CardDiary': {product_id: 'FuYuan.inkDiary.YearB.Pro',bundle_id: 'FuYuan.inkDiary'},
+  '%E7%86%8A%E6%8E%8C%E8%AE%B0': {product_id: 'net.shinyfrog.bear_iOS.pro_yearly_subscription_bis',bundle_id: 'https://t.me/Guding88'},
 
 
 
