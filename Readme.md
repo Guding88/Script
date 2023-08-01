@@ -151,6 +151,7 @@ Shadowrocket模块：https://raw.githubusercontent.com/Guding88/Script/main/APPh
 |83|‎‎‎‎‎‎秩序目标|[点击下载](https://apps.apple.com/app/id1609740590)
 |84|‎‎‎‎‎‎Zoomerang|[点击下载](https://apps.apple.com/app/id1361030006)
 |85|‎‎‎‎‎‎‎WeFast|[点击下载](https://apps.apple.com/app/id1568744702)
+|86|‎‎‎‎‎‎‎好事发生|[点击下载](https://apps.apple.com/app/id1612021829)
 
 
 
