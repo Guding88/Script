@@ -328,6 +328,14 @@ http:
       max-size: 3145728
       binary-mode: false
 
+    - match: ^https?:\/\/.*\.duitang\.com\/napi
+      name: "堆糖"
+      type: response
+      timeout: 30
+      require-body: true
+      max-size: 3145728
+      binary-mode: false
+
 
 
   mitm:
@@ -372,6 +380,7 @@ http:
     - "api.shouqilai.cn"
     - "lchttpapi.xczim.com"
     - "ruanmianmian.xinzhi.space"
+    - "*.duitang.com"
 
 
 script-providers:
@@ -494,6 +503,9 @@ script-providers:
     interval: 86400
   "软眠眠":
     url: https://raw.githubusercontent.com/Guding88/Script/main/ruanmianmian.js
+    interval: 86400
+  "堆糖":
+    url: https://raw.githubusercontent.com/Guding88/Script/main/duitang.js
     interval: 86400
 
 
