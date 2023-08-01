@@ -52,6 +52,9 @@ Shadowrocket模块：https://raw.githubusercontent.com/Guding88/Script/main/APPh
 |27|灵动岛壁纸|[点击下载](https://apps.apple.com/app/id6444463659)
 |28|鹰眼加速器|[点击下载](https://apps.apple.com/app/id1583608120)
 |29|订阅通|[点击下载](https://apps.apple.com/app/id1577082754)
+|30|intoLive|[点击下载](https://apps.apple.com/app/id1061859052)
+|31|奇妙P图|[点击下载](https://apps.apple.com/app/id1509179692)
+|32|卡片日记|[点击下载](https://apps.apple.com/app/id1295506659)
 
 
 
