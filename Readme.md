@@ -55,6 +55,7 @@ Shadowrocket模块：https://raw.githubusercontent.com/Guding88/Script/main/APPh
 |30|intoLive|[点击下载](https://apps.apple.com/app/id1061859052)
 |31|奇妙P图|[点击下载](https://apps.apple.com/app/id1509179692)
 |32|卡片日记|[点击下载](https://apps.apple.com/app/id1295506659)
+|33|熊掌记|[点击下载](https://apps.apple.com/app/id1016366447)
 
 
 
