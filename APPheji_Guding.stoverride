@@ -312,6 +312,22 @@ http:
       max-size: 3145728
       binary-mode: false
 
+    - match: ^https?:\/\/lchttpapi\.xczim\.com\/1.1\/users
+      name: "西窗烛"
+      type: response
+      timeout: 30
+      require-body: true
+      max-size: 3145728
+      binary-mode: false
+
+    - match: ^https?:\/\/ruanmianmian\.xinzhi\.space\/api\/v1\/getUserByToken
+      name: "软眠眠"
+      type: response
+      timeout: 30
+      require-body: true
+      max-size: 3145728
+      binary-mode: false
+
 
 
   mitm:
@@ -354,6 +370,8 @@ http:
     - "box.timeblocks.com"
     - "fz68resapi.imendon.com"
     - "api.shouqilai.cn"
+    - "lchttpapi.xczim.com"
+    - "ruanmianmian.xinzhi.space"
 
 
 script-providers:
@@ -470,6 +488,12 @@ script-providers:
     interval: 86400
   "收起来":
     url: https://raw.githubusercontent.com/Guding88/Script/main/shouqilai.js
+    interval: 86400
+  "西窗烛":
+    url: https://raw.githubusercontent.com/Guding88/Script/main/xichuangzhu.js
+    interval: 86400
+  "软眠眠":
+    url: https://raw.githubusercontent.com/Guding88/Script/main/ruanmianmian.js
     interval: 86400
 
 
