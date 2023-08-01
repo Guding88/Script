@@ -147,6 +147,7 @@ Shadowrocket模块：https://raw.githubusercontent.com/Guding88/Script/main/APPh
 |80|‎‎‎‎‎Happy Days|[点击下载](https://apps.apple.com/app/id1564858029)
 |81|‎‎‎‎‎Thiro|[点击下载](https://apps.apple.com/app/id1555982483)
 |82|‎‎‎‎‎‎FTChatAI|[点击下载](https://apps.apple.com/app/id6446242414)
+|83|‎‎‎‎‎‎秩序目标|[点击下载](https://apps.apple.com/app/id1609740590)
 
 
 
