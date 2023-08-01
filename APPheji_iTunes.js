@@ -49,6 +49,9 @@ var uaProductMapping = {
   'VPN': {product_id: 'com.yearMember',},
   'oldroll': {product_id: 'com.zijayrate.analogcam.vipforever10',},
   'Subscriptions': {product_id: 'com.touchbits.subscriptions.iap.pro.yearly',},
+  'intolive': {product_id: 'me.imgbase.intolive.proSubYearly',bundle_id: 'https://t.me/Guding88'},
+  'PocketPics': {product_id: 'pocketpics_monthly_withtrial_0901',bundle_id: 'https://t.me/Guding88'},
+  'CardDiary': {product_id: 'FuYuan.inkDiary.YearB.Pro',bundle_id: 'FuYuan.inkDiary'},
 
 
 
