@@ -16,6 +16,8 @@ var guding = {
       "in_app": [ 
         { 
           "quantity": "1", 
+          "expires_date": "6666-06-06 06:06:06 Etc\/GMT",
+          "expires_date_pst": "6666-06-06 06:06:06 America\/Los_Angeles",
           "purchase_date_ms": "666666666666666", 
           "transaction_id": "666666666666666", 
           "original_transaction_id": "666666666666666", 
@@ -24,6 +26,7 @@ var guding = {
           "original_purchase_date_ms": "666666666666666" 
         } 
       ], 
+      "request_date": "2022-02-02 06:06:06 Etc\/GMT",
       "application_version": "6", 
       "original_purchase_date_ms": "666666666666666", 
       "original_application_version": "6" 
