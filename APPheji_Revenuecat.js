@@ -117,6 +117,7 @@ if (typeof $response == "undefined") {
     'FTChatAI':{ name: 'pro', id: 'ft_ai_1799_1y'},
     '%E7%A7%A9%E5%BA%8F%E7%9B%AE%E6%A0%87':{ name: 'pro', id: 'com.metaorder.OKRTomato.vip.supremacy'},
     'Zoomerang':{ name: 'pro', id: 'zoomerang.yearly'},
+    'FastingForWoman':{ name: 'wefast_premium', id: 'wefast.yearlysubscription'},
 
 
     
