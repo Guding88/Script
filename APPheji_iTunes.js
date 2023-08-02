@@ -55,6 +55,7 @@ var uaProductMapping = {
   '%E7%86%8A%E6%8E%8C%E8%AE%B0': {product_id: 'net.shinyfrog.bear_iOS.pro_yearly_subscription_bis',bundle_id: 'https://t.me/Guding88'},
   '%E6%97%A5%E8%AE%B02.0': {product_id: 'com.LuoWei.aDiary.yearly0',bundle_id: 'https://t.me/Guding88'},
   'LifeTracker': {product_id: 'com.dk.lifetracker.yearplan',bundle_id: 'https://t.me/Guding88'},
+  'newFitnessApp': {product_id: 'newfitnessapp02',bundle_id: 'myndarc.newFitnessApp'},
 
 
 
