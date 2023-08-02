@@ -203,6 +203,7 @@ Shadowrocket模块：https://raw.githubusercontent.com/Guding88/Script/main/APPh
 |39|收起来|[点击下载](https://apps.apple.com/app/id1669206548)
 |40|西窗烛|[点击下载](https://apps.apple.com/app/id912139104)
 |41|软眠眠|[点击下载](https://apps.apple.com/app/id1640036657)
+|42|小习惯|[点击下载](https://apps.apple.com/app/id1455083310)
 
 
 
