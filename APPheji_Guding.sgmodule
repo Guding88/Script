@@ -126,13 +126,16 @@ Fomz= type=http-response,requires-body=1,max-size=0,pattern=^https:\/\/fz68resap
 # 小习惯
 小习惯= type=http-response,requires-body=1,max-size=0,pattern=^https?:\/\/xianbeikeji\.com\/daily\/app\/user\/query$,script-path=https://raw.githubusercontent.com/Guding88/Script/main/xiaoxiguan.js
 
+# 星光手帐
+星光手帐= type=http-response,requires-body=1,max-size=0,pattern=^https?:\/\/sz\.szsszykj\.com\/api\/(user\/info|sign\/index|energy\/index|version\/popup),script-path=https://raw.githubusercontent.com/Guding88/Script/main/xingguangshouzhang.js
+
 
 
 
 
 [MITM]
 
-hostname = %APPEND% buy.itunes.apple.com, api.revenuecat.com, my.countingthings.com, cubox.cc, cubox.pro, api.qonversion.io, pocketlists.com, api.neuralprisma.com,appapi.neuralprisma.com, www.evestudio.cn, purchases.ws.pho.to, api.busuu.com, api.expingworld.com, api.leapmobile.cloud, explorer.tratao.com, www.1314zhilv.com, api.getdailyart.com, kc.xinli001.com, www.freshhome.top, api.stats.fm, api.boyasec.com, jietu6.com, 1jietu.com, app.yiyan.art, integral2.dasyibalang.com,www.zomoplan.com,yopu.co,diary-id.sumi.io, server.zbisq.com, focos.oracle.bendingspoonsapps.com, bingxiang.51wnl-cq.com, api.to-future.net, 19700.com, api.tipsoon.com, app.huashijie.art, storevalidator.easybrain.com, box.timeblocks.com, fz68resapi.imendon.com,api.shouqilai.cn, lchttpapi.xczim.com, ruanmianmian.xinzhi.space, *.duitang.com, xianbeikeji.com
+hostname = %APPEND% buy.itunes.apple.com, api.revenuecat.com, my.countingthings.com, cubox.cc, cubox.pro, api.qonversion.io, pocketlists.com, api.neuralprisma.com,appapi.neuralprisma.com, www.evestudio.cn, purchases.ws.pho.to, api.busuu.com, api.expingworld.com, api.leapmobile.cloud, explorer.tratao.com, www.1314zhilv.com, api.getdailyart.com, kc.xinli001.com, www.freshhome.top, api.stats.fm, api.boyasec.com, jietu6.com, 1jietu.com, app.yiyan.art, integral2.dasyibalang.com,www.zomoplan.com,yopu.co,diary-id.sumi.io, server.zbisq.com, focos.oracle.bendingspoonsapps.com, bingxiang.51wnl-cq.com, api.to-future.net, 19700.com, api.tipsoon.com, app.huashijie.art, storevalidator.easybrain.com, box.timeblocks.com, fz68resapi.imendon.com,api.shouqilai.cn, lchttpapi.xczim.com, ruanmianmian.xinzhi.space, *.duitang.com, xianbeikeji.com, sz.szsszykj.com
 
 
 
