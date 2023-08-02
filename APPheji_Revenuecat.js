@@ -119,6 +119,8 @@ if (typeof $response == "undefined") {
     'Zoomerang':{ name: 'pro', id: 'zoomerang.yearly'},
     'FastingForWoman':{ name: 'wefast_premium', id: 'wefast.yearlysubscription'},
     'Cookie':{ name: 'allaccess', id: 'app.ft.Bookkeeping.lifetime'},
+    '%E5%9B%BE%E7%89%87%E6%B6%88%E9%99%A4':{ name: 'premium membership', id: 'com.skysoft.removalfree.introduction.yearly'},
+    '%E7%9B%AE%E6%A0%87%E5%9C%B0%E5%9B%BE':{ name: 'pro', id: 'com.happydogteam.relax.lifetimePro'},
 
 
     
