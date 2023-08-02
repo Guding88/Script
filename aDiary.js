@@ -1,9 +1,9 @@
 /*
 
-iDiary：https://apps.apple.com/app/id1564045149
+aDiary：https://apps.apple.com/app/id1564045149
 
 [rewrite_local]
-^https?:\/\/buy\.itunes\.apple\.com\/verifyReceipt$ url script-response-body https://raw.githubusercontent.com/Guding88/Script/main/iDiary.js
+^https?:\/\/buy\.itunes\.apple\.com\/verifyReceipt$ url script-response-body https://raw.githubusercontent.com/Guding88/Script/main/aDiary.js
 
 [MITM]
 hostname = buy.itunes.apple.com
