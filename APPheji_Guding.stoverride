@@ -336,6 +336,14 @@ http:
       max-size: 3145728
       binary-mode: false
 
+    - match: ^https?:\/\/xianbeikeji\.com\/daily\/app\/user\/query$
+      name: "小习惯"
+      type: response
+      timeout: 30
+      require-body: true
+      max-size: 3145728
+      binary-mode: false
+
 
 
   mitm:
@@ -381,6 +389,7 @@ http:
     - "lchttpapi.xczim.com"
     - "ruanmianmian.xinzhi.space"
     - "*.duitang.com"
+    - "xianbeikeji.com"
 
 
 script-providers:
@@ -506,6 +515,9 @@ script-providers:
     interval: 86400
   "堆糖":
     url: https://raw.githubusercontent.com/Guding88/Script/main/duitang.js
+    interval: 86400
+  "小习惯":
+    url: https://raw.githubusercontent.com/Guding88/Script/main/xiaoxiguan.js
     interval: 86400
 
 
