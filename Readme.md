@@ -58,6 +58,7 @@ Shadowrocket模块：https://raw.githubusercontent.com/Guding88/Script/main/APPh
 |33|熊掌记|[点击下载](https://apps.apple.com/app/id1016366447)
 |34|‎aDiary|[点击下载](https://apps.apple.com/app/id1564045149)
 |35|‎Becord|[点击下载](https://apps.apple.com/app/id1608773156)
+|36|‎‎Athlytic|[点击下载](https://apps.apple.com/app/id1543571755)
 
 
 * Air系列未完全整理，**必须先下载计算器Air并解锁**，然后再下载同一开发者的同系列产品，会自动同步解锁。
