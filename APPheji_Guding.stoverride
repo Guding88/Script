@@ -344,6 +344,14 @@ http:
       max-size: 3145728
       binary-mode: false
 
+    - match: ^https?:\/\/sz\.szsszykj\.com\/api\/(user\/info|sign\/index|energy\/index|version\/popup)
+      name: "星光手帐"
+      type: response
+      timeout: 30
+      require-body: true
+      max-size: 3145728
+      binary-mode: false
+
 
 
   mitm:
@@ -390,6 +398,7 @@ http:
     - "ruanmianmian.xinzhi.space"
     - "*.duitang.com"
     - "xianbeikeji.com"
+    - "sz.szsszykj.com"
 
 
 script-providers:
@@ -518,6 +527,9 @@ script-providers:
     interval: 86400
   "小习惯":
     url: https://raw.githubusercontent.com/Guding88/Script/main/xiaoxiguan.js
+    interval: 86400
+  "星光手帐":
+    url: https://raw.githubusercontent.com/Guding88/Script/main/xingguangshouzhang.js
     interval: 86400
 
 
