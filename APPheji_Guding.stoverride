@@ -352,6 +352,14 @@ http:
       max-size: 3145728
       binary-mode: false
 
+    - match: ^https?:\/\/acs\.m\.taobao\.com\/gw\/mtop\.sm\.order\.service\.member\.getmemberinfo
+      name: "夸克扫描王"
+      type: response
+      timeout: 30
+      require-body: true
+      max-size: 3145728
+      binary-mode: false
+
 
 
   mitm:
@@ -399,6 +407,7 @@ http:
     - "*.duitang.com"
     - "xianbeikeji.com"
     - "sz.szsszykj.com"
+    - "acs.m.taobao.com"
 
 
 script-providers:
@@ -530,6 +539,9 @@ script-providers:
     interval: 86400
   "星光手帐":
     url: https://raw.githubusercontent.com/Guding88/Script/main/xingguangshouzhang.js
+    interval: 86400
+  "夸克扫描王":
+    url: https://raw.githubusercontent.com/Guding88/Script/main/kuakesaomiaowang.js
     interval: 86400
 
 
