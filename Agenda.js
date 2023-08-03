@@ -10,14 +10,14 @@ hostname = accounts.agenda.com
 
 */
 var guding = {
-  "unlockExpiryMobile": 148204937166000,
+  "unlockExpiryMobile": 148204937166,
   "licenseStatusMobile": 2,
   "licenseStatus": 2,
   "informUserOfPendingBonus": false,
   "hasLifetimeUnlock": false,
   "freeTrialStatus": 1,
   "isSubscribed": true,
-  "unlockExpiry": 148204937166000,
+  "unlockExpiry": 148204937166,
   "isSubscribedMobile": true,
   "error": 0,
   "universalPurchaseAvailable": false
