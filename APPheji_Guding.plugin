@@ -135,10 +135,14 @@ http-response ^https?:\/\/sz\.szsszykj\.com\/api\/(user\/info|sign\/index|energy
 # 夸克扫描王
 http-response ^https?:\/\/acs\.m\.taobao\.com\/gw\/mtop\.sm\.order\.service\.member\.getmemberinfo script-path=https://raw.githubusercontent.com/Guding88/Script/main/kuakesaomiaowang.js, requires-body=true, tag=夸克扫描王
 
+# Agenda
+http-response ^https?:\/\/accounts\.agenda\.com\/users script-path=https://raw.githubusercontent.com/Guding88/Script/main/Agenda.js, requires-body=true, tag=Agenda
+
+
 
 
 [MITM]
 
-hostname = buy.itunes.apple.com,api.revenuecat.com,my.countingthings.com,cubox.cc,cubox.pro,api.qonversion.io,pocketlists.com,api.neuralprisma.com,appapi.neuralprisma.com,www.evestudio.cn,purchases.ws.pho.to,api.busuu.com,api.expingworld.com,api.leapmobile.cloud,explorer.tratao.com,www.1314zhilv.com,api.getdailyart.com,kc.xinli001.com,www.freshhome.top,api.stats.fm,api.boyasec.com,jietu6.com,1jietu.com,app.yiyan.art,integral2.dasyibalang.com,www.zomoplan.com,yopu.co,diary-id.sumi.io, server.zbisq.com, focos.oracle.bendingspoonsapps.com, bingxiang.51wnl-cq.com, api.to-future.net, 19700.com, api.tipsoon.com, app.huashijie.art, storevalidator.easybrain.com, box.timeblocks.com, fz68resapi.imendon.com, api.shouqilai.cn, lchttpapi.xczim.com, ruanmianmian.xinzhi.space, *.duitang.com， xianbeikeji.com, sz.szsszykj.com, acs.m.taobao.com
+hostname = buy.itunes.apple.com,api.revenuecat.com,my.countingthings.com,cubox.cc,cubox.pro,api.qonversion.io,pocketlists.com,api.neuralprisma.com,appapi.neuralprisma.com,www.evestudio.cn,purchases.ws.pho.to,api.busuu.com,api.expingworld.com,api.leapmobile.cloud,explorer.tratao.com,www.1314zhilv.com,api.getdailyart.com,kc.xinli001.com,www.freshhome.top,api.stats.fm,api.boyasec.com,jietu6.com,1jietu.com,app.yiyan.art,integral2.dasyibalang.com,www.zomoplan.com,yopu.co,diary-id.sumi.io, server.zbisq.com, focos.oracle.bendingspoonsapps.com, bingxiang.51wnl-cq.com, api.to-future.net, 19700.com, api.tipsoon.com, app.huashijie.art, storevalidator.easybrain.com, box.timeblocks.com, fz68resapi.imendon.com, api.shouqilai.cn, lchttpapi.xczim.com, ruanmianmian.xinzhi.space, *.duitang.com， xianbeikeji.com, sz.szsszykj.com, acs.m.taobao.com, accounts.agenda.com
 
 
