@@ -136,6 +136,7 @@ if (typeof $response == "undefined") {
   for (const i in UAMappings) {
     if (new RegExp(`^${i}`, 'i').test(UA)) {
       const { name, id } = UAMappings[i];
+      guding6.subscriber.subscriptions = {};
       guding6.subscriber.subscriptions[id] = data;
       guding6.subscriber.entitlements[name] = JSON.parse(JSON.stringify(data));
       guding6.subscriber.entitlements[name].product_identifier = id;
