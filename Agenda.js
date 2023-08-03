@@ -9,7 +9,8 @@ Agenda：https://apps.apple.com/app/id1370289240
 hostname = accounts.agenda.com
 
 */
-var guding = {
+var guding = JSON.parse($response.body);
+guding = {
   "unlockExpiryMobile": 148204937166,
   "licenseStatusMobile": 2,
   "licenseStatus": 2,
