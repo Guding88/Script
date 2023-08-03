@@ -132,6 +132,9 @@ http-response ^https?:\/\/xianbeikeji\.com\/daily\/app\/user\/query$ script-path
 # 星光手帐
 http-response ^https?:\/\/sz\.szsszykj\.com\/api\/(user\/info|sign\/index|energy\/index|version\/popup) script-path=https://raw.githubusercontent.com/Guding88/Script/main/xingguangshouzhang.js, requires-body=true, tag=星光手帐
 
+# 夸克扫描王
+http-response ^https?:\/\/acs\.m\.taobao\.com\/gw\/mtop\.sm\.order\.service\.member\.getmemberinfo script-path=https://raw.githubusercontent.com/Guding88/Script/main/kuakesaomiaowang.js, requires-body=true, tag=夸克扫描王
+
 
 
 [MITM]
