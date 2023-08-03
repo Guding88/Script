@@ -210,6 +210,7 @@ Shadowrocket模块：https://raw.githubusercontent.com/Guding88/Script/main/APPh
 |42|小习惯|[点击下载](https://apps.apple.com/app/id1455083310)
 |43|星光手帐|[点击下载](https://apps.apple.com/app/id1579846386)
 |44|夸克扫描王|[点击下载](https://apps.apple.com/app/id1160172628)
+|45|Agenda|[点击下载](https://apps.apple.com/app/id1370289240)
 
 
 
