@@ -9,18 +9,18 @@ Agenda：https://apps.apple.com/app/id1370289240
 hostname = accounts.agenda.com
 
 */
-var guding = JSON.parse($response.body);
-guding = {
-  "unlockExpiryMobile": 148204937166,
-  "licenseStatusMobile": 2,
-  "licenseStatus": 2,
-  "informUserOfPendingBonus": false,
-  "hasLifetimeUnlock": false,
-  "freeTrialStatus": 1,
-  "isSubscribed": true,
-  "unlockExpiry": 148204937166,
-  "isSubscribedMobile": true,
-  "error": 0,
-  "universalPurchaseAvailable": false
-}
-$done({ body: JSON.stringify(guding) });
+var guding = $response.body;
+guding = JSON.parse(guding);
+guding.unlockExpiryMobile = 148204937166;
+guding.licenseStatusMobile = 2;
+guding.licenseStatus = 2;
+guding.informUserOfPendingBonus = false;
+guding.hasLifetimeUnlock = false;
+guding.freeTrialStatus = 1;
+guding.isSubscribed = true;
+guding.unlockExpiry = 148204937166;
+guding.isSubscribedMobile = true;
+guding.error = 0;
+guding.universalPurchaseAvailable = false;
+guding = JSON.stringify(guding);
+$done({ body: guding });
