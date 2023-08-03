@@ -15,7 +15,7 @@ var guding = {
   "licenseStatus": 2,
   "informUserOfPendingBonus": false,
   "hasLifetimeUnlock": true,
-  "freeTrialStatus": 0,
+  "freeTrialStatus": 1,
   "isSubscribed": true,
   "unlockExpiry": 148204937166000,
   "isSubscribedMobile": true,
