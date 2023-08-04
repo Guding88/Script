@@ -121,6 +121,7 @@ if (typeof $response == "undefined") {
     'Cookie':{ name: 'allaccess', id: 'app.ft.Bookkeeping.lifetime'},
     '%E5%9B%BE%E7%89%87%E6%B6%88%E9%99%A4':{ name: 'premium membership', id: 'com.skysoft.removalfree.introduction.yearly'},
     '%E7%9B%AE%E6%A0%87%E5%9C%B0%E5%9B%BE':{ name: 'pro', id: 'com.happydogteam.relax.lifetimePro'},
+    'TouchRetouchBasic':{ name: 'premium', id: 'tr5_yearlysubsc_20dlrs_1'},
 
 
     
