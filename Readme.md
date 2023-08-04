@@ -60,6 +60,10 @@ Shadowrocket模块：https://raw.githubusercontent.com/Guding88/Script/main/APPh
 |35|‎Becord|[点击下载](https://apps.apple.com/app/id1608773156)
 |36|‎‎Athlytic|[点击下载](https://apps.apple.com/app/id1543571755)
 |37|‎‎Noted|[点击下载](https://apps.apple.com/app/id1149425482)
+|38|‎‎CostMemo|[点击下载](https://apps.apple.com/app/id6444737474)
+|39|‎‎时间印迹|[点击下载](https://apps.apple.com/app/id6450100115)
+|40|‎‎iTimely|[点击下载](https://apps.apple.com/app/id6447499788)
+|41|‎‎DoMemo|[点击下载](https://apps.apple.com/app/id1624344916)
 
 
 * Air系列未完全整理，**必须先下载计算器Air并解锁**，然后再下载同一开发者的同系列产品，会自动同步解锁。
