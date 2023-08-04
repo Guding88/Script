@@ -376,6 +376,14 @@ http:
       max-size: 3145728
       binary-mode: false
 
+    - match: ^https?:\/\/openapi.qian-gua.com\/v2\/(Login\/LoginByWechat|User\/GetUserInfo)
+      name: "千瓜数据"
+      type: response
+      timeout: 30
+      require-body: true
+      max-size: 3145728
+      binary-mode: false
+
 
 
   mitm:
@@ -426,6 +434,7 @@ http:
     - "acs.m.taobao.com"
     - "accounts.agenda.com"
     - "judouapp.com"
+    - "openapi.qian-gua.com"
 
 
 script-providers:
@@ -566,6 +575,9 @@ script-providers:
     interval: 86400
   "句读":
     url: https://raw.githubusercontent.com/Guding88/Script/main/judou.js
+    interval: 86400
+  "千瓜数据":
+    url: https://raw.githubusercontent.com/Guding88/Script/main/qianguashuju.js
     interval: 86400
 
 
