@@ -3,10 +3,10 @@
 Noted：https://apps.apple.com/app/id1149425482
 
 [rewrite_local]
-^https?:\/\/buy\.itunes\.apple\.com\/verifyReceipt$ url script-response-body https://raw.githubusercontent.com/Guding88/Script/main/Noted.js
+^https?:\/\/subscription-api\.notedapp\.io\/api\/verifyReceipt$ url script-response-body https://raw.githubusercontent.com/Guding88/Script/main/Noted.js
 
 [MITM]
-hostname = buy.itunes.apple.com
+hostname = subscription-api.notedapp.io
 
 */
 var guding = {
