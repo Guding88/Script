@@ -368,6 +368,14 @@ http:
       max-size: 3145728
       binary-mode: false
 
+    - match: ^https?:\/\/judouapp\.com\/api\/v2\/mine\/profile
+      name: "句读"
+      type: response
+      timeout: 30
+      require-body: true
+      max-size: 3145728
+      binary-mode: false
+
 
 
   mitm:
@@ -417,6 +425,7 @@ http:
     - "sz.szsszykj.com"
     - "acs.m.taobao.com"
     - "accounts.agenda.com"
+    - "judouapp.com"
 
 
 script-providers:
@@ -554,6 +563,9 @@ script-providers:
     interval: 86400
   "Agenda":
     url: https://raw.githubusercontent.com/Guding88/Script/main/Agenda.js
+    interval: 86400
+  "句读":
+    url: https://raw.githubusercontent.com/Guding88/Script/main/judou.js
     interval: 86400
 
 
