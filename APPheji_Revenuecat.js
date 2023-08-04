@@ -122,6 +122,13 @@ if (typeof $response == "undefined") {
     '%E5%9B%BE%E7%89%87%E6%B6%88%E9%99%A4':{ name: 'premium membership', id: 'com.skysoft.removalfree.introduction.yearly'},
     '%E7%9B%AE%E6%A0%87%E5%9C%B0%E5%9B%BE':{ name: 'pro', id: 'com.happydogteam.relax.lifetimePro'},
     'TouchRetouchBasic':{ name: 'premium', id: 'tr5_yearlysubsc_20dlrs_1'},
+    'Emphasis': { name: 'premium', id: 'app.emphasis.subscription.yearly' },
+    'Numpkin':{ name: 'pro', id: 'numpkin.pro.yearly.regular'},
+    'Emoji%E4%B8%96%E7%95%8C':{ name: 'Premium', id: 'com.lishaohui.emojiworld.lifetime'},
+    'Finale%20To%20Do':{ name: 'FinalePro', id: 'FinaleProLifetime'},
+    'WeatherFit':{ name: 'Pro', id: 'com.antonchuiko.wthrd.premium_onetime'},
+    'Photomator':{ name: 'pixelmator_photo_pro_access', id: 'pixelmator_photo_yearly_v1'},
+    'lilbucket':{ name: 'pro', id: 'bucket_lifetime'},
 
 
     
