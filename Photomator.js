@@ -1,5 +1,7 @@
 /*
 
+愿意折腾的朋友可通过下载旧版再更新的方式解锁官方永久订阅，无需使用脚本，具体内容可进入TG频道查看：https://t.me/Guding88
+
 Photomator：https://apps.apple.com/app/id1444636541
 
 [rewrite_local]
