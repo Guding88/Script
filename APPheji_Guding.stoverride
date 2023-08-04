@@ -384,6 +384,14 @@ http:
       max-size: 3145728
       binary-mode: false
 
+    - match: ^https?:\/\/service-ei2k47mp-1251731618\.bj\.apigw\.tencentcs\.com/release\/aifood_order
+      name: "FoodCa"
+      type: response
+      timeout: 30
+      require-body: true
+      max-size: 3145728
+      binary-mode: false
+
 
 
   mitm:
@@ -435,6 +443,7 @@ http:
     - "accounts.agenda.com"
     - "judouapp.com"
     - "openapi.qian-gua.com"
+    - "service-ei2k47mp-1251731618.bj.apigw.tencentcs.com"
 
 
 script-providers:
@@ -578,6 +587,9 @@ script-providers:
     interval: 86400
   "千瓜数据":
     url: https://raw.githubusercontent.com/Guding88/Script/main/qianguashuju.js
+    interval: 86400
+  "FoodCa":
+    url: https://raw.githubusercontent.com/Guding88/Script/main/FoodCa.js
     interval: 86400
 
 
