@@ -158,6 +158,14 @@ Shadowrocket模块：https://raw.githubusercontent.com/Guding88/Script/main/APPh
 |87|‎‎‎‎‎‎‎Cookie记账|[点击下载](https://apps.apple.com/app/id1559943673)
 |88|‎‎‎‎‎‎‎目标地图|[点击下载](https://apps.apple.com/app/id1555022550)
 |89|‎‎‎‎‎‎‎图片消除|[点击下载](https://apps.apple.com/app/id1457711961)
+|90|‎‎‎‎‎‎‎Emphasis|[点击下载](https://apps.apple.com/app/id733300214)
+|91|‎‎‎‎‎‎‎Numpkin|[点击下载](https://apps.apple.com/app/id6444591815)
+|92|‎‎‎‎‎‎‎Emoji世界|[点击下载](https://apps.apple.com/app/id6450985890)
+|93|‎‎‎‎‎‎‎Finale To Do|[点击下载](https://apps.apple.com/app/id1622931101)
+|94|‎‎‎‎‎‎‎Weather Fit|[点击下载](https://apps.apple.com/app/id1194408342)
+|95|‎‎‎‎‎‎‎Photomator|[点击下载](https://apps.apple.com/app/id1444636541)
+|96|‎‎‎‎‎‎‎lil bucket|[点击下载](https://apps.apple.com/app/id1630532934)
+|97|‎‎‎‎‎‎‎Retouch|[点击下载](https://apps.apple.com/app/id373311252)
 
 
 </details>
