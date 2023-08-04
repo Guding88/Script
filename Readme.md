@@ -224,6 +224,7 @@ Shadowrocket模块：https://raw.githubusercontent.com/Guding88/Script/main/APPh
 |45|Agenda|[点击下载](https://apps.apple.com/app/id1370289240)
 |46|句读|[点击下载](https://apps.apple.com/app/id1073431872)
 |47|千瓜数据|[点击下载](https://apps.apple.com/app/id1572934942)
+|48|FoodCa|[点击下载](https://apps.apple.com/app/id6451112435)
 
 
 
