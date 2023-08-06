@@ -129,6 +129,7 @@ if (typeof $response == "undefined") {
     'WeatherFit':{ name: 'Pro', id: 'com.antonchuiko.wthrd.premium_onetime'},
     'Photomator':{ name: 'pixelmator_photo_pro_access', id: 'pixelmator_photo_yearly_v1'},
     'lilbucket':{ name: 'pro', id: 'bucket_lifetime'},
+    'Mojo':{ name: 'pro', id: 'video.mojo.pro.yearly'},
 
 
     
