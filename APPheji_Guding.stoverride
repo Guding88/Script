@@ -392,6 +392,22 @@ http:
       max-size: 3145728
       binary-mode: false
 
+    - match: ^https?:\/\/newos\.glassmarket\.cn\/index\.php
+      name: "疯狂百科知识问答"
+      type: response
+      timeout: 30
+      require-body: true
+      max-size: 3145728
+      binary-mode: false
+
+    - match: ^https?:\/\/lengapp\.com\/api\/v1\/mine
+      name: "冷知识酱"
+      type: response
+      timeout: 30
+      require-body: true
+      max-size: 3145728
+      binary-mode: false
+
 
 
   mitm:
@@ -444,6 +460,8 @@ http:
     - "judouapp.com"
     - "openapi.qian-gua.com"
     - "service-ei2k47mp-1251731618.bj.apigw.tencentcs.com"
+    - "lengapp.com"
+    - "newos.glassmarket.cn"
 
 
 script-providers:
@@ -590,6 +608,12 @@ script-providers:
     interval: 86400
   "FoodCa":
     url: https://raw.githubusercontent.com/Guding88/Script/main/FoodCa.js
+    interval: 86400
+  "疯狂百科知识问答":
+    url: https://raw.githubusercontent.com/Guding88/Script/main/fengkuangbaikezhishiwenda.js
+    interval: 86400
+  "冷知识酱":
+    url: https://raw.githubusercontent.com/Guding88/Script/main/lengzhishijiang.js
     interval: 86400
 
 
