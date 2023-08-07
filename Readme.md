@@ -227,6 +227,8 @@ Shadowrocket模块：https://raw.githubusercontent.com/Guding88/Script/main/APPh
 |46|句读|[点击下载](https://apps.apple.com/app/id1073431872)
 |47|千瓜数据|[点击下载](https://apps.apple.com/app/id1572934942)
 |48|FoodCa|[点击下载](https://apps.apple.com/app/id6451112435)
+|49|疯狂百科知识问答|[点击下载](https://apps.apple.com/app/id1225435117)
+|50|冷知识酱|[点击下载](https://apps.apple.com/app/id6443612500)
 
 
 
