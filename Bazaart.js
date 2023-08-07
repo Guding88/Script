@@ -9,74 +9,61 @@
 hostname = buy.itunes.apple.com
 
 */
-var guding = {
-  "environment": "Production",
-  "receipt": {
-    "receipt_type": "Production",
-    "receipt_creation_date": "2022-02-02 06:06:06 Etc\/GMT",
-    "bundle_id": "https://t.me/Guding88",
-    "original_purchase_date": "2022-02-02 06:06:06 Etc\/GMT",
-    "in_app": [
-      {
-        "quantity": "1",
-        "purchase_date_ms": "1643753166000",
-        "expires_date": "6666-06-06 06:06:06 Etc\/GMT",
-        "expires_date_pst": "6666-06-06 06:06:06 America\/Los_Angeles",
-        "is_in_intro_offer_period": "false",
-        "transaction_id": "666666666666666",
-        "is_trial_period": "false",
-        "original_transaction_id": "666666666666666",
-        "purchase_date": "2022-02-02 06:06:06 Etc\/GMT",
-        "product_id": "Bazaart_Premium_Monthly_v9",
-        "original_purchase_date_pst": "2022-02-02 06:06:06 America\/Los_Angeles",
-        "in_app_ownership_type": "PURCHASED",
-        "original_purchase_date_ms": "1643753166000",
-        "web_order_line_item_id": "666666666666666",
-        "expires_date_ms": "148204937166000",
-        "purchase_date_pst": "2022-02-02 06:06:06 America\/Los_Angeles",
-        "original_purchase_date": "2022-02-02 06:06:06 Etc\/GMT"
-      }
-    ],
-    "receipt_creation_date_pst": "2022-02-02 06:06:06 America\/Los_Angeles",
-    "request_date": "2022-02-02 06:06:06 Etc\/GMT",
-    "request_date_pst": "2022-02-02 06:06:06 America\/Los_Angeles",
-    "request_date_ms": "1643753166000",
-    "original_purchase_date_pst": "2022-02-02 06:06:06 America\/Los_Angeles",
-    "application_version": "123",
-    "original_purchase_date_ms": "1643753166000",
-    "receipt_creation_date_ms": "1643753166000",
-    "original_application_version": "123",
-  },
-  "pending_renewal_info": [
-    {
-      "product_id": "Bazaart_Premium_Monthly_v9",
-      "original_transaction_id": "666666666666666",
-      "auto_renew_product_id": "https://t.me/Guding88",
-      "auto_renew_status": "1"
-    }
-  ],
-  "status": 0,
-  "latest_receipt_info": [
-    {
-      "quantity": "1",
-      "purchase_date_ms": "1643753166000",
-      "expires_date": "6666-06-06 06:06:06 Etc\/GMT",
-      "expires_date_pst": "6666-06-06 06:06:06 America\/Los_Angeles",
-      "is_in_intro_offer_period": "false",
-      "transaction_id": "666666666666666",
-      "is_trial_period": "false",
-      "original_transaction_id": "666666666666666",
-      "purchase_date": "2022-02-02 06:06:06 Etc\/GMT",
-      "product_id": "Bazaart_Premium_Monthly_v9",
-      "original_purchase_date_pst": "2022-02-02 06:06:06 America\/Los_Angeles",
-      "in_app_ownership_type": "PURCHASED",
-      "subscription_group_identifier": "66666666",
-      "original_purchase_date_ms": "1643753166000",
-      "web_order_line_item_id": "666666666666666",
-      "expires_date_ms": "148204937166000",
-      "purchase_date_pst": "2022-02-02 06:06:06 America\/Los_Angeles",
-      "original_purchase_date": "2022-02-02 06:06:06 Etc\/GMT"
-    }
-  ]
+var guding = {};
+var guding6 = JSON.parse(typeof $response != "undefined" && $response.body || null);
+var headers = {};
+for (var key in $request.headers) {
+  const reg = /^[a-z]+$/;
+  if (key === "User-Agent" && !reg.test(key)) {
+    var lowerkey = key.toLowerCase();
+    $request.headers[lowerkey] = $request.headers[key];
+    delete $request.headers[key];
+  }
+}
+var UA = $request.headers['user-agent'];
+var uaProductMapping = {
+  'bazaart': {product_id: 'Bazaart_Premium_Monthly_v9'},
 };
+var receipt = {
+  "quantity": "1",
+  "purchase_date_ms": "1686002766000",
+  "expires_date": "6666-06-06 06:06:06 Etc\/GMT",
+  "expires_date_pst": "6666-06-06 06:06:06 America\/Los_Angeles",
+  "is_in_intro_offer_period": "false",
+  "transaction_id": "666666666666666",
+  "is_trial_period": "false",
+  "original_transaction_id": "666666666666666",
+  "purchase_date": "2023-06-06 06:06:06 Etc\/GMT",
+  "product_id": "https://t.me/Guding88",
+  "original_purchase_date_pst": "2023-06-06 06:06:06 America\/Los_Angeles",
+  "in_app_ownership_type": "PURCHASED",
+  "subscription_group_identifier": "20877951",
+  "original_purchase_date_ms": "1686002766000",
+  "web_order_line_item_id": "666666666666666",
+  "expires_date_ms": "148204937166000",
+  "purchase_date_pst": "2023-06-06 06:06:06 America\/Los_Angeles",
+  "original_purchase_date": "2023-06-06 06:06:06 Etc\/GMT"
+}
+var renewal = {
+  "expiration_intent": "1",
+  "product_id": "https://t.me/Guding88",
+  "is_in_billing_retry_period": "0",
+  "auto_renew_product_id": "https://t.me/Guding88",
+  "original_transaction_id": "666666666666666",
+  "auto_renew_status": "0"
+}
+for (var uaKey in uaProductMapping) {
+  if (UA && UA.includes(uaKey)) {
+    var productInfo = uaProductMapping[uaKey];
+    var product_id = productInfo.product_id;
+    receipt.product_id = product_id;
+    renewal.product_id = product_id;
+    renewal.auto_renew_product_id = product_id;
+    guding6.receipt.in_app = [receipt];
+    guding6.latest_receipt_info = [receipt];
+    guding.pending_renewal_info = [renewal];
+    break;
+  }
+}
+guding = guding6;
 $done({ body: JSON.stringify(guding) });
