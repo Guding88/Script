@@ -60,6 +60,7 @@ var uaProductMapping = {
   'LifeTime': {product_id: 'com.marklabs.lovetime.year',bundle_id: 'https://t.me/Guding88'},
   'iTimely': {product_id: 'org.zrey.iTimely.lifetime',bundle_id: 'https://t.me/Guding88'},
   'DoMemo': {product_id: 'org.zrey.fastnote.lifetime',bundle_id: 'https://t.me/Guding88'},
+  'VDIT': {product_id: 'me.imgbase.videoday.profeaturesYearly',bundle_id: 'https://t.me/Guding88'},
 
 
 
