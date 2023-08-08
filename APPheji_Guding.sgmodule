@@ -151,7 +151,7 @@ FoodCa= type=http-response,requires-body=1,max-size=0,pattern=^https?:\/\/servic
 冷知识酱= type=http-response,requires-body=1,max-size=0,pattern=^https?:\/\/lengapp\.com\/api\/v1\/mine,script-path=https://raw.githubusercontent.com/Guding88/Script/main/lengzhishijiang.js
 
 # 一念便签
-一念便签= type=http-response,requires-body=1,max-size=0,pattern=^https?:\/\/yinian\.pro\/api\/user,script-path=https://raw.githubusercontent.com/Guding88/Script/main/yinianbianqian.js
+# 一念便签= type=http-response,requires-body=1,max-size=0,pattern=^https?:\/\/yinian\.pro\/api\/user,script-path=https://raw.githubusercontent.com/Guding88/Script/main/yinianbianqian.js
 
 
 
