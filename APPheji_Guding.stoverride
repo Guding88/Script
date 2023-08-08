@@ -408,13 +408,13 @@ http:
       max-size: 3145728
       binary-mode: false
 
-    - match: ^https?:\/\/yinian\.pro\/api\/user
-      name: "一念便签"
-      type: response
-      timeout: 30
-      require-body: true
-      max-size: 3145728
-      binary-mode: false
+#    - match: ^https?:\/\/yinian\.pro\/api\/user
+#     name: "一念便签"
+#     type: response
+#     timeout: 30
+#     require-body: true
+#     max-size: 3145728
+#     binary-mode: false
 
 
 
@@ -470,7 +470,6 @@ http:
     - "service-ei2k47mp-1251731618.bj.apigw.tencentcs.com"
     - "lengapp.com"
     - "newos.glassmarket.cn"
-    - "yinian.pro"
 
 
 script-providers:
@@ -624,9 +623,9 @@ script-providers:
   "冷知识酱":
     url: https://raw.githubusercontent.com/Guding88/Script/main/lengzhishijiang.js
     interval: 86400
-  "冷知识酱":
-    url: https://raw.githubusercontent.com/Guding88/Script/main/yinianbianqian.js
-    interval: 86400
+# "一念便签":
+#   url: https://raw.githubusercontent.com/Guding88/Script/main/yinianbianqian.js
+#   interval: 86400
 
 
 
