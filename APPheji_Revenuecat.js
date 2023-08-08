@@ -130,9 +130,10 @@ if (typeof $response == "undefined") {
     'Photomator':{ name: 'pixelmator_photo_pro_access', id: 'pixelmator_photo_yearly_v1'},
     'lilbucket':{ name: 'pro', id: 'bucket_lifetime'},
     'Mojo':{ name: 'pro', id: 'video.mojo.pro.yearly'},
-    'cdiary':{ name: 'Premium', id: 'pub.kiya.daymoment.lifetime'},//朝暮
+    'cdiary':{ name: 'Premium', id: 'pub.kiya.daymoment.lifetime'},
     'EZPZ':{ name: 'premium', id: 'com.chroma.sounddoodles.annual.trial'},//EZPZ
-    'jizhi':{ name: 'jizhi_vip', id: 'jizhi_vip'},//几枝
+    'jizhi':{ name: 'jizhi_vip', id: 'jizhi_vip'},
+    'card':{ name: 'vip', id: 'card_vip'},
 
 
     
