@@ -171,6 +171,8 @@ Shadowrocket模块：https://raw.githubusercontent.com/Guding88/Script/main/APPh
 |97|‎‎‎‎‎‎‎Retouch|[点击下载](https://apps.apple.com/app/id373311252)
 |98|‎‎‎‎‎‎‎朝暮|[点击下载](https://apps.apple.com/app/id1587672601)
 |99|‎‎‎‎‎‎‎Mojo|[点击下载](https://apps.apple.com/app/id1434861974)
+|100|‎‎‎‎‎‎‎EZPZ|[点击下载](https://apps.apple.com/app/id6444683778)
+|101|‎‎‎‎‎‎‎几枝|[点击下载](https://apps.apple.com/app/id1552874203)
 
 
 </details>
