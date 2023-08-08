@@ -173,6 +173,7 @@ Shadowrocket模块：https://raw.githubusercontent.com/Guding88/Script/main/APPh
 |99|‎‎‎‎‎‎‎Mojo|[点击下载](https://apps.apple.com/app/id1434861974)
 |100|‎‎‎‎‎‎‎EZPZ|[点击下载](https://apps.apple.com/app/id6444683778)
 |101|‎‎‎‎‎‎‎几枝|[点击下载](https://apps.apple.com/app/id1552874203)
+|102|‎‎‎‎‎‎‎小坐卡片|[点击下载](https://apps.apple.com/app/id1611559010)
 
 
 </details>
