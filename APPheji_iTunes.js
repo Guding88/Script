@@ -63,6 +63,7 @@ var uaProductMapping = {
   'VDIT': {product_id: 'me.imgbase.videoday.profeaturesYearly'},
   'xTerminal': {product_id: 'xterminal.pro2'},
   'MoodTracker': {product_id: 'co.vulcanlabs.moodtracker.lifetime2'},
+  'Fotoz': {product_id: 'com.kiddy.fotoz.ipa.pro'},
 
 };
 var receipt = {
