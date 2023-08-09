@@ -63,6 +63,8 @@ Shadowrocket模块：https://raw.githubusercontent.com/Guding88/Script/main/APPh
 |38|‎‎时间印迹|[点击下载](https://apps.apple.com/app/id6450100115)
 |39|‎‎iTimely|[点击下载](https://apps.apple.com/app/id6447499788)
 |40|‎‎DoMemo|[点击下载](https://apps.apple.com/app/id1624344916)
+|41|‎‎‎xTerminal|[点击下载](https://apps.apple.com/app/id1544728400)
+|42|‎‎‎AI Chatbot|[点击下载](https://apps.apple.com/app/id1559479889)
 
 
 * Air系列未完全整理，**必须先下载计算器Air并解锁**，然后再下载同一开发者的同系列产品，会自动同步解锁。
