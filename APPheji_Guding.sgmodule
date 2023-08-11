@@ -9,7 +9,7 @@ iTunes合集= type=http-response,requires-body=1,max-size=0,pattern=^https?:\/\/
 
 # Revenuecat合集
 Revenuecat合集= type=http-response,requires-body=1,max-size=0,pattern=^https?:\/\/api\.revenuecat\.com\/v1\/(subscribers\/[^\/]+$|receipts$),script-path=https://raw.githubusercontent.com/Guding88/Script/main/APPheji_Revenuecat.js
-# Revenuecat清缓存= type=http-request,requires-body=0,pattern=^https?:\/\/api\.revenuecat\.com\/v1\/(subscribers\/[^\/]+$|receipts$),script-path=https://raw.githubusercontent.com/Guding88/Script/main/APPheji_Revenuecat.js
+Revenuecat清缓存= type=http-request,requires-body=0,pattern=^https?:\/\/api\.revenuecat\.com\/v1\/(subscribers\/[^\/]+$|receipts$),script-path=https://raw.githubusercontent.com/Guding88/Script/main/APPheji_Revenuecat.js
 
 # CountThings from Photos
 CountThings= type=http-response,requires-body=1,max-size=0,pattern=^https?:\/\/my\.countingthings\.com\/api\/v2.0\/users\/GetUserAndSubscription,script-path=https://raw.githubusercontent.com/Guding88/Script/main/CountThings.js
