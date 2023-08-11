@@ -25,13 +25,14 @@ http:
       max-size: 3145728
       binary-mode: false
 
-#    - match: ^https?:\/\/api\.revenuecat\.com\/v1\/(subscribers\/[^\/]+$|receipts$)
-#      name: "Revenuecat清缓存"
-#      type: request
-#      timeout: 30
-#      require-body: false
-#      max-size: 0
-#      binary-mode: false
+    - match: ^https?:\/\/api\.revenuecat\.com\/v1\/(subscribers\/[^\/]+$|receipts$)
+      name: "Revenuecat清缓存"
+      type: request
+      timeout: 30
+      require-body: false
+      max-size: 0
+      binary-mode: false
+
     - match: ^https?:\/\/my\.countingthings\.com\/api\/v2.0\/users\/GetUserAndSubscription
       name: "CountThings"
       type: response
@@ -479,9 +480,9 @@ script-providers:
   "Revenuecat合集":
     url: https://raw.githubusercontent.com/Guding88/Script/main/APPheji_Revenuecat.js
     interval: 86400
-#  "Revenuecat清缓存":
-#    url: https://raw.githubusercontent.com/Guding88/Script/main/APPheji_Revenuecat.js
-#    interval: 86400
+  "Revenuecat清缓存":
+    url: https://raw.githubusercontent.com/Guding88/Script/main/APPheji_Revenuecat.js
+    interval: 86400
   "CountThings":
     url: https://raw.githubusercontent.com/Guding88/Script/main/CountThings.js
     interval: 86400
