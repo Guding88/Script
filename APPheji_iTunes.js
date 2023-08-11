@@ -65,6 +65,7 @@ var uaProductMapping = {
   'MoodTracker': {product_id: 'co.vulcanlabs.moodtracker.lifetime2'},
   'Fotoz': {product_id: 'com.kiddy.fotoz.ipa.pro'},
   'Dart': {product_id: 'com.focus.roller.nonconsum.permanentpro'},
+  'Count': {product_id: 'counter.sub.gr1.1w'},
 
 };
 var receipt = {
