@@ -239,6 +239,7 @@ Shadowrocket模块：https://raw.githubusercontent.com/Guding88/Script/main/APPh
 |50|冷知识酱|[点击下载](https://apps.apple.com/app/id6443612500)
 |~~51~~|~~一念便签~~|[点击下载](https://apps.apple.com/app/id1473578864)
 |51|NeckGo|[点击下载](https://apps.apple.com/app/id1660505668)
+|52|飞鱼计划|[点击下载](https://apps.apple.com/app/id1571229028)
 
 
 
