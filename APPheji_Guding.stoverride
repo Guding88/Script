@@ -433,6 +433,14 @@ http:
       max-size: 3145728
       binary-mode: false
 
+    - match: ^https?:\/\/gw\.aoscdn\.com\/base\/vip\/v2\/vips
+      name: "佐糖"
+      type: response
+      timeout: 30
+      require-body: true
+      max-size: 3145728
+      binary-mode: false
+
 
 
   mitm:
@@ -489,6 +497,7 @@ http:
     - "newos.glassmarket.cn"
     - "neckgo.wedea.cn"
     - "getway-plan.abuddz.com"
+    - "gw.aoscdn.com"
 
 
 script-providers:
@@ -651,6 +660,10 @@ script-providers:
   "飞鱼计划":
     url: https://raw.githubusercontent.com/Guding88/Script/main/feiyujihua.js
     interval: 86400
+  "佐糖":
+    url: https://raw.githubusercontent.com/Guding88/Script/main/zuotang.js
+    interval: 86400
+
 
 
 
