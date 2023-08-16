@@ -36,7 +36,7 @@ var uaProductMapping = {
   'ChickAlarmClock': {product_id: 'Pro_M01'},
   'TWWeatherMajor': {product_id: 'com.highonemob.weather.base.w'},
   'ProKnockOut': {product_id: 'com.knockout.1monthplus.2weektrail'},
-  'PutApp': {product_id: 'https://t.me/Guding88'},
+  'PutApp': {product_id: 'com.maliquankai.appdesign'},
   'CCD_Camera': {product_id: 'https://t.me/Guding88'},
   'CHAT%20AI': {product_id: 'https://t.me/Guding88'},
   'Koloro': {product_id: 'https://t.me/Guding88'},
