@@ -67,7 +67,7 @@ Shadowrocket模块：https://raw.githubusercontent.com/Guding88/Script/main/APPh
 |42|‎‎‎AI Chatbot|[点击下载](https://apps.apple.com/app/id1559479889)
 |42|Fotoz|[点击下载](https://apps.apple.com/app/id1090640183)
 |42|CountThis|[点击下载](https://apps.apple.com/app/id1553863458)
-
+|43|万源阅读|[点击下载](https://apps.apple.com/app/id6446446808)
 
 * Air系列未完全整理，**必须先下载计算器Air并解锁**，然后再下载同一开发者的同系列产品，会自动同步解锁。
 </details>
@@ -242,7 +242,7 @@ Shadowrocket模块：https://raw.githubusercontent.com/Guding88/Script/main/APPh
 |51|NeckGo|[点击下载](https://apps.apple.com/app/id1660505668)
 |52|飞鱼计划|[点击下载](https://apps.apple.com/app/id1571229028)
 |53|佐糖|[点击下载](https://apps.apple.com/app/id1609584814)
-|54|万源阅读|[点击下载](https://apps.apple.com/app/id6446446808)
+
 
 
 
