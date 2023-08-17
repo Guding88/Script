@@ -242,6 +242,8 @@ Shadowrocket模块：https://raw.githubusercontent.com/Guding88/Script/main/APPh
 |51|NeckGo|[点击下载](https://apps.apple.com/app/id1660505668)
 |52|飞鱼计划|[点击下载](https://apps.apple.com/app/id1571229028)
 |53|佐糖|[点击下载](https://apps.apple.com/app/id1609584814)
+|54|每记|[点击下载](https://apps.apple.com/app/id1572586388)
+
 
 
 
