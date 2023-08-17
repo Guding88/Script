@@ -441,6 +441,14 @@ http:
       max-size: 3145728
       binary-mode: false
 
+    - match: ^https?:\/\/api\.wemore\.com\/mylogs\/users
+      name: "每记"
+      type: response
+      timeout: 30
+      require-body: true
+      max-size: 3145728
+      binary-mode: false
+
 
 
   mitm:
@@ -498,6 +506,7 @@ http:
     - "neckgo.wedea.cn"
     - "getway-plan.abuddz.com"
     - "gw.aoscdn.com"
+    - "api.wemore.com"
 
 
 script-providers:
@@ -662,6 +671,9 @@ script-providers:
     interval: 86400
   "佐糖":
     url: https://raw.githubusercontent.com/Guding88/Script/main/zuotang.js
+    interval: 86400
+  "每记":
+    url: https://raw.githubusercontent.com/Guding88/Script/main/meiji.js
     interval: 86400
 
 
