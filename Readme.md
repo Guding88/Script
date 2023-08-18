@@ -180,6 +180,8 @@ Shadowrocket模块：https://raw.githubusercontent.com/Guding88/Script/main/APPh
 |102|‎‎‎‎‎‎‎小作卡片|[点击下载](https://apps.apple.com/app/id1611559010)
 |102|‎‎‎‎‎‎‎Drops|[点击下载](https://apps.apple.com/app/id939540371)
 |103|‎‎‎‎‎‎‎‎Noverdue|[点击下载](https://apps.apple.com/app/id1492210816)
+|104|‎‎‎‎‎‎‎‎我是鱼|[点击下载](https://apps.apple.com/app/id6450589948)
+|105|‎‎‎‎‎‎‎‎Gradient Music|[点击下载](https://apps.apple.com/app/id1634453041)
 
 
 </details>
