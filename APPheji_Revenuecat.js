@@ -136,6 +136,7 @@ if (typeof $response == "undefined") {
     'card':{ name: 'vip', id: 'card_vip'},
     'Drops':{ name: 'premium', id: 'premium_yearly_full_price_tier_c_free_trial_7_int'},
     'Noverdue':{ name: 'pro', id: 'noverdue.yearly.plan0'},
+    'ImAFish':{ name: 'Pro', id: 'ProOver'},
 
 
     
