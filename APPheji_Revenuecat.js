@@ -137,6 +137,7 @@ if (typeof $response == "undefined") {
     'Drops':{ name: 'premium', id: 'premium_yearly_full_price_tier_c_free_trial_7_int'},
     'Noverdue':{ name: 'pro', id: 'noverdue.yearly.plan0'},
     'ImAFish':{ name: 'Pro', id: 'ProOver'},
+    'GradientMusic':{ name: 'Pro', id: 'com.gradient.vision.new.music.one.time.79'},
 
 
     
