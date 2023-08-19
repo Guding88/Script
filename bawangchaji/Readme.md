@@ -14,7 +14,11 @@ https://raw.githubusercontent.com/Guding88/Script/main/bawangchaji/bwcj.sgmodule
 ```properties
 https://raw.githubusercontent.com/Guding88/Script/main/bawangchaji/bwcj.plugin
 ```
+## Stash 覆写
 
+```properties
+https://raw.githubusercontent.com/Guding88/Script/main/bawangchaji/bwcj.stoverride
+```
 
 ## Quantumult X 配置
 
