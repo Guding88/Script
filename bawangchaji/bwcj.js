@@ -21,7 +21,7 @@ const bw = {
     'Referer' : `https://servicewechat.com/wxafec6f8422cb357b/83/page-frame.html`,
     'Accept' : `v=1.0`,
     'work-wechat-userid' : ``,
-    'content-type' : `application/json`,
+    'Content-Type' : `application/json`,
     'Qm-From-Type' : `catering`,
     'work-staff-name' : ``,
     'scene' : `1089`,
