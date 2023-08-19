@@ -24,7 +24,12 @@ const bw = {
     'content-type' : `application/json`,
     'Qm-From-Type' : `catering`,
     'work-staff-name' : ``,
-    'scene' : `1089`
+    'scene' : `1089`,
+
+    'Content-Length' : '122',
+    'channelCode' : '',
+    'work-staff-name' : '',
+    
   },
   body: bwbody,
 };
