@@ -27,8 +27,8 @@ const bw = {
     'scene' : `1089`,
 
     'Content-Length' : '122',
-    'channelCode' : '',
-    'work-staff-name' : '',
+    'channelCode' : ''
+
     
   },
   body: bwbody,
