@@ -4,11 +4,17 @@ Telegram：https://t.me/Guding88
 ## 脚本功能
 霸王茶姬小程序自动签到
 
-## Surge模块（Shadowrocket）
+## Surge 模块（Shadowrocket）
 
 ```properties
 https://raw.githubusercontent.com/Guding88/Script/main/bawangchaji/bwcj.sgmodule
 ```
+## Loon 插件
+
+```properties
+https://raw.githubusercontent.com/Guding88/Script/main/bawangchaji/bwcj.plugin
+```
+
 
 ## Quantumult X 配置
 
