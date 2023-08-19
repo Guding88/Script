@@ -5,28 +5,32 @@ https://t.me/Guding88"
 #!author = 骨钉
 #!homepage=https://github.com/Guding88/Script/blob/main/bawangchaji/Readme.md
 #!icon=https://raw.githubusercontent.com/Guding88/Script/main/bawangchaji/bwcj.png
-
 http:
-  mitm:
-    - "webapi.qmai.cn"
+
   script:
+
     - match: ^https?:\/\/webapi\.qmai\.cn\/web\/catering\/integral\/sign\/signIn
-      name: "霸王茶姬token"
+      name: "霸王茶姬token_4"
       type: request
-      require-body: true
       timeout: 30
+      require-body: true
       max-size: 3145728
       binary-mode: false
+
+  mitm:
+    - "webapi.qmai.cn"
+
 cron:
   script:
-    - name: "霸王茶姬小程序签到"
-      cron: '00 10 * * *'
-      timeout: 30
- 
+
+    - name: "霸王茶姬小程序签到_5"
+      cron: "00 10 * * *"
+      timeout: 60
+
 script-providers:
-  "霸王茶姬token":
+  "霸王茶姬token_4":
     url: https://raw.githubusercontent.com/Guding88/Script/main/bawangchaji/bwcj_token.js
     interval: 86400
-  "霸王茶姬小程序签到":
+  "霸王茶姬小程序签到_5":
     url: https://raw.githubusercontent.com/Guding88/Script/main/bawangchaji/bwcj.js
     interval: 86400
