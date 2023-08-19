@@ -1,3 +1,6 @@
+## 发布频道
+Telegram：https://t.me/Guding88
+
 ## 脚本功能
 霸王茶姬小程序自动签到
 
