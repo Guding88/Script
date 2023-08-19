@@ -50,8 +50,8 @@ async function get() {
     var code = obj.code;
     if (code =="0") code = '🎉签到成功！';
     else if (code =="10008") code = '❌签到失败：无用户信息,请先手动签到一次';
-    else if (code =="400041") code = '❌签到失败：今日已签到,无需重复签到';
-    else code = '❌签到失败：未知错误,你是怎么做到的❓';
+    else if (code =="400041") code = '🟡签到失败：今日已签到,无需重复签到';
+    else code = '❌签到失败：未知错误,我也不知道为什么会这样';
     $.log(resp.body);
     $.log(code);
     $.msg($.name,code);
