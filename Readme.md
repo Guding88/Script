@@ -182,6 +182,7 @@ Shadowrocket模块：https://raw.githubusercontent.com/Guding88/Script/main/APPh
 |103|‎‎‎‎‎‎‎‎Noverdue|[点击下载](https://apps.apple.com/app/id1492210816)
 |104|‎‎‎‎‎‎‎‎我是鱼|[点击下载](https://apps.apple.com/app/id6450589948)
 |105|‎‎‎‎‎‎‎‎Gradient Music|[点击下载](https://apps.apple.com/app/id1634453041)
+|106|Habits|[点击下载](https://apps.apple.com/app/id1593891243)
 
 
 </details>
@@ -247,7 +248,11 @@ Shadowrocket模块：https://raw.githubusercontent.com/Guding88/Script/main/APPh
 |54|每记|[点击下载](https://apps.apple.com/app/id1572586388)
 
 
+</details>
 
+### 自动签到项目
 
-
+|序号|项目名称|脚本地址|
+|--|--|--|
+|1|霸王茶姬|[点击查看](https://github.com/Guding88/Script/blob/main/bawangchaji/Readme.md)
 
