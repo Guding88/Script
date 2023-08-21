@@ -138,6 +138,7 @@ if (typeof $response == "undefined") {
     'Noverdue':{ name: 'pro', id: 'noverdue.yearly.plan0'},
     'ImAFish':{ name: 'Pro', id: 'ProOver'},
     'GradientMusic':{ name: 'Pro', id: 'com.gradient.vision.new.music.one.time.79'},
+    'streaks':{ name: 'patron', id: 'com.andyworks.streaks.yearlyPatron'},
 
 
     
