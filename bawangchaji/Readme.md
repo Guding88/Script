@@ -13,7 +13,9 @@ https://raw.githubusercontent.com/Guding88/Script/main/bawangchaji/bwcj.sgmodule
 
 ```properties
 https://raw.githubusercontent.com/Guding88/Script/main/bawangchaji/bwcj.plugin
+
 ```
+
 ## Stash 覆写
 
 ```properties
@@ -41,3 +43,7 @@ hostname = webapi.qmai.cn
   * 进入微信霸王茶姬小程序 --> 积分商城 --> 积分签到 --> 签到
   * 配置Task脚本 bwcj.js
   * 每天10:00自动签到
+
+## 特别鸣谢
+  * [@MCdasheng](https://github.com/MCdasheng)
+  * [@xream](https://github.com/xream)
