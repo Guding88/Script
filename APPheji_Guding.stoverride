@@ -449,6 +449,14 @@ http:
       max-size: 3145728
       binary-mode: false
 
+    - match: ^https?:\/\/jz\.wacai\.com\/api\/vipmember\/v3\/index
+      name: "挖财记账"
+      type: response
+      timeout: 30
+      require-body: true
+      max-size: 3145728
+      binary-mode: false
+
 
 
   mitm:
@@ -507,6 +515,7 @@ http:
     - "getway-plan.abuddz.com"
     - "gw.aoscdn.com"
     - "api.wemore.com"
+    - "jz.wacai.com"
 
 
 script-providers:
@@ -675,6 +684,10 @@ script-providers:
   "每记":
     url: https://raw.githubusercontent.com/Guding88/Script/main/meiji.js
     interval: 86400
+  "挖财记账":
+    url: https://raw.githubusercontent.com/Guding88/Script/main/wacaijizhang.js
+    interval: 86400
+
 
 
 
