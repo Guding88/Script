@@ -139,6 +139,7 @@ if (typeof $response == "undefined") {
     'ImAFish':{ name: 'Pro', id: 'ProOver'},
     'GradientMusic':{ name: 'Pro', id: 'com.gradient.vision.new.music.one.time.79'},
     'streaks':{ name: 'patron', id: 'com.andyworks.streaks.yearlyPatron'},
+    'Grow':{ name: 'grow.pro', id: 'grow_lifetime'},
 
 
     
