@@ -14,6 +14,8 @@ hostname = webapi.qmai.cn
 */
 const $ = new Env("🥤霸王茶姬小程序签到");
 const url = $request.url;
+const bwtoken = $.getdata("bw_token") ? $.getdata("bw_token") : "";
+const bwbody = $.getdata("bw_body") ? $.getdata("bw_body") : "";
 var notice = "";
 
 const headers = $request.headers;
