@@ -457,6 +457,14 @@ http:
       max-size: 3145728
       binary-mode: false
 
+    - match: ^https?:\/\/api0\.easeprime\.com\/api\/(login\/loginByWeChatCode|memberInfo\/myInfo)
+      name: "Ease助眠"
+      type: response
+      timeout: 30
+      require-body: true
+      max-size: 3145728
+      binary-mode: false
+
 
 
   mitm:
@@ -516,6 +524,7 @@ http:
     - "gw.aoscdn.com"
     - "api.wemore.com"
     - "jz.wacai.com"
+    - "api0.easeprime.com"
 
 
 script-providers:
@@ -686,6 +695,9 @@ script-providers:
     interval: 86400
   "挖财记账":
     url: https://raw.githubusercontent.com/Guding88/Script/main/wacaijizhang.js
+    interval: 86400
+  "Ease助眠":
+    url: https://raw.githubusercontent.com/Guding88/Script/main/Ease.js
     interval: 86400
 
 
