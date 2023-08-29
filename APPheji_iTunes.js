@@ -67,6 +67,7 @@ var uaProductMapping = {
   'Dart': {product_id: 'com.focus.roller.nonconsum.permanentpro'},
   'Count': {product_id: 'counter.sub.gr1.1w'},
   'Wext': {product_id: 'com.lmf.wext.year'},
+  'Scanner': {product_id: 'scannerapp.free.premium.subscription.m1mte'},
 
 };
 var receipt = {
