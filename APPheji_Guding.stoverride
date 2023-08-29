@@ -465,6 +465,14 @@ http:
       max-size: 3145728
       binary-mode: false
 
+    - match: ^https?:\/\/carrotweather\.herokuapp\.com\/parse\/functions\/findSubscriptionsForUserId
+      name: "CARROT Weather"
+      type: response
+      timeout: 30
+      require-body: true
+      max-size: 3145728
+      binary-mode: false
+
 
 
   mitm:
@@ -525,6 +533,7 @@ http:
     - "api.wemore.com"
     - "jz.wacai.com"
     - "api0.easeprime.com"
+    - "carrotweather.herokuapp.com"
 
 
 script-providers:
@@ -698,6 +707,9 @@ script-providers:
     interval: 86400
   "Ease助眠":
     url: https://raw.githubusercontent.com/Guding88/Script/main/Ease.js
+    interval: 86400
+  "CARROT Weather":
+    url: https://raw.githubusercontent.com/Guding88/Script/main/CARROTWeather.js
     interval: 86400
 
 
