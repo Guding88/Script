@@ -68,6 +68,7 @@ Shadowrocket模块：https://raw.githubusercontent.com/Guding88/Script/main/APPh
 |42|Fotoz|[点击下载](https://apps.apple.com/app/id1090640183)
 |42|CountThis|[点击下载](https://apps.apple.com/app/id1553863458)
 |43|万源阅读|[点击下载](https://apps.apple.com/app/id6446446808)
+|44|Scanner|[点击下载](https://apps.apple.com/app/id1291962681)
 
 * Air系列未完全整理，**必须先下载计算器Air并解锁**，然后再下载同一开发者的同系列产品，会自动同步解锁。
 </details>
@@ -247,6 +248,8 @@ Shadowrocket模块：https://raw.githubusercontent.com/Guding88/Script/main/APPh
 |53|佐糖|[点击下载](https://apps.apple.com/app/id1609584814)
 |54|每记|[点击下载](https://apps.apple.com/app/id1572586388)
 |55|挖财记账|[点击下载](https://apps.apple.com/app/id1544045905)
+|56|CARROT Weather|[点击下载](https://apps.apple.com/app/id961390574)
+|56|Ease助眠|[点击下载](https://apps.apple.com/app/id1549614554)
 
 
 </details>
