@@ -250,6 +250,7 @@ Shadowrocket模块：https://raw.githubusercontent.com/Guding88/Script/main/APPh
 |55|挖财记账|[点击下载](https://apps.apple.com/app/id1544045905)
 |56|CARROT Weather|[点击下载](https://apps.apple.com/app/id961390574)
 |56|Ease助眠|[点击下载](https://apps.apple.com/app/id1549614554)
+|56|PhotoGrid|[点击下载](https://apps.apple.com/app/id543577420)
 
 
 </details>
