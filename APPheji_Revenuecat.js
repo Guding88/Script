@@ -140,6 +140,10 @@ if (typeof $response == "undefined") {
     'GradientMusic':{ name: 'Pro', id: 'com.gradient.vision.new.music.one.time.79'},
     'streaks':{ name: 'patron', id: 'com.andyworks.streaks.yearlyPatron'},
     'Grow':{ name: 'grow_pro', id: 'grow_lifetime'},//版本号：857848362
+    'Strides':{ name: 'plus', id: 'Annual'},
+    'Summit_iOS':{ name: 'pro', id: 'Summit_Monthly1'},
+    'PomoStiker':{ name: 'lifetimeForever', id: 'com.daya.lifetimeforever'},
+    'Uio':{ name: 'PRO', id: 'com.daya.Uio.quarterly'},
 
 
     
