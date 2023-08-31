@@ -184,6 +184,10 @@ Shadowrocket模块：https://raw.githubusercontent.com/Guding88/Script/main/APPh
 |104|‎‎‎‎‎‎‎‎我是鱼|[点击下载](https://apps.apple.com/app/id6450589948)
 |105|‎‎‎‎‎‎‎‎Gradient Music|[点击下载](https://apps.apple.com/app/id1634453041)
 |106|Habits|[点击下载](https://apps.apple.com/app/id1593891243)
+|107|Strides|[点击下载](https://apps.apple.com/app/id672401817)
+|108|Summit|[点击下载](https://apps.apple.com/app/id1266410931)
+|109|每日番茄|[点击下载](https://apps.apple.com/app/id6448365485)
+|110|夺目相框|[点击下载](https://apps.apple.com/app/id6448359509)
 
 
 </details>
