@@ -481,6 +481,14 @@ http:
       max-size: 3145728
       binary-mode: false
 
+    - match: ^https?:\/\/api\.qingning6\.com\/api\/user\/getUserInfo
+      name: "青柠设计"
+      type: response
+      timeout: 30
+      require-body: true
+      max-size: 3145728
+      binary-mode: false
+
 
 
   mitm:
@@ -543,6 +551,7 @@ http:
     - "api0.easeprime.com"
     - "carrotweather.herokuapp.com"
     - "pgapi.ksmobile.com"
+    - "api.qingning6.com"
 
 
 script-providers:
@@ -722,6 +731,9 @@ script-providers:
     interval: 86400
   "PhotoGrid":
     url: https://raw.githubusercontent.com/Guding88/Script/main/PhotoGrid.js
+    interval: 86400
+  "青柠设计":
+    url: https://raw.githubusercontent.com/Guding88/Script/main/qingningsheji.js
     interval: 86400
 
 
