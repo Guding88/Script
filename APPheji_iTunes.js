@@ -68,6 +68,7 @@ var uaProductMapping = {
   'Count': {product_id: 'counter.sub.gr1.1w'},
   'Wext': {product_id: 'com.lmf.wext.year'},
   'Scanner': {product_id: 'scannerapp.free.premium.subscription.m1mte'},
+  'Metion': {product_id: 'org.zrey.metion.pro'},
 
 };
 var receipt = {
