@@ -3,7 +3,7 @@
 Metion：https://apps.apple.com/app/id1530965242
 
 [rewrite_local]
-^https?:\/\/buy\.itunes\.apple\.com\/verifyReceipt$ url script-response-body https://raw.githubusercontent.com/Guding88/Script/main/Bazaart.js
+^https?:\/\/buy\.itunes\.apple\.com\/verifyReceipt$ url script-response-body https://raw.githubusercontent.com/Guding88/Script/main/Metion.js
 
 [MITM]
 hostname = buy.itunes.apple.com
