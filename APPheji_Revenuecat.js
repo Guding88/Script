@@ -145,7 +145,7 @@ if (typeof $response == "undefined") {
     'PomoStiker':{ name: 'lifetimeForever', id: 'com.daya.lifetimeforever'},
     'Uio':{ name: 'PRO', id: 'com.daya.Uio.quarterly'},
     'Snipd':{ name: 'premium', id: 'snipd_premium_1y_7199_trial_2w_v2'},
-    'Cuto':{ name: 'cutopro', id: 'com.potatsolab.cuto.pro'},
+    //'Cuto':{ name: 'cutopro', id: 'com.potatsolab.cuto.pro'},
     'CountDuck':{ name: 'premium', id: 'Lifetime'},
 
 
