@@ -190,8 +190,7 @@ Shadowrocket模块：https://raw.githubusercontent.com/Guding88/Script/main/APPh
 |109|每日番茄|[点击下载](https://apps.apple.com/app/id6448365485)
 |110|夺目相框|[点击下载](https://apps.apple.com/app/id6448359509)
 |111|Snipd|[点击下载](https://apps.apple.com/app/id1557206126)
-|112|Cuto壁纸|[点击下载](https://apps.apple.com/app/id1068086465)
-|113|倒数鸭|[点击下载](https://apps.apple.com/app/id6457201223)
+|112|倒数鸭|[点击下载](https://apps.apple.com/app/id6457201223)
 
 
 </details>
