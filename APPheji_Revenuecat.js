@@ -147,6 +147,7 @@ if (typeof $response == "undefined") {
     'Snipd':{ name: 'premium', id: 'snipd_premium_1y_7199_trial_2w_v2'},
     //'Cuto':{ name: 'cutopro', id: 'com.potatsolab.cuto.pro'},
     'CountDuck':{ name: 'premium', id: 'Lifetime'},
+    'tiimo':{ name: 'full_access', id: 'lifetime.iap'},
 
 
     
