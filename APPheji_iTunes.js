@@ -69,6 +69,8 @@ var uaProductMapping = {
   'Wext': {product_id: 'com.lmf.wext.year'},
   'Scanner': {product_id: 'scannerapp.free.premium.subscription.m1mte'},
   'Metion': {product_id: 'org.zrey.metion.pro'},
+  'Ever%20Play': {product_id: 'com.zhangchao.AudioPlayer.subscription.oneYear'},
+  
 
 };
 var receipt = {
