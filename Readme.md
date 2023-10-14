@@ -65,11 +65,12 @@ Shadowrocket模块：https://raw.githubusercontent.com/Guding88/Script/main/APPh
 |40|‎‎DoMemo|[点击下载](https://apps.apple.com/app/id1624344916)
 |41|‎‎‎xTerminal|[点击下载](https://apps.apple.com/app/id1544728400)
 |42|‎‎‎AI Chatbot|[点击下载](https://apps.apple.com/app/id1559479889)
-|42|Fotoz|[点击下载](https://apps.apple.com/app/id1090640183)
-|42|CountThis|[点击下载](https://apps.apple.com/app/id1553863458)
-|43|万源阅读|[点击下载](https://apps.apple.com/app/id6446446808)
-|44|Scanner|[点击下载](https://apps.apple.com/app/id1291962681)
-|44|Metion|[点击下载](https://apps.apple.com/app/id1530965242)
+|43|Fotoz|[点击下载](https://apps.apple.com/app/id1090640183)
+|44|CountThis|[点击下载](https://apps.apple.com/app/id1553863458)
+|45|万源阅读|[点击下载](https://apps.apple.com/app/id6446446808)
+|46|Scanner|[点击下载](https://apps.apple.com/app/id1291962681)
+|47|Metion|[点击下载](https://apps.apple.com/app/id1530965242)
+|48|Ever Play|[点击下载](https://apps.apple.com/app/id1202642773)
 
 * Air系列未完全整理，**必须先下载计算器Air并解锁**，然后再下载同一开发者的同系列产品，会自动同步解锁。
 </details>
