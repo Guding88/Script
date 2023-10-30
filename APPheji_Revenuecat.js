@@ -148,6 +148,7 @@ if (typeof $response == "undefined") {
     //'Cuto':{ name: 'cutopro', id: 'com.potatsolab.cuto.pro'},
     'CountDuck':{ name: 'premium', id: 'Lifetime'},
     'tiimo':{ name: 'full_access', id: 'lifetime.iap'},
+    'Subtrack':{ name: 'pro', id: 'com.mohitnandwani.subtrack.subtrackpro.family'},
 
 
     
