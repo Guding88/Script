@@ -192,6 +192,7 @@ Shadowrocket模块：https://raw.githubusercontent.com/Guding88/Script/main/APPh
 |110|夺目相框|[点击下载](https://apps.apple.com/app/id6448359509)
 |111|Snipd|[点击下载](https://apps.apple.com/app/id1557206126)
 |112|倒数鸭|[点击下载](https://apps.apple.com/app/id6457201223)
+|113|Subtrack|[点击下载](https://apps.apple.com/app/id1519946553)
 
 
 </details>
