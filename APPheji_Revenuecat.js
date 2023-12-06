@@ -149,6 +149,7 @@ if (typeof $response == "undefined") {
     'CountDuck':{ name: 'premium', id: 'Lifetime'},
     'tiimo':{ name: 'full_access', id: 'lifetime.iap'},
     'Subtrack':{ name: 'pro', id: 'com.mohitnandwani.subtrack.subtrackpro.family'},
+    'Aphrodite':{ name: 'all', id: 'com.ziheng.aphrodite.onetime'},
 
 
     
