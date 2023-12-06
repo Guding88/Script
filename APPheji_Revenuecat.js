@@ -150,6 +150,7 @@ if (typeof $response == "undefined") {
     'tiimo':{ name: 'full_access', id: 'lifetime.iap'},
     'Subtrack':{ name: 'pro', id: 'com.mohitnandwani.subtrack.subtrackpro.family'},
     'Aphrodite':{ name: 'all', id: 'com.ziheng.aphrodite.onetime'},
+    '%E7%94%BB%E5%8E%86':{ name: 'pro', id: 'com.bapaws.calendar.lifetime'},
 
 
     
