@@ -151,6 +151,7 @@ if (typeof $response == "undefined") {
     'Subtrack':{ name: 'pro', id: 'com.mohitnandwani.subtrack.subtrackpro.family'},
     'Aphrodite':{ name: 'all', id: 'com.ziheng.aphrodite.onetime'},
     '%E7%94%BB%E5%8E%86':{ name: 'pro', id: 'com.bapaws.calendar.lifetime'},
+    'NotSmoke':{ name: 'not_smoke_vip_01', id: 'not_smoke_01_12_month'},
 
 
     
