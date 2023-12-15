@@ -16,7 +16,7 @@ Stash复写：https://raw.githubusercontent.com/Guding88/Script/main/APPheji_Gud
 Shadowrocket模块：https://raw.githubusercontent.com/Guding88/Script/main/APPheji_Guding.sgmodule
 
 
-### 已解锁APP及下载地址(不完整统计）
+### 已解锁APP及下载地址（不完整统计）
 
 <details>
    <summary>📱iTunes系列汇总</summary>    
