@@ -154,6 +154,7 @@ if (typeof $response == "undefined") {
     'NotSmoke':{ name: 'not_smoke_vip_01', id: 'not_smoke_01_12_month'},
     'Record2Text':{ name: 'afi.recnote.pro', id: 'afi.recnote.pro'},
     'MusicMate':{ name: 'premium', id: 'mm_lifetime_198_premium'},
+    'Blurer':{ name: 'paid_access', id: 'pro_free'},
 
 
     
