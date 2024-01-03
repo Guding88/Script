@@ -71,12 +71,7 @@ Shadowrocket模块：https://raw.githubusercontent.com/Guding88/Script/main/APPh
 |46|Scanner|[点击下载](https://apps.apple.com/app/id1291962681)
 |47|Metion|[点击下载](https://apps.apple.com/app/id1530965242)
 |48|Ever Play|[点击下载](https://apps.apple.com/app/id1202642773)
-|49|图图记账|懒得填了
-|50|Apollo|懒得填了
-|51|Aphrodite|懒得填了
-|52|Music Mate|懒得填了
-|53|Pixelify|懒得填了
-|54|声闻|懒得填了
+
 
 * Air系列未完全整理，**必须先下载计算器Air并解锁**，然后再下载同一开发者的同系列产品，会自动同步解锁。
 </details>
@@ -199,6 +194,12 @@ Shadowrocket模块：https://raw.githubusercontent.com/Guding88/Script/main/APPh
 |111|Snipd|[点击下载](https://apps.apple.com/app/id1557206126)
 |112|倒数鸭|[点击下载](https://apps.apple.com/app/id6457201223)
 |113|Subtrack|[点击下载](https://apps.apple.com/app/id1519946553)
+|114|图图记账|懒得填了
+|115|Apollo|懒得填了
+|116|Aphrodite|懒得填了
+|117|Music Mate|懒得填了
+|118|Pixelify|懒得填了
+|119|声闻|懒得填了
 
 
 </details>
