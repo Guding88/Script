@@ -156,6 +156,8 @@ if (typeof $response == "undefined") {
     'MusicMate':{ name: 'premium', id: 'mm_lifetime_198_premium'},
     'Blurer':{ name: 'paid_access', id: 'pro_free'},
     'apollo':{ name: 'all', id: 'com.ziheng.apollo.onetime'},
+    'OneBox':{ name: 'all', id: 'com.ziheng.pandora.lifetime'},
+    'totowallet':{ name: 'all', id: 'com.ziheng.totowallet.onetimepurchase'},
 
 
     
