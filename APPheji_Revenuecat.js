@@ -157,7 +157,7 @@ if (typeof $response == "undefined") {
     'Blurer':{ name: 'paid_access', id: 'pro_free'},
     'apollo':{ name: 'all', id: 'com.ziheng.apollo.onetime'},
     'OneBox':{ name: 'all', id: 'com.ziheng.pandora.lifetime'},
-    'totowallet':{ name: 'all', id: 'com.ziheng.totowallet.yearly'},
+    'totowallet':{ name: 'all', id: 'com.ziheng.totowallet.onetimepurchase'},
 
 
     
