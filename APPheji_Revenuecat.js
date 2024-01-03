@@ -155,6 +155,7 @@ if (typeof $response == "undefined") {
     'Record2Text':{ name: 'afi.recnote.pro', id: 'afi.recnote.pro'},
     'MusicMate':{ name: 'premium', id: 'mm_lifetime_198_premium'},
     'Blurer':{ name: 'paid_access', id: 'pro_free'},
+    'apollo':{ name: 'all', id: 'com.ziheng.apollo.onetime'},
 
 
     
