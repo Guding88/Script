@@ -161,6 +161,7 @@ if (typeof $response == "undefined") {
     'apollo':{ name: 'all', id: 'com.ziheng.apollo.onetime'},
     'OneBox':{ name: 'all', id: 'com.ziheng.pandora.lifetime'},
     'totowallet':{ name: 'all', id: 'com.ziheng.totowallet.onetimepurchase'},
+    'AIWeatherBot':{ name: 'Premium', id: 'com.lionsapp.AIWeatherBot.Premium.Annual'},
 
 
     //以下内容来自卑鄙的Baby（@Yu9191）
