@@ -2,6 +2,9 @@
 
 iTunes解锁合集，已解锁APP及下载地址请见说明：https://github.com/Guding88/Script/blob/main/Readme.md
 
+TG频道：https://t.me/Guding88
+TG群组：https://t.me/GudingChat
+
 [rewrite_local]
 ^https?:\/\/buy\.itunes\.apple\.com\/verifyReceipt$ url script-response-body https://raw.githubusercontent.com/Guding88/Script/main/APPheji_iTunes.js
 
@@ -64,13 +67,37 @@ var uaProductMapping = {
   'xTerminal': {product_id: 'xterminal.pro2'},
   'MoodTracker': {product_id: 'co.vulcanlabs.moodtracker.lifetime2'},
   'Fotoz': {product_id: 'com.kiddy.fotoz.ipa.pro'},
-  'Dart': {product_id: 'com.focus.roller.nonconsum.permanentpro'},
   'Count': {product_id: 'counter.sub.gr1.1w'},
   'Wext': {product_id: 'com.lmf.wext.year'},
   'Scanner': {product_id: 'scannerapp.free.premium.subscription.m1mte'},
   'Metion': {product_id: 'org.zrey.metion.pro'},
   'Ever%20Play': {product_id: 'com.zhangchao.AudioPlayer.subscription.oneYear'},
-  'Carbon%20VPN': {product_id: 'Prog_oneYear_auto'},
+  'Carbon%20VPN': {product_id: 'Prog_oneYear_auto'},、
+
+
+
+  //以下内容来自卑鄙的Baby（@Yu9191）
+  'MomentShouZhang': {product_id: 'xichaoshouzhangQuarterlyPlus'},
+  'XinQingRiJi': {product_id: 'zhiwenshouzhangQuarterlyPlus'},
+  'MoMoShouZhang': {product_id: 'shunchangshouzhangQuarterlyPlus'},
+  'BuBuSZ': {product_id: 'quaVersion'},
+  'LingLongShouZ': {product_id: 'zhenwushouzhangPlusVersion'},
+  'Dart': {product_id: 'xyz.iofree.lifelog.pro.yearly'},
+  'Pixiu%E8%AE%B0%E8%B4%A6': {product_id: 'com.RuoG.Pixiu.VIPYear'},
+  'Lister': {product_id: 'com.productlab.lister.yearly'},
+  'Daylio': {product_id: 'net.daylio.one_year_pro'},
+  'Nutrilio': {product_id: 'net.nutrilio.one_year_plus'},
+  'YSBrowser': {product_id: 'com.ys.pro'},
+  '%E5%B0%8F%E6%97%A5%E5%B8%B8': {product_id: 'membership'},
+  'Miary': {product_id: 'lifetime_sub'},  
+  'Mindkit': {product_id: 'mindkit_yearly'}, 
+  'EnhanceFox': {product_id: 'com.risingcabbage.enhancefox.yearlysubscribewithtreetrial'},
+  
+
+
+
+
+
   
 
 };
