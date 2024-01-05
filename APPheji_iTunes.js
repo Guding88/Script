@@ -76,7 +76,7 @@ var uaProductMapping = {
 
 
 
-  //以下内容来自卑鄙的Baby（@Yu9191）
+  //以下内容来自卑鄙的Baby
   'MomentShouZhang': {product_id: 'xichaoshouzhangQuarterlyPlus'},
   'XinQingRiJi': {product_id: 'zhiwenshouzhangQuarterlyPlus'},
   'MoMoShouZhang': {product_id: 'shunchangshouzhangQuarterlyPlus'},
