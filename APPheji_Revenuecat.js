@@ -1,5 +1,8 @@
 /*
 
+TG频道：https://t.me/Guding88
+TG群组：https://t.me/GudingChat
+
 Revenuecat解锁合集，已解锁APP及下载地址请见说明：https://github.com/Guding88/Script/blob/main/Readme.md
 
 [rewrite_local]
@@ -158,6 +161,10 @@ if (typeof $response == "undefined") {
     'apollo':{ name: 'all', id: 'com.ziheng.apollo.onetime'},
     'OneBox':{ name: 'all', id: 'com.ziheng.pandora.lifetime'},
     'totowallet':{ name: 'all', id: 'com.ziheng.totowallet.onetimepurchase'},
+
+
+    //以下内容来自卑鄙的Baby（@Yu9191）
+    'Spark':{ name: 'premium', id: 'spark_5999_1y_1w0'},
 
 
     
