@@ -65,7 +65,7 @@ if (typeof $response == "undefined") {
     'Waterlytics':{ name: 'Pro', id: 'app.waterlytics.pro.yearly.v2'},
     'WidgetSmith':{ name: 'Premium', id: 'PremiumAnnualWidget'},
     'Browser':{ name: 'pro', id: 'pro_zoomable'},
-    '%E8%BD%A6%E7%A5%A8%E7%A5%A8':{ name: 'vip', id: 'eticket_6_life'},
+    '%E8%BD%A6%E7%A5%A8%E7%A5%A8':{ name: 'vip+watch_vip', id: 'eticket_with_watch_1y_7d0'},
     'app':{ name: 'Pro', id: 'com.wengqianshan.diet.pro'},
     '%E6%9E%81%E7%AE%80%E5%BC%B9%E5%B9%95':{ name: 'pro', id: 'com.abouttime.flash.year'},
     'MinimalDiary':{ name: 'pro', id: 'com.mad.MinimalDiary.lifetime'},
