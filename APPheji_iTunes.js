@@ -72,7 +72,7 @@ var uaProductMapping = {
   'Scanner': {product_id: 'scannerapp.free.premium.subscription.m1mte'},
   'Metion': {product_id: 'org.zrey.metion.pro'},
   'Ever%20Play': {product_id: 'com.zhangchao.AudioPlayer.subscription.oneYear'},
-  'Carbon%20VPN': {product_id: 'Prog_oneYear_auto'},、
+  'Carbon%20VPN': {product_id: 'Prog_oneYear_auto'},
 
 
 
