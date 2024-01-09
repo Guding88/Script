@@ -3,11 +3,11 @@ const bwtoken = $.getdata("bw_token");
 const bw2024 = {
   url: "https://webapi.qmai.cn/web/cmk-center/sign/takePartInSign",
   headers: {
-	'Connection' : `keep-alive`,
+    'Connection' : `keep-alive`,
     'Accept-Encoding' : `gzip,compress,br,deflate`,
     'Content-Type' : `application/json`,
     'Qm-From' : `wechat`,
-	'Host' : `webapi.qmai.cn`,
+    'Host' : `webapi.qmai.cn`,
     'Qm-From-Type' : `catering`,
     'Referer' : `https://servicewechat.com/wxafec6f8422cb357b/140/page-frame.html`,
     'Accept-Language' : `zh-CN,zh-Hans;q=0.9`,
