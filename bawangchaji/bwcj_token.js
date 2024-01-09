@@ -2,28 +2,29 @@
 
 脚本功能: 获取霸王茶姬小程序Qm-User-Token和RequestBody
 用户信息获取方式: 
-    微信霸王茶姬小程序 --> 积分商城 --> 积分签到 --> 签到
+    微信霸王茶姬小程序 --> 我的
     用户信息获取成功后可禁用此脚本
 
 [rewrite local]
 ^https?:\/\/webapi\.qmai\.cn\/web\/catering\/integral\/sign\/signIn url script-request-body https://raw.githubusercontent.com/Guding88/Script/main/bawangchaji/bwcj_token.js
+^https?:\/\/webapi\.qmai\.cn\/web\/catering\/user-cover-image\/queryUserCoverImage url script-request-body https://raw.githubusercontent.com/Guding88/Script/main/bawangchaji/bwcj_token.js
 
 [MITM]
 hostname = webapi.qmai.cn
 
 */
-const $ = new Env("🥤霸王茶姬小程序签到");
+const $ = new Env("🥤霸王茶姬token");
 const url = $request.url;
 const bwtoken = $.getdata("bw_token") ? $.getdata("bw_token") : "";
-const bwbody = $.getdata("bw_body") ? $.getdata("bw_body") : "";
+//const bwbody = $.getdata("bw_body") ? $.getdata("bw_body") : "";
 var notice = "";
 
 const headers = $request.headers;
-const body = $request.body;
+//const body = $request.body;
 if (body && headers['Qm-User-Token']) {
-  const bodyValue = body;
+  //const bodyValue = body;
   const tokenValue = headers['Qm-User-Token'];
-  $.setval(bodyValue, "bw_body");
+  //$.setval(bodyValue, "bw_body");
   $.setval(tokenValue, "bw_token");
   notice += "🎉用户信息获取成功！\n";
 } else {
