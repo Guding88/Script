@@ -21,7 +21,7 @@ var notice = "";
 
 const headers = $request.headers;
 //const body = $request.body;
-if (body && headers['Qm-User-Token']) {
+if (headers['Qm-User-Token']) {
   //const bodyValue = body;
   const tokenValue = headers['Qm-User-Token'];
   //$.setval(bodyValue, "bw_body");
