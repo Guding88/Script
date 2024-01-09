@@ -9,7 +9,7 @@ http:
 
   script:
 
-    - match: ^https?:\/\/webapi\.qmai\.cn\/web\/catering\/integral\/sign\/signIn
+    - match: ^https?:\/\/webapi\.qmai\.cn\/web\/catering\/user-cover-image\/queryUserCoverImage
       name: "霸王茶姬token"
       type: request
       timeout: 30
