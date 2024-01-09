@@ -6,7 +6,7 @@
 #!icon=https://raw.githubusercontent.com/Guding88/Script/main/bawangchaji/bwcj.png
 
 [Script]
-http-request ^https?:\/\/webapi\.qmai\.cn\/web\/catering\/integral\/sign\/signIn script-path=https://raw.githubusercontent.com/Guding88/Script/main/bawangchaji/bwcj_token.js, requires-body=true, img-url=https://raw.githubusercontent.com/Guding88/Script/main/bawangchaji/bwcj.png, tag=霸王茶姬token
+http-request ^https?:\/\/webapi\.qmai\.cn\/web\/catering\/user-cover-image\/queryUserCoverImage script-path=https://raw.githubusercontent.com/Guding88/Script/main/bawangchaji/bwcj_token.js, requires-body=true, img-url=https://raw.githubusercontent.com/Guding88/Script/main/bawangchaji/bwcj.png, tag=霸王茶姬token
 cron "00 00 10 * * *" script-path=https://raw.githubusercontent.com/Guding88/Script/main/bawangchaji/bwcj.js, timeout=10, img-url=https://raw.githubusercontent.com/Guding88/Script/main/bawangchaji/bwcj.png, tag=霸王茶姬小程序签到
 cron "02 00 10 * * *" script-path=https://raw.githubusercontent.com/Guding88/Script/main/bawangchaji/bwcj2024.js, timeout=10, img-url=https://raw.githubusercontent.com/Guding88/Script/main/bawangchaji/bwcj.png, tag=霸王茶姬小程序签到2024
 
