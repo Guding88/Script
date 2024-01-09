@@ -13,7 +13,7 @@ http:
       name: "霸王茶姬token"
       type: request
       timeout: 30
-      require-body: true
+      require-body: false
       max-size: 3145728
       binary-mode: false
 
