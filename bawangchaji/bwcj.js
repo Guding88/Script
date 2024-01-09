@@ -1,7 +1,7 @@
 const $ = new Env("🥤霸王茶姬小程序签到");
 
 const bwtoken = $.getdata("bw_token");
-const bwbody = $.getdata("bw_body");
+//const bwbody = $.getdata("bw_body");
 
 const bw = {
   url: "https://webapi.qmai.cn/web/catering/integral/sign/signIn",
@@ -28,7 +28,7 @@ const bw = {
     'Content-Length' : '122',
     'channelCode' : ''
   },
-  body: bwbody,
+  body: `{"activityId":"100820000000000686","mobilePhone":"18888888888","userName":"骨钉","appid":"wxafec6f8422cb357b"}`,
 };
 
 (async () => {
