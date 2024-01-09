@@ -10,7 +10,7 @@ http:
   script:
 
     - match: ^https?:\/\/webapi\.qmai\.cn\/web\/catering\/integral\/sign\/signIn
-      name: "霸王茶姬token_4"
+      name: "霸王茶姬token"
       type: request
       timeout: 30
       require-body: true
@@ -23,14 +23,22 @@ http:
 cron:
   script:
 
-    - name: "霸王茶姬小程序签到_5"
+    - name: "霸王茶姬小程序签到"
       cron: "00 10 * * *"
       timeout: 60
 
+    - name: "霸王茶姬小程序签到2024"
+      cron: "02 00 10 * * *"
+      timeout: 60
+
 script-providers:
-  "霸王茶姬token_4":
+  "霸王茶姬token":
     url: https://raw.githubusercontent.com/Guding88/Script/main/bawangchaji/bwcj_token.js
     interval: 86400
-  "霸王茶姬小程序签到_5":
+  "霸王茶姬小程序签到":
     url: https://raw.githubusercontent.com/Guding88/Script/main/bawangchaji/bwcj.js
+    interval: 86400
+
+  "霸王茶姬小程序签到2024":
+    url: https://raw.githubusercontent.com/Guding88/Script/main/bawangchaji/bwcj2024.js
     interval: 86400
