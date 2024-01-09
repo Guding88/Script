@@ -7,7 +7,7 @@
 
 [rewrite local]
 //^https?:\/\/webapi\.qmai\.cn\/web\/catering\/integral\/sign\/signIn url script-request-body https://raw.githubusercontent.com/Guding88/Script/main/bawangchaji/bwcj_token.js
-^https?:\/\/webapi\.qmai\.cn\/web\/catering\/user-cover-image\/queryUserCoverImage url script-request-body https://raw.githubusercontent.com/Guding88/Script/main/bawangchaji/bwcj_token.js
+^https?:\/\/webapi\.qmai\.cn\/web\/catering\/user-cover-image\/queryUserCoverImage url script-request-headers https://raw.githubusercontent.com/Guding88/Script/main/bawangchaji/bwcj_token.js
 
 [MITM]
 hostname = webapi.qmai.cn
