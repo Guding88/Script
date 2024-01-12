@@ -73,6 +73,7 @@ var uaProductMapping = {
   'Metion': {product_id: 'org.zrey.metion.pro'},
   'Ever%20Play': {product_id: 'com.zhangchao.AudioPlayer.subscription.oneYear'},
   'Carbon%20VPN': {product_id: 'Prog_oneYear_auto'},
+  'RealTuner': {product_id: 'com.gismart.tuner.weekly'},
 
 
 
