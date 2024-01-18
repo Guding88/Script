@@ -162,7 +162,7 @@ if (typeof $response == "undefined") {
     'OneBox':{ name: 'all', id: 'com.ziheng.pandora.lifetime'},
     'totowallet':{ name: 'all', id: 'com.ziheng.totowallet.onetimepurchase'},
     'AIWeatherBot':{ name: 'Premium', id: 'com.lionsapp.AIWeatherBot.Premium.Annual'},
-    'Road':{ name: 'pro', id: 'lifetime_108'},
+    'Rond':{ name: 'pro', id: 'lifetime_108'},
 
 
     //以下内容来自卑鄙的Baby（@Yu9191）
