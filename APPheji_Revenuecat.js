@@ -163,6 +163,7 @@ if (typeof $response == "undefined") {
     'totowallet':{ name: 'all', id: 'com.ziheng.totowallet.onetimepurchase'},
     'AIWeatherBot':{ name: 'Premium', id: 'com.lionsapp.AIWeatherBot.Premium.Annual'},
     'Rond':{ name: 'pro', id: 'lifetime_108'},
+    'SwitchGallery':{ name: 'switchbuddy+', id: 'sb_lifetime_purchase'},
 
 
     //以下内容来自卑鄙的Baby（@Yu9191）
