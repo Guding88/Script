@@ -93,6 +93,7 @@ var uaProductMapping = {
   'Miary': {product_id: 'lifetime_sub'},  
   'Mindkit': {product_id: 'mindkit_yearly'}, 
   'EnhanceFox': {product_id: 'com.risingcabbage.enhancefox.yearlysubscribewithtreetrial'},
+  'Snoring': {product_id: 'com.koshel.snore.premiumYearThreeDaysTria'},
   
 
 
