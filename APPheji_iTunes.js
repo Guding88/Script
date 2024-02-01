@@ -94,6 +94,7 @@ var uaProductMapping = {
   'Mindkit': {product_id: 'mindkit_yearly'}, 
   'EnhanceFox': {product_id: 'com.risingcabbage.enhancefox.yearlysubscribewithtreetrial'},
   'Snoring': {product_id: 'com.koshel.snore.premiumYearThreeDaysTria'},
+  'com.brother.pdfreaderprofree': {product_id: 'com.pdfreaderpro.free.member.all_access_pack_permanent_license.001'},
   
 
 
