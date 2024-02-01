@@ -168,6 +168,7 @@ if (typeof $response == "undefined") {
 
     //以下内容来自卑鄙的Baby（@Yu9191）
     'Spark':{ name: 'premium', id: 'spark_5999_1y_1w0'},
+    'WeeklyNote':{ name: 'org.zrey.weeklynote', id: 'org.zrey.weeklynote.flash_lifetime'},//周周记
 
 
     
