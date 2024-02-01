@@ -425,7 +425,7 @@ http:
       max-size: 3145728
       binary-mode: false
 
-    - match: ^https?:\/\/getway-plan\.abuddz\.com\/api\/sync\/putNeedUpdateData
+    - match: ^https?:\/\/getway-plan\.bjsybw\.cn\/api\/sync\/putNeedUpdateData
       name: "飞鱼计划"
       type: response
       timeout: 30
@@ -544,7 +544,7 @@ http:
     - "lengapp.com"
     - "newos.glassmarket.cn"
     - "neckgo.wedea.cn"
-    - "getway-plan.abuddz.com"
+    - "getway-plan.bjsybw.cn"
     - "gw.aoscdn.com"
     - "api.wemore.com"
     - "jz.wacai.com"
