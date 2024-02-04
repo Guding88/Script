@@ -27,7 +27,7 @@ https://raw.githubusercontent.com/Guding88/Script/main/bawangchaji/bwcj.stoverri
 ```properties
 
 [rewrite local]
-^https?:\/\/webapi\.qmai\.cn\/web\/catering\/user-cover-image\/queryUserCoverImage url script-request-header https://raw.githubusercontent.com/Guding88/Script/main/bawangchaji/bwcj_token.js
+^https?:\/\/qmwebapi\.qmai\.cn\/web\/catering2-apiserver\/customer-suggest\/query-feedback-config url script-request-header https://raw.githubusercontent.com/Guding88/Script/main/bawangchaji/bwcj_token.js
 
 [MITM]
 hostname = webapi.qmai.cn
