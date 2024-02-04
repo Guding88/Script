@@ -3,9 +3,9 @@
 #!homepage=https://github.com/Guding88/Script/blob/main/bawangchaji/Readme.md
 
 [Script]
-霸王茶姬token = type=http-request,pattern=^https?:\/\/webapi\.qmai\.cn\/web\/catering\/design\/homePage-Config,requires-body=0,max-size=0,script-path=https://raw.githubusercontent.com/Guding88/Script/main/bawangchaji/bwcj_token.js
+霸王茶姬token = type=http-request,pattern=^https?:\/\/qmwebapi\.qmai\.cn\/web\/catering2-apiserver\/customer-suggest\/query-feedback-config,requires-body=0,max-size=0,script-path=https://raw.githubusercontent.com/Guding88/Script/main/bawangchaji/bwcj_token.js
 霸王茶姬小程序签到 = type=cron,cronexp=00 00 10 * * *,script-path=https://raw.githubusercontent.com/Guding88/Script/main/bawangchaji/bwcj.js,script-update-interval=0
 霸王茶姬小程序签到2024 = type=cron,cronexp=02 00 10 * * *,script-path=https://raw.githubusercontent.com/Guding88/Script/main/bawangchaji/bwcj2024.js,script-update-interval=0
 
 [MITM]
-hostname = %APPEND% webapi.qmai.cn
+hostname = %APPEND% qmwebapi.qmai.cn
