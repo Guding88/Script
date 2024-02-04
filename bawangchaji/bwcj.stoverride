@@ -9,7 +9,7 @@ http:
 
   script:
 
-    - match: ^https?:\/\/webapi\.qmai\.cn\/web\/catering\/user-cover-image\/queryUserCoverImage
+    - match: ^https?:\/\/qmwebapi\.qmai\.cn\/web\/catering2-apiserver\/customer-suggest\/query-feedback-config
       name: "霸王茶姬token"
       type: request
       timeout: 30
@@ -18,7 +18,7 @@ http:
       binary-mode: false
 
   mitm:
-    - "webapi.qmai.cn"
+    - "qmwebapi.qmai.cn"
 
 cron:
   script:
