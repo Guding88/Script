@@ -74,6 +74,7 @@ var uaProductMapping = {
   'Ever%20Play': {product_id: 'com.zhangchao.AudioPlayer.subscription.oneYear'},
   'Carbon%20VPN': {product_id: 'Prog_oneYear_auto'},
   'RealTuner': {product_id: 'com.gismart.tuner.weekly'},
+  'ShellBean': {product_id: 'com.ningle.shellbean.subscription.year'},
 
 
 
