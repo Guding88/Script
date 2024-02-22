@@ -9,7 +9,7 @@ http:
 
   script:
 
-    - match: ^https?:\/\/qmwebapi\.qmai\.cn\/web\/catering2-apiserver\/customer-suggest\/query-feedback-config
+    - match: ^https?:\/\/(webapi|qmwebapi)\.qmai\.cn\/web\/(catering2-apiserver\/customer-suggest\/query-feedback-config|catering\/crm\/points-info)
       name: "霸王茶姬token"
       type: request
       timeout: 30
@@ -19,6 +19,7 @@ http:
 
   mitm:
     - "qmwebapi.qmai.cn"
+    - "webapi.qmai.cn"
 
 cron:
   script:
