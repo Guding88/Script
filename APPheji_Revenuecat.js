@@ -165,6 +165,7 @@ if (typeof $response == "undefined") {
     'Rond':{ name: 'pro', id: 'lifetime_108'},
     'SwitchGallery':{ name: 'switchbuddy+', id: 'sb_lifetime_purchase'},
     'ShellBean':{ name: 'pro', id: 'com.ningle.shellbean.subscription.year'},
+    'Langster':{ name: 'Premium', id: 'com.langster.universal.lifetime'},
 
 
     //以下内容来自卑鄙的Baby（@Yu9191）
