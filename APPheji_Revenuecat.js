@@ -164,6 +164,7 @@ if (typeof $response == "undefined") {
     'AIWeatherBot':{ name: 'Premium', id: 'com.lionsapp.AIWeatherBot.Premium.Annual'},
     'Rond':{ name: 'pro', id: 'lifetime_108'},
     'SwitchGallery':{ name: 'switchbuddy+', id: 'sb_lifetime_purchase'},
+    'ShellBean':{ name: 'pro', id: 'com.ningle.shellbean.subscription.year'},
 
 
     //以下内容来自卑鄙的Baby（@Yu9191）
