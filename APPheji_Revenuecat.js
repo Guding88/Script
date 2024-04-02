@@ -166,6 +166,7 @@ if (typeof $response == "undefined") {
     'SwitchGallery':{ name: 'switchbuddy+', id: 'sb_lifetime_purchase'},
     'ShellBean':{ name: 'pro', id: 'com.ningle.shellbean.subscription.year'},
     'Langster':{ name: 'Premium', id: 'com.langster.universal.lifetime'},
+    'AudioPlayer':{ name: 'Pro', id: 'xyz.lijun.www.AudioPlayer.premium.newuser'},
 
 
     //以下内容来自卑鄙的Baby（@Yu9191）
