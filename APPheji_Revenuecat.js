@@ -167,6 +167,8 @@ if (typeof $response == "undefined") {
     'ShellBean':{ name: 'pro', id: 'com.ningle.shellbean.subscription.year'},
     'Langster':{ name: 'Premium', id: 'com.langster.universal.lifetime'},
     'AudioPlayer':{ name: 'Pro', id: 'xyz.lijun.www.AudioPlayer.premium.newuser'},
+    'FoJiCam':{ name: 'ProVersionLifeTime', id: 'com.uzero.cn.fojicam.life1'},
+    'ShellBoxKit':{ name: 'pro', id: 'ShellBoxKit.Lifetime'},
 
 
     //以下内容来自卑鄙的Baby（@Yu9191）
