@@ -169,6 +169,7 @@ if (typeof $response == "undefined") {
     'AudioPlayer':{ name: 'Pro', id: 'xyz.lijun.www.AudioPlayer.premium.newuser'},
     'FoJiCam':{ name: 'ProVersionLifeTime', id: 'com.uzero.cn.fojicam.life1'},
     'ShellBoxKit':{ name: 'pro', id: 'ShellBoxKit.Lifetime'},
+    'Ask':{ name: 'Perplexity Pro', id: 'pro_200_yr_1w_new'},
 
 
     //以下内容来自卑鄙的Baby（@Yu9191）
