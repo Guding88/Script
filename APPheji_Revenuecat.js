@@ -168,7 +168,7 @@ if (typeof $response == "undefined") {
     'Langster':{ name: 'Premium', id: 'com.langster.universal.lifetime'},
     'AudioPlayer':{ name: 'Pro', id: 'xyz.lijun.www.AudioPlayer.premium.newuser'},
     'FoJiCam':{ name: 'ProVersionLifeTime', id: 'com.uzero.cn.fojicam.life1'},
-    'ShellBoxKit':{ name: 'pro', id: 'ShellBoxKit.Lifetime'},
+    'ShellBoxKit':{ name: 'ssh_pro', id: 'ShellBoxKit.Lifetime'},
     'Ask':{ name: 'Perplexity Pro', id: 'pro_200_yr_1w_new'},
 
 
