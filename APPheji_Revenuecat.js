@@ -176,6 +176,9 @@ if (typeof $response == "undefined") {
     'Spark':{ name: 'premium', id: 'spark_5999_1y_1w0'},
     'WeeklyNote':{ name: 'org.zrey.weeklynote', id: 'org.zrey.weeklynote.flash_lifetime'},//周周记
     'Text%20Workflow':{ name: 'pro', id: 'tw_99_1m'},
+    
+    //群友发的，不知道从谁那摘出来的
+    'ScreenRecordCase':{ name: 'Premium', id: 'me.fandong.ScreenRecordCase.Ultra'},
 
 
     
