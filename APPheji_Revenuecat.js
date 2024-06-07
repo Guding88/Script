@@ -171,6 +171,7 @@ if (typeof $response == "undefined") {
     //'ShellBoxKit':{ name: 'pro', id: 'ShellBoxKit.Lifetime'},
     'Ask':{ name: 'Perplexity Pro', id: 'pro_200_yr_1w_new'},
     'PipDoc':{ name: 'pro', id: 'pipdoc_pro_lifetime'},
+    'Tyson':{ name: 'pro', id: 'lux_7999_1y_2w0'},
 
 
     //以下内容来自卑鄙的Baby（@Yu9191）
