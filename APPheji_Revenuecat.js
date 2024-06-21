@@ -174,6 +174,7 @@ if (typeof $response == "undefined") {
     'Tyson':{ name: 'pro', id: 'lux_7999_1y_2w0'},//来自大圣的徕卡
     'Yosum':{ name: 'Premium', id: 'terrykuo.co.yosum.premiummembership'},
     'iplayTV':{ name: 'com.ll.btplayer.12', id: 'com.ll.btplayer.12'},
+    'TQBrowser':{ name: 'pro', id: 'com.tk.client.lifetime'},
 
 
     //以下内容来自卑鄙的Baby（@Yu9191）
