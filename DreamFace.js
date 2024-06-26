@@ -1,9 +1,9 @@
 /*
 
-Dreamface：https://apps.apple.com/app/id1624172324
+DreamFace：https://apps.apple.com/app/id1624172324
 
 [rewrite_local]
-^https?:\/\/dreamfaceapp\.com\/df-server\/user\/save_user_login url script-response-body https://raw.githubusercontent.com/Guding88/Script/main/Dreamface.js
+^https?:\/\/dreamfaceapp\.com\/df-server\/user\/save_user_login url script-response-body https://raw.githubusercontent.com/Guding88/Script/main/DreamFace.js
 
 [MITM]
 hostname = dreamfaceapp.com
