@@ -177,6 +177,7 @@ if (typeof $response == "undefined") {
     'TQBrowser':{ name: 'pro', id: 'com.tk.client.lifetime'},
     'nasctl':{ name: 'pro', id: 'nasctl_pro'},
     'Sleepo':{ name: 'pro', id: 'sleepo_premium_lifetime_free'},
+    'Super%20AI%20Chat':{ name: 'premium', id: 'chatbot_v4_1999_1y'},
 
 
     //以下内容来自卑鄙的Baby（@Yu9191）
