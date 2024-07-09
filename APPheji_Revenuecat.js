@@ -178,7 +178,8 @@ if (typeof $response == "undefined") {
     'nasctl':{ name: 'pro', id: 'nasctl_pro'},
     'Sleepo':{ name: 'pro', id: 'sleepo_premium_lifetime_free'},
     'Super%20AI%20Chat':{ name: 'premium', id: 'chatbot_v4_1999_1y'},
-    'PicSeedClient':{ name: 'pro', id: 'com.picseed.sub.pro.event.annual'},
+    'PicSeedClient':{ name: 'pro', id: 'com.picseed.sub.pro.event.annual'},//PicSeed
+    'Free':{ name: 'pro', id: 'appspree_pro_lifetime'},//Appspree
 
 
     //以下内容来自卑鄙的Baby（@Yu9191）
