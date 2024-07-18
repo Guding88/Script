@@ -182,6 +182,7 @@ if (typeof $response == "undefined") {
     'Free':{ name: 'pro', id: 'appspree_pro_lifetime'},//Appspree
     'PastePal':{ name: 'pro', id: 'com.onmyway133.PastePal.pro'},//PastePal
     'XGBA':{ name: 'xGBA.pro', id: 'xGBA.lifetime.20240502'},
+    'memesoundboard':{ name: 'pro', id: 'lifetime_3499'},//Meme Soundboard, Effects: Deez
 
 
     //以下内容来自卑鄙的Baby（@Yu9191）
