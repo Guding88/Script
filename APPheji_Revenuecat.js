@@ -178,7 +178,7 @@ if (typeof $response == "undefined") {
     'nasctl':{ name: 'pro', id: 'nasctl_pro'},
     'Sleepo':{ name: 'pro', id: 'sleepo_premium_lifetime_free'},
     'Super%20AI%20Chat':{ name: 'premium', id: 'chatbot_v4_1999_1y'},
-    'PicSeedClient':{ name: 'pro', id: 'com.picseed.sub.pro.event.annual'},//PicSeed
+    'PicSeedClient':{ name: 'Pro', id: 'com.picseed.sub.pro.event.annual'},//PicSeed
     'Free':{ name: 'pro', id: 'appspree_pro_lifetime'},//Appspree
     'PastePal':{ name: 'pro', id: 'com.onmyway133.PastePal.pro'},//PastePal
     'XGBA':{ name: 'xGBA.pro', id: 'xGBA.lifetime.20240502'},
