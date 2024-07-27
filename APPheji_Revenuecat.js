@@ -183,6 +183,7 @@ if (typeof $response == "undefined") {
     'PastePal':{ name: 'pro', id: 'com.onmyway133.PastePal.pro'},//PastePal
     'XGBA':{ name: 'xGBA.pro', id: 'xGBA.lifetime.20240502'},
     'memesoundboard':{ name: 'pro', id: 'lifetime_3499'},//Meme Soundboard, Effects: Deez
+    'gloriousYouth':{ name: 'gloriousYouth', id: 'gloriousYouth'},
 
 
     //以下内容来自卑鄙的Baby（@Yu9191）
