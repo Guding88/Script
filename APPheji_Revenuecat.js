@@ -184,6 +184,7 @@ if (typeof $response == "undefined") {
     'XGBA':{ name: 'xGBA.pro', id: 'xGBA.lifetime.20240502'},
     'memesoundboard':{ name: 'pro', id: 'lifetime_3499'},//Meme Soundboard, Effects: Deez
     'gloriousYouth':{ name: 'gloriousYouth', id: 'gloriousYouth'},
+    '%E8%B0%9C%E5%BA%95%E6%97%B6%E9%92%9F':{ name: 'Entitlement.Pro', id: 'tech.miidii.MDClock.pro'},
 
 
     //以下内容来自卑鄙的Baby（@Yu9191）
