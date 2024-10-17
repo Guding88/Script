@@ -185,6 +185,7 @@ if (typeof $response == "undefined") {
     'memesoundboard':{ name: 'pro', id: 'lifetime_3499'},//Meme Soundboard, Effects: Deez
     'gloriousYouth':{ name: 'gloriousYouth', id: 'gloriousYouth'},
     '%E8%B0%9C%E5%BA%95%E6%97%B6%E9%92%9F':{ name: 'Entitlement.Pro', id: 'tech.miidii.MDClock.pro'},
+    'AdGuard%20Home%20Remote':{ name: 'aghrpro', id: 'adguard.home.remote.pro'},
 
 
     //以下内容来自卑鄙的Baby（@Yu9191）
